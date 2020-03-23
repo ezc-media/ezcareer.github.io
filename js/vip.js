@@ -104,43 +104,6 @@ $(document).ready(function(){
             ]
         },
         {
-            title:"Networking",
-            items: [
-                {
-                    title_en: "Networking Skill Development",
-                    title_cn: "建立行业人脉",
-                    content: "",
-                    packages: [
-                        "1 Hour", "1 Hour", "1 Hour"
-                    ]
-                }, 
-                {
-                    title_en: "Networking Email Editing",
-                    title_cn: "人脉拓展技能训练",
-                    content: "",
-                    packages: [
-                        "5 Times", "Unlimited", "Unlimited"
-                    ]
-                },
-                {
-                    title_en: "Coffee Chat",
-                    title_cn: "与行业大咖进行咖啡约谈",
-                    content: "",
-                    packages: [
-                        "-", "5 Times", "Unlimited"
-                    ]
-                },
-                {
-                    title_en: "Networking Event Invitation",
-                    title_cn: "人脉拓展活动邀请",
-                    content: "",
-                    packages: [
-                        "-", "-", "Unlimited"
-                    ]
-                },
-            ]
-        },
-        {
             title:"Soft Skill Development",
             items: [
                 {
@@ -382,7 +345,7 @@ for (j = 0; j < tables.length; j++) {
     for (block of allData[j]) {
         
         // title comp
-        var $title = $(`<h3 class="mb-1"></h3>`);
+        var $title = $(`<h4 class="mb-1"></h4>`);
         var $title_content = $(`<strong></strong>`);
         $title_content.append(block.title);
         $title.append($title_content);
@@ -392,9 +355,9 @@ for (j = 0; j < tables.length; j++) {
         for (item of block.items) {
             //Left column
             var $left_col = $(`<div class="col-4 mb-2"></div>`);
-            var $title_en = $(`<h5 class="mb-0 text-yellow"></div>`);
-            var $title_cn = $(`<h5 class="mb-2"></h5>`);
-            var $content = $(`<h7 class="mb-1"></h7>`);
+            var $title_en = $(`<h5 class="mb-0 text-yellow"></h5>`);
+            var $title_cn = $(`<h6 class="mb-2"></h6>`);
+            var $content = $(`<h8 class="mb-1"></h8>`);
 
             $title_en.append(item.title_en);
             $title_cn.append(item.title_cn);
