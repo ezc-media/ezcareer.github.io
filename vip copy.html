@@ -12,6 +12,8 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140811008-5"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="js/vip.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -402,7 +404,6 @@
     </section>
 
     <!-- / pricing -->
-    <!-- / pricing -->
 
     <section class="bg-dark-ezc hero hero-with-header">
         
@@ -416,298 +417,413 @@
         <div class="row text-primary">
           <div class="col text-center">
             <div class="nav nav-switch nav-lavalamp">
-              <a class="nav-item nav-link active show" data-toggle="tab" href="#component-2-1">1111</a>
-              <a class="nav-item nav-link" data-toggle="tab" href="#component-2-2">2222</a>
-              <!-- <a class="nav-item nav-link" data-toggle="tab" href="#component-2-3">3333</a> -->
+              <a class="nav-item nav-link active show" data-toggle="tab" href="#component-2-1">Premium</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#component-2-2">Elite</a>
+              <a class="nav-item nav-link" data-toggle="tab" href="#component-2-3">Prestige</a>
             </div>
           </div>
         </div>
-      <div> 
 
-      
-
-      <div class="container">  
-        <div class="row">
-          <div class="col-4 mb-0">
-            <div class="row">
-              <h4 class="mb-0 text-yellow">Consultation</h2>
-              <h3 class="mb-2">咨询规划阶段</h2>
-            </div>
-            <div class="row">
-              <h4 class="mb-0 text-yellow">Consultation</h2>
-              <h3 class="mb-2">咨询规划阶段</h2>
-            </div>
-
-          </div>   
-        
-        
-          <div class="tab-content" id="component-2">
-            
+        <div class="tab-content" id="component-2">
           <div class="tab-pane show active" id="component-2-1" role="tabpanel" aria-labelledby="component-2-1">
+            <div id="packOne"></div>
+            <!-- <div class="row">
+              <h2 class="mb-0">Phase 1</h2>
+              <h5 class="mb-4">求职准备阶段</h5>
 
-            <div class="col">
+              <h4 class="mb-1"><strong>Personal Profile Editing</strong></h4>
 
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  职业规划
-                </span>
-                <span class="col-md-3">
-                  目标行业/岗位锁定<br>求职方案<br>
-                </span>
-                <span class="col-md-3 text-md-right">
-                  60分钟 X 2轮
-                </span>
-              </a>
-            </div>
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">Resume Editing</h2>
+                  <h3 class="mb-2">简历精修</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 font-weight-light text-white">
+                      1 Hour + 2 Rounds 精修
+                    </span>
+                    <span class="col-md-4">
+                      
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      
+                    </span>
+                  </a>
+                </div>
+              </div>
 
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  职业规划
-                </span>
-                <span class="col-md-3">
-                  目标行业/岗位锁定<br>求职方案<br>
-                </span>
-                <span class="col-md-3 text-md-right">
-                  60分钟 X 2轮
-                </span>
-              </a>
-            </div>
-            
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">Resume Editing</h2>
+                  <h3 class="mb-2">简历精修</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 font-weight-light text-white">
+                      1 Hour + 2 Rounds 精修
+                    </span>
+                    <span class="col-md-4">
+                      
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      
+                    </span>
+                  </a>
+                </div>
+              </div>
+
+              <h4 class="mb-1"><strong>Personal Profile Editing</strong></h4>
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">Preparation</h2>
+                  <h3 class="mb-2">申请准备阶段</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      简历精修
+                    </span>
+                    <span class="col-md-3">
+                      履历咨询<br>求职档案建立<br>简历精修
+                    </span>
+
+                    <span class="col-md-3 text-md-right">
+                      1轮
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      求职信精修
+                    </span>
+                    <span class="col-md-3">
+                      求职信精修<br>模板建立
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      1轮
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      网申辅导
+                    </span>
+                    <span class="col-md-3">
+                      求职信精修<br>模板建立
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      <b class="text-yellow">3轮</b>
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      LinkedIn
+                    </span>
+                    <span class="col-md-3">
+                      求职社交平台建立
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      1轮
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">Networking</h2>
+                  <h3 class="mb-2">社交板块</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      社交训练
+                    </span>
+                    <span class="col-md-3">
+                      求职社交技巧<br>求职邮件精编
+                    </span>
+
+                    <span class="col-md-3 text-md-right">
+                      60分钟
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      模拟Coffee Chat
+                    </span>
+                    <span class="col-md-3">
+                      套瓷技巧<br>职场沟通
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      30分钟
+                    </span>
+                  </a>
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">Interview</h2>
+                  <h3 class="mb-2">面试板块</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      面试辅导
+                    </span>
+                    <span class="col-md-3">
+                      行为面试辅导<br>针对性技术面试辅导
+                    </span>
+
+                    <span class="col-md-3 text-md-right">
+                      60分钟 X 2轮
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      模拟面试
+                    </span>
+                    <span class="col-md-3">
+                      岗位全真模拟面试
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      60分钟 X <b class="text-yellow">4轮</b>
+                    </span>
+                  </a>
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4 mb-0">
+                  <h4 class="mb-0 text-yellow">VIP Bonus</h2>
+                  <h3 class="mb-2">VIP福利</h2>
+                </div>
+                <div class="col">
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      自选服务
+                    </span>
+                    <span class="col-md-3">
+                      <b class="text-yellow">任意选择上述2项课程</b>
+                    </span>
+
+                    <span class="col-md-3 text-md-right">
+                      60分钟/1轮
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light text-white">
+                      项目实战技能课程
+                    </span>
+                    <span class="col-md-3">
+                      免费选择一门职业技能课程
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      价值$500 CAD
+                    </span>
+                  </a>
+                  <a class="job row align-items-center">
+                    <span class="col-md-6 fs-22 font-weight-light">
+                      <b class="text-yellow">目标行业Referral</b>
+                    </span>
+                    <span class="col-md-3">
+                      <b class="text-yellow">向合作企业推送学员，直达面试</b>
+                    </span>
+                    <span class="col-md-3 text-md-right">
+                      <b class="text-yellow"></b>
+                    </span>
+                  </a>
+                  
+                </div>
+              </div>
+            </div> -->
           </div>
-
           <div class="tab-pane" id="component-2-2" role="tabpanel" aria-labelledby="component-2-2">
-            hi2
+            <div id="packTwo"></div>
+            <!-- <div class="row">
+              <div class="col-4 mb-0">
+                <h4 class="mb-0 text-primary">Consultation</h2>
+                <h3 class="mb-2">咨询规划阶段</h2>
+              </div>
+              <div class="col">
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    职业规划
+                  </span>
+                  <span class="col-md-3">
+                    目标行业/岗位锁定<br>求职方案<br>
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    60分钟 X 2轮
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 mb-0">
+                <h4 class="mb-0 text-primary">Preparation</h2>
+                <h3 class="mb-2">申请准备阶段</h2>
+              </div>
+              <div class="col">
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    简历精修
+                  </span>
+                  <span class="col-md-3">
+                    履历咨询<br>求职档案建立<br>简历精修
+                  </span>
+
+                  <span class="col-md-3 text-md-right">
+                    1轮
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    求职信精修
+                  </span>
+                  <span class="col-md-3">
+                    求职信精修<br>模板建立
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    1轮
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    网申辅导
+                  </span>
+                  <span class="col-md-3">
+                    求职信精修<br>模板建立
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    1轮
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    LinkedIn
+                  </span>
+                  <span class="col-md-3">
+                    求职社交平台建立
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    1轮
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 mb-0">
+                <h4 class="mb-0 text-primary">Networking</h2>
+                <h3 class="mb-2">社交板块</h2>
+              </div>
+              <div class="col">
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    社交训练
+                  </span>
+                  <span class="col-md-3">
+                    求职社交技巧<br>求职邮件精编
+                  </span>
+
+                  <span class="col-md-3 text-md-right">
+                    60分钟
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    模拟Coffee Chat
+                  </span>
+                  <span class="col-md-3">
+                    套瓷技巧<br>职场沟通
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    30分钟
+                  </span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 mb-0">
+                <h4 class="mb-0 text-primary">Interview</h2>
+                <h3 class="mb-2">面试板块</h2>
+              </div>
+              <div class="col">
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    面试辅导
+                  </span>
+                  <span class="col-md-3">
+                    行为面试辅导<br>针对性技术面试辅导
+                  </span>
+
+                  <span class="col-md-3 text-md-right">
+                    60分钟 X 2轮
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    模拟面试
+                  </span>
+                  <span class="col-md-3">
+                    岗位全真模拟面试
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    60分钟 X 2轮
+                  </span>
+                </a>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4 mb-0">
+                <h4 class="mb-0 text-primary">VIP Bonus</h2>
+                <h3 class="mb-2">VIP福利</h2>
+              </div>
+              <div class="col">
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    自选服务
+                  </span>
+                  <span class="col-md-3">
+                    任意选择上述一项课程
+                  </span>
+
+                  <span class="col-md-3 text-md-right">
+                    60分钟/1轮
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light text-white">
+                    项目实战技能课程
+                  </span>
+                  <span class="col-md-3">
+                    免费选择一门职业技能课程
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    价值$500 CAD
+                  </span>
+                </a>
+                <a class="job row align-items-center">
+                  <span class="col-md-6 fs-22 font-weight-light">
+                    <b class="text-yellow">目标行业Referral</b>
+                  </span>
+                  <span class="col-md-3">
+                    <b class="text-yellow">向合作企业推送学员，直达面试</b>
+                  </span>
+                  <span class="col-md-3 text-md-right">
+                    <b class="text-yellow"></b>
+                  </span>
+                </a>
+                
+              </div>
+            </div> -->
+          </div>
+          <div class="tab-pane" id="component-2-3" role="tabpanel" aria-labelledby="component-2-3">
+            <div id="packThree"></div>
           </div>
 
         </div>
-      </div>
-    </div>
-        <!-- <div class="tab-pane show active" id="component-2-1" role="tabpanel" aria-labelledby="component-2-1">
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Consultation</h2>
-              <h3 class="mb-2">咨询规划阶段</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  职业规划
-                </span>
-                <span class="col-md-3">
-                  目标行业/岗位锁定<br>求职方案<br>
-                </span>
-                <span class="col-md-3 text-md-right">
-                  60分钟 X 2轮
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Preparation</h2>
-              <h3 class="mb-2">申请准备阶段</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  简历精修
-                </span>
-                <span class="col-md-3">
-                  履历咨询<br>求职档案建立<br>简历精修
-                </span>
-
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  求职信精修
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  网申辅导
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  <b class="text-yellow">3轮</b>
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  LinkedIn
-                </span>
-                <span class="col-md-3">
-                  求职社交平台建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-            </div>
-          </div>
         </div>
-
-        <div class="tab-pane" id="component-2-2" role="tabpanel" aria-labelledby="component-2-2">
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Consultation</h2>
-              <h3 class="mb-2">咨询规划阶段2</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  职业规划
-                </span>
-                <span class="col-md-3">
-                  目标行业/岗位锁定<br>求职方案<br>
-                </span>
-                <span class="col-md-3 text-md-right">
-                  60分钟 X 2轮
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Preparation</h2>
-              <h3 class="mb-2">申请准备阶段</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  简历精修
-                </span>
-                <span class="col-md-3">
-                  履历咨询<br>求职档案建立<br>简历精修
-                </span>
-
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  求职信精修
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  网申辅导
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  <b class="text-yellow">3轮</b>
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  LinkedIn
-                </span>
-                <span class="col-md-3">
-                  求职社交平台建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- <div class="tab-pane" id="component-2-3" role="tabpanel" aria-labelledby="component-2-3">
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Consultation</h2>
-              <h3 class="mb-2">咨询规划阶段2</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  职业规划
-                </span>
-                <span class="col-md-3">
-                  目标行业/岗位锁定<br>求职方案<br>
-                </span>
-                <span class="col-md-3 text-md-right">
-                  60分钟 X 2轮
-                </span>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 mb-0">
-              <h4 class="mb-0 text-yellow">Preparation</h2>
-              <h3 class="mb-2">申请准备阶段</h2>
-            </div>
-            <div class="col">
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  简历精修
-                </span>
-                <span class="col-md-3">
-                  履历咨询<br>求职档案建立<br>简历精修
-                </span>
-
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  求职信精修
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  网申辅导
-                </span>
-                <span class="col-md-3">
-                  求职信精修<br>模板建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  <b class="text-yellow">3轮</b>
-                </span>
-              </a>
-              <a class="job row align-items-center">
-                <span class="col-md-6 fs-22 font-weight-light text-white">
-                  LinkedIn
-                </span>
-                <span class="col-md-3">
-                  求职社交平台建立
-                </span>
-                <span class="col-md-3 text-md-right">
-                  1轮
-                </span>
-              </a>
-            </div>
-          </div>
-        </div> -->
-
         <div class="row text-primary mt-5">
           <div class="col text-center">
             <a href="contacts.html" class="btn btn-light btn-rounded px-5">了解报价</a>
@@ -715,7 +831,6 @@
         </div>
       </div>
     </section>
-
     <!-- / careers -->
 
 
