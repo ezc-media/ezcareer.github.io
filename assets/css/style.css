@@ -2926,16 +2926,12 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
-    padding-left: 0;
-  } }
+    padding-left: 0; } }
 
 @media (min-width: 1000px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
-    justify-content: flex-start;
-    width: 1280px;
-    right:45px;
-  }
+    justify-content: flex-start; }
     .navbar-expand-lg .navbar-nav {
       flex-direction: row; }
       .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -5144,7 +5140,7 @@ button.bg-dark:focus {
 
 .mr-0,
 .mx-0 {
-  margin-right: 60px !important; }
+  margin-right: 0 !important; }
 
 .mb-0,
 .my-0 {
@@ -8735,6 +8731,9 @@ a.text-rss:hover, a.text-rss:focus {
 }
 .icon-vip {
   content: url("../images/icons/vip64.png");
+}
+.icon-offer {
+  content: url("../images/icons/offer64.png");
 }
 .icon-otos {
   content: url("../images/icons/otos.jpg");
@@ -15380,7 +15379,7 @@ footer {
     bottom: 0;
     left: 0;
     content: "";
-    background: rgba(0, 0, 0, 0.25); }
+    background: rgba(0, 0, 0, 0.58); }
   .image[class*="-overlay-dark"]::after {
     position: absolute;
     top: 0;
@@ -20479,4 +20478,5 @@ pre[class*="language-"] {
   cursor: pointer;
   text-decoration: none;
 }
+
 /*# sourceMappingURL=style.css.map */
