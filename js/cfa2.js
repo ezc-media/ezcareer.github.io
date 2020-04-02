@@ -1,27 +1,27 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
+    const page_title = "CFA二级百时班 | Easy Career";
+    const course_name = `CFA百时班<i style="color: #33aacc ">二级</i>`;
+    const course_name_des = "CFA资深讲师，前北京新东方名师带你一次通过CFA证书考试";
+    const price_origin = "2400";
+    const price_discount = "2200";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
+    const about_course = "Easy Career的CFA证书班涵盖CFA二级证书中所有知识点与考点。";
     const course_points = [
         {
             title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            des: "实现对每个知识点了如指掌，真正透彻理解每个知识点，打牢基础。",
             icon: "icon-bar-chart-2"
         },
         {
             title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
+            des: "通过对要点快速复习，建立系统的知识框架，攻破重难点的记忆与考试技巧。",
             icon: "icon-award"
         },
         {
             title: "独家教材",
-            des: "直击FRM核心。",
+            des: "直击CFA核心。",
             icon: "icon-command"
         },
         {
@@ -33,10 +33,6 @@ $(document).ready(function(){
 
     ];
     const target_group = [
-        {
-            title: "在校大学生",
-            des: "未来希望进入金融行业等，系统性学习金融知识的的在校大学生"
-        },
         {
             title: "金融从业人员",
             des: "目前已经入职银行等相关行业，担任入门级工作，但是希望继续晋升和发展的在职员工"
@@ -76,39 +72,171 @@ $(document).ready(function(){
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
 
 
-    const course_list_tab = ["Schedule"];
+    const course_list_tab = ["基础串讲","强化复习","刷题冲刺"];
     const course_list = [
             [
                 {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    title: "Equity",
+                    detail: "02.08 (2课时)"
                 },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
+                    title: "Equity",
+                    detail: "02.09"
                 },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
+                    title: `Financial 
+                    Reporting
+                    & Analysis`,
+                    detail: "02.15 (2课时)"
                 },
                 {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
+                    title: `Financial 
+                    Reporting
+                    & Analysis`,
+                    detail: "02.16 (2课时)"
                 },
                 {
-                    title: "Review Session",
-                    detail: "4 Days"
+                    title: "Quantitative",
+                    detail: "02.22"
                 },
-                
-
+                {
+                    title: "Quantitative",
+                    detail: "02.23"
+                },
+                {
+                    title: `Corporate 
+                    Finance`,
+                    detail: "02.29 (2课时)"
+                },
+                {
+                    title: `Corporate 
+                    Finance`,
+                    detail: "03.01"
+                },
+                {
+                    title: "Economics",
+                    detail: "03.07"
+                },
+                {
+                    title: "Economics",
+                    detail: "03.08"
+                },
+                {
+                    title: "Derivatives",
+                    detail: "03.14"
+                },
+                {
+                    title: "Derivatives",
+                    detail: "03.15"
+                },
+                {
+                    title: `Alternative 
+                    Investments (2课时)`,
+                    detail: "03.21 (2课时)"
+                },
+                {
+                    title: "Fixed Income",
+                    detail: "03.22"
+                },
+                {
+                    title: "Fixed Income (2课时)",
+                    detail: "03.28"
+                },
+                {
+                    title: "Portfolio (2课时)",
+                    detail: "03.29"
+                },
+                {
+                    title: "Ethics",
+                    detail: "04.04 (2课时)"
+                },
+            ],[
+                {
+                    title: "Ethics",
+                    detail: "04.11"
+                },{
+                    title: `Economics
+                    / Corporate 
+                    Finance`,
+                    detail: "04.12 (2课时)"
+                },{
+                    title: `Quantitative`,
+                    detail: "04.18"
+                },
+                {
+                    title: `Financial 
+                    Reporting 
+                    & Analysis`,
+                    detail: "04.19 (2课时)"
+                },
+                {
+                    title: "Equity",
+                    detail: "04.25 (2课时)"
+                },
+                {
+                    title: `Alternative
+                    Investments
+                    / Portfolio`,
+                    detail: "04.26 (2课时)"
+                },
+                {
+                    title: `Derivatives`,
+                    detail: "05.02 (2课时)"
+                },
+                {
+                    title: `Fixed Income`,
+                    detail: "05.03 (2课时)"
+                },
+            ], [
+                {
+                    title: `Quantitative
+                    / Economics`,
+                    detail: "05.09 (2课时)"
+                },{
+                    title: `Financial 
+                    Reporting
+                    & Analysis`,
+                    detail: "05.10 (2课时)"
+                },{
+                    title: `Corporate 
+                    Finance`,
+                    detail: "05.16 (2课时)"
+                },
+                {
+                    title: `Equity`,
+                    detail: "05.17 (2课时)"
+                },
+                {
+                    title: `Alternative
+                    Investments`,
+                    detail: "05.22"
+                },
+                {
+                    title: "Fixed Income",
+                    detail: "05.23 (2课时)"
+                },
+                {
+                    title: `Ethics
+                    / Portfolio`,
+                    detail: "05.24 (2课时)"
+                },
+                {
+                    title: `Derivatives`,
+                    detail: "05.30 (2课时)"
+                },
+                {
+                    title: "June Exam",
+                    detail: "06.06"
+                }
             ]
         
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA"}
+    const video_info = {src:"https://www.youtube.com/watch?v=AjERHb5rVpU", cover:"assets/images/tutor/shelby.jpg"}
 
     const teacher_name = [
         "周华鑫 Shelby",
-        "刘畅",
+        "Evan",
+        "Bob",
     ]
 
     const text_books = [
@@ -144,25 +272,25 @@ $(document).ready(function(){
     const carousels = [
         {
             sml_title: "",
-            big_title: "学员反馈",
+            big_title: "成功案例",
             content: [
                 {
-                    src: "assets/images/courses/FRM/1.png"
+                    src: "assets/images/records/CFA1.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/2.png"
+                    src: "assets/images/records/CFA2.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/3.png"
+                    src: "assets/images/records/CFA3.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/4.png"
+                    src: "assets/images/records/CFA4.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/5.png"
+                    src: "assets/images/records/CFA5.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/6.png"
+                    src: "assets/images/records/CFA6.png"
                 },
             ]
         },
@@ -302,7 +430,7 @@ $(document).ready(function(){
     for (i = 0; i < text_books.length; i++) {
         if (i === 0) {
             text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up">
+            <div class="col-sm-6 col-lg-4" >
                 <div class="bordered rising p-3 bg-white">
                 <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
                 <p>`+text_books[i].des+`</p>
@@ -311,7 +439,7 @@ $(document).ready(function(){
             `
         } else if (i === 1) {
             text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-sm-6 col-lg-4"  data-aos-delay="150">
                 <div class="bordered rising p-3 bg-white">
                 <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
                 <p>`+text_books[i].des+`</p>
@@ -320,7 +448,7 @@ $(document).ready(function(){
             `
         } else {
             text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-sm-6 col-lg-4"  data-aos-delay="200">
                 <div class="bordered rising p-3 bg-white">
                 <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
                 <p>`+text_books[i].des+`</p>

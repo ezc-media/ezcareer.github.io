@@ -139,7 +139,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=68lLLMfoftA"}
+    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A"}
 
     const teacher_name = [
         "Josh老师"

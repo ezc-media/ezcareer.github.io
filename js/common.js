@@ -61,5 +61,23 @@ const teachers = {
         `,
         src: "assets/images/tutor/shelby.png"
     },
+    "Evan": 
+    {
+        name: "Evan",
+        title: `5年CFA教学经验，CFA三级高分通过`,
+        des: `现任多伦多大型Pension Fund高级分析师
+        段子手里，最会讲CFA的
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
+    "Bob": 
+    {
+        name: "Bob",
+        title: `3年CFA教学经验，CFA持证人，CFA协会前考官`,
+        des: `参与多年CFA培训项目与监考
+        现就职于BMO Capital Markets 任高级分析师
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
 
 }

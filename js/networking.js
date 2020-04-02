@@ -84,7 +84,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=DZB46VAIfzc", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=DZB46VAIfzc"}
 
     const teacher_name = [
         "Tia老师"

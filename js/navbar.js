@@ -32,6 +32,10 @@ $(document).ready(function(){
                   <span>CFAI级 百时班Plus</span>
                   <p>签约保过 | 线上线下 | 北美同开</p>
               </a>
+              <a class="dropdown-item" href="cfa2.html">
+              <span>CFAII级 百时班</span>
+              <p>线上线下 | 北美同开</p>
+          </a>
               <a class="dropdown-item" href="frm.html">
               <span>FRM保过班</span>
               <p>签约保过 | 线上线下 | 北美同开</p>

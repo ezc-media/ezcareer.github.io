@@ -150,7 +150,7 @@ $(document).ready(function(){
 
 
 
-    const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ"}
 
     const teacher_name = [
         "Andy Li",
