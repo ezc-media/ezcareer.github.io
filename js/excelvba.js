@@ -1,32 +1,32 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
+    const page_title = "Excel VBA全程班 | Easy Career";
+    const course_name = "Excel VBA全程班";
+    const course_name_des = "全称为Visual Basic for Application(金融建模)，是应用程序开发语言 visual basic的子集，主要用于执行程序通用的自动化任务。";
     const price_origin = "N/A";
     const price_discount = "N/A";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
+    const about_course = "Easy Career Excel VBA全程班，从金融建模到简历面试再到实战项目，循序渐进的讲解Excel VBA的相 关知识，通过basics&model, table, Advanced Automation, Financial四大部分的讲解，引领学员成为 职场王。";
     const course_points = [
         {
-            title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            title: "",
+            des: "金融建模",
             icon: "icon-bar-chart-2"
         },
         {
-            title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
+            title: "",
+            des: "简历面试",
             icon: "icon-award"
         },
         {
-            title: "独家教材",
-            des: "直击FRM核心。",
+            title: "",
+            des: "项目实战",
             icon: "icon-command"
         },
         {
-            title: "导师总结Tips",
-            des: "传授稳过技巧。",
+            title: "",
+            des: "循序渐进的讲解",
             icon: "icon-check-circle2"
         },
 
@@ -46,8 +46,8 @@ $(document).ready(function(){
             des: "刚刚来到加拿大，希望学习新技能，增加就业机会的、提高发展前景、提升自身实力的新移民"
         },
         {
-            title: "其他行业",
-            des: "目前已经就职在其他行业，但是依然想进入投行金融、咨询行业的其他行业人员"
+            title: "专业背景",
+            des: "零专业背景需求。Financial background preferred but suitable for All。"
         },
     ];
 
@@ -75,40 +75,74 @@ $(document).ready(function(){
 
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
 
-
-    const course_list_tab = ["Schedule"];
+    const course_list_tab = ["Schedule", "Further Breakdown"];
     const course_list = [
             [
                 {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    title: "Introduction & Advanced Functions / Case study ",
+                    detail: "01.11"
                 },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
+                    title: `Data Analysis I
+                    / Case Study`,
+                    detail: "01.12"
                 },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
+                    title: `Data Analysis II 
+                    / Case Study`,
+                    detail: "01.18"
                 },
                 {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
+                    title: `VBA
+                    / Case study`,
+                    detail: "01.19"
                 },
                 {
-                    title: "Review Session",
-                    detail: "4 Days"
+                    title: `VBA 
+                    / Case Study`,
+                    detail: "01.26"
                 },
-                
-
-            ]
+            ],
+            [
+                {
+                    title: `Excel Basics, Simple return,
+                    Exposure Segmentation,Compound 
+                    Growth Rate, Present Value, 
+                    Future Value, Net Present Value, 
+                    International Rate of Return
+                     `,
+                    detail: "01.11"
+                },{
+                    title: `Vlookup,Hlookup, Index, 
+                    Match, Offset, Charts, 
+                    Pivot Table, Conditional Formatting
+                     `,
+                    detail: "01.12"
+                },{
+                    title: `Matrix Calculation, 
+                    Solver Linear, Solver Non Linear
+                     `,
+                    detail: "01.18"
+                },
+                {
+                    title: `If Statement, Loops,
+                    For Loops, While Loop, Do Until
+                     `,
+                    detail: "01.19"
+                },
+                {
+                    title: `Userform, Operating/ Trading
+                    System Manager
+                     `,
+                    detail: "01.26"
+                },
+            ],
         
 
     ]
 
-    const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=68lLLMfoftA"}
 
     const teacher_name = [
-        "周华鑫 Shelby",
-        "刘畅",
+        "Josh老师"
     ]
 
     const text_books = [
@@ -142,30 +176,7 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
-        {
-            sml_title: "",
-            big_title: "学员反馈",
-            content: [
-                {
-                    src: "assets/images/courses/FRM/1.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/2.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/3.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/4.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/5.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/6.png"
-                },
-            ]
-        },
+
 
     ]
 

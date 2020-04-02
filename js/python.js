@@ -1,32 +1,31 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
+    const page_title = "Python全程班 | Easy Career";
+    const course_name = "Python全程班";
+    const course_name_des = "Python是当今应用最广泛的编程语言之一，以其效率和代码可读性著称。作为一个科学数据的编程语言，Python介于R和java之间，前者主要集中在数据分析和可视化，而后者主要应用于大型应用。";
     const price_origin = "N/A";
     const price_discount = "N/A";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
     const course_points = [
         {
-            title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            title: "",
+            des: "真实面试题",
             icon: "icon-bar-chart-2"
         },
         {
-            title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
+            title: "",
+            des: "行业真实数据",
             icon: "icon-award"
         },
         {
-            title: "独家教材",
-            des: "直击FRM核心。",
+            title: "",
+            des: "职场情景模拟",
             icon: "icon-command"
         },
         {
-            title: "导师总结Tips",
-            des: "传授稳过技巧。",
+            title: "",
+            des: "实战商业案例",
             icon: "icon-check-circle2"
         },
 
@@ -34,21 +33,14 @@ $(document).ready(function(){
     ];
     const target_group = [
         {
-            title: "在校大学生",
-            des: "未来希望进入金融行业等，系统性学习金融知识的的在校大学生"
+            title: "开发人员",
+            des: `Python 的使用者是那些向深入钻研数据分析活着应用统计技术的程序员, 以及向数据科学寻求帮护的开发者`
         },
         {
-            title: "金融从业人员",
-            des: "目前已经入职银行等相关行业，担任入门级工作，但是希望继续晋升和发展的在职员工"
+            title: "商业数据分析",
+            des: "Business Analyst (BA)商业数据分析: 为理工科和商科交叉专业, 是集统计学,计算机,商业管理为一体的新兴综合学科"
         },
-        {
-            title: "新移民",
-            des: "刚刚来到加拿大，希望学习新技能，增加就业机会的、提高发展前景、提升自身实力的新移民"
-        },
-        {
-            title: "其他行业",
-            des: "目前已经就职在其他行业，但是依然想进入投行金融、咨询行业的其他行业人员"
-        },
+
     ];
 
     const hot_comps_data = [
@@ -74,28 +66,44 @@ $(document).ready(function(){
     ]
 
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
-
+    const about_course = "Easy Career则提供目前市面上最全面针对商业数据分析方面的Python培训";
 
     const course_list_tab = ["Schedule"];
     const course_list = [
             [
                 {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    title: `Introduction to Python 
+                    for data analytics: <br />
+                    · Python basic <br />
+                    · List and Dictionaries <br />
+                    · Functions and Packages`,
+                    detail: "01.28 / 03.10"
                 },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
+                    title: `Advanced data manipulation 
+                    using Python: <br />
+                    · Pandas basic <br />
+                    · Control flow and Filtering`,
+                    detail: "01.30 / 03.12"
                 },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
+                    title: `Import and clean data in Python: <br />
+                    · Import data from 
+                    different sources <br />
+                    · Different skills to clean and 
+                    prepare data for modeling <br />`,
+                    detail: "02.03 / 03.16"
                 },
                 {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
+                    title: `Advanced Pandas
+                    · Manipulate a large amount 
+                    of data using Pandas: <br />
+                    · Merge and combine data <br />
+                    · Data visualization in Python`,
+                    detail: "02.05 / 03.18"
                 },
                 {
-                    title: "Review Session",
-                    detail: "4 Days"
+                    title: `Project - Customer analytics and 
+                    Retention Rate Prediction for Telecom Company`,
+                    detail: "02.07 / 03.20"
                 },
                 
 
@@ -104,11 +112,10 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U"}
 
     const teacher_name = [
-        "周华鑫 Shelby",
-        "刘畅",
+        "Leo老师"
     ]
 
     const text_books = [
@@ -142,30 +149,7 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
-        {
-            sml_title: "",
-            big_title: "学员反馈",
-            content: [
-                {
-                    src: "assets/images/courses/FRM/1.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/2.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/3.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/4.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/5.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/6.png"
-                },
-            ]
-        },
+
 
     ]
 

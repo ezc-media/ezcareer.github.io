@@ -1,32 +1,42 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
+    const page_title = "BA实战课 | Easy Career";
+    const course_name = "BA实战课";
+    const course_name_des = "Business Analyst (BA)商业数据分析: 为理工科和商科交叉专业, 是集统计学,计算机,商业管理为一体 的新兴综合学科。";
     const price_origin = "N/A";
     const price_discount = "N/A";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
+    const about_course = "Design A/B testing for Digital Marketing and Conduct Post-campaign Analysis with Tableau for a Telecom Company";
     const course_points = [
         {
-            title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            title: "Work as a real business analyst",
+            des: `To develop marketing strategies include Email, mail and mobile`,
             icon: "icon-bar-chart-2"
         },
         {
-            title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
+            title: "Work with a real dataset",
+            des: "Of a Telecom company from the IBM Watson Analytics community by using SQL",
             icon: "icon-award"
         },
         {
-            title: "独家教材",
-            des: "直击FRM核心。",
+            title: "Design and implement A/B test with Python",
+            des: "Based on customer behavior and segmentation analysis",
             icon: "icon-command"
         },
         {
-            title: "导师总结Tips",
-            des: "传授稳过技巧。",
+            title: "Evaluate promotion effectives post campaign",
+            des: "To decide which marketing strategy works the best",
+            icon: "icon-check-circle2"
+        },
+        {
+            title: "Use Tableau",
+            des: "To create a dashboard to present the key business insights",
+            icon: "icon-check-circle2"
+        },
+        {
+            title: "Real BA Case Interview Mock",
+            des: "",
             icon: "icon-check-circle2"
         },
 
@@ -34,21 +44,10 @@ $(document).ready(function(){
     ];
     const target_group = [
         {
-            title: "在校大学生",
-            des: "未来希望进入金融行业等，系统性学习金融知识的的在校大学生"
+            title: "任何群体",
+            des: "日后想从事商业分析 (BA)/数据分析/Finance的必备技能"
         },
-        {
-            title: "金融从业人员",
-            des: "目前已经入职银行等相关行业，担任入门级工作，但是希望继续晋升和发展的在职员工"
-        },
-        {
-            title: "新移民",
-            des: "刚刚来到加拿大，希望学习新技能，增加就业机会的、提高发展前景、提升自身实力的新移民"
-        },
-        {
-            title: "其他行业",
-            des: "目前已经就职在其他行业，但是依然想进入投行金融、咨询行业的其他行业人员"
-        },
+
     ];
 
     const hot_comps_data = [
@@ -80,22 +79,22 @@ $(document).ready(function(){
     const course_list = [
             [
                 {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    title: `
+                    SQL for data mining <br />
+                    · Data cleaning <br />
+                    · Data processing <br />
+                    · Data aggregation
+`,
+                    detail: "TBD"
                 },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
-                },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
-                },
-                {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
-                },
-                {
-                    title: "Review Session",
-                    detail: "4 Days"
+                    title: `
+                    Python for run statistical hypothesis testing and compute the statistical significance analysis <br />
+                    · Customer segmentation <br />
+                    · Test and control population design <br />
+                    · Compare experiments result <br />
+                    · Tableau for dashboard and presentation
+                    `,
+                    detail: "TBD"
                 },
                 
 
@@ -107,8 +106,7 @@ $(document).ready(function(){
     const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
 
     const teacher_name = [
-        "周华鑫 Shelby",
-        "刘畅",
+        "Leo老师"
     ]
 
     const text_books = [
@@ -142,30 +140,6 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
-        {
-            sml_title: "",
-            big_title: "学员反馈",
-            content: [
-                {
-                    src: "assets/images/courses/FRM/1.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/2.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/3.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/4.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/5.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/6.png"
-                },
-            ]
-        },
 
     ]
 

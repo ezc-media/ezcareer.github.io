@@ -1,32 +1,31 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
+    const page_title = "Tableau全程班 | Easy Career";
+    const course_name = "Tableau全程班";
+    const course_name_des = "在大数据时代，数据分析能力尤为重要。Tableau其界面美观、易于操 作，已成为数据分析必备技能之一。不仅仅是集合了商业智能BI和数据可 视化于一身，更是被广泛应用于各个行业。";
     const price_origin = "N/A";
     const price_discount = "N/A";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
     const course_points = [
         {
-            title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            title: "",
+            des: "Tableau Intro and Data Connection",
             icon: "icon-bar-chart-2"
         },
         {
-            title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
+            title: "",
+            des: "Data Visual Analytics in Tableau",
             icon: "icon-award"
         },
         {
-            title: "独家教材",
-            des: "直击FRM核心。",
+            title: "",
+            des: "CreateDashboards and Storytelling",
             icon: "icon-command"
         },
         {
-            title: "导师总结Tips",
-            des: "传授稳过技巧。",
+            title: "",
+            des: "Real Tableau Project - Industrial Level",
             icon: "icon-check-circle2"
         },
 
@@ -47,7 +46,7 @@ $(document).ready(function(){
         },
         {
             title: "其他行业",
-            des: "目前已经就职在其他行业，但是依然想进入投行金融、咨询行业的其他行业人员"
+            des: "日后想从事商业分析 (BA)/数据分析/Finance的必备技能，不需要一定专业背景/知识基础"
         },
     ];
 
@@ -74,31 +73,13 @@ $(document).ready(function(){
     ]
 
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course = "Easy Career针对Tableau数据可视化开展为期两天的基础与实战BOOTCAMP集中营，在覆盖全部知识点的同时也实实在在的带领着学生完成一个Tableau Project。是针对大二到大四缺少实习与项目经验的大学生不可或缺的一门课程。";
 
-
-    const course_list_tab = ["Schedule"];
+    const course_list_tab = ["TBD"];
     const course_list = [
             [
-                {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
-                },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
-                },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
-                },
-                {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
-                },
-                {
-                    title: "Review Session",
-                    detail: "4 Days"
-                },
-                
 
+                
             ]
         
 
@@ -107,8 +88,7 @@ $(document).ready(function(){
     const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
 
     const teacher_name = [
-        "周华鑫 Shelby",
-        "刘畅",
+        "Leo老师",
     ]
 
     const text_books = [
@@ -142,30 +122,7 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
-        {
-            sml_title: "",
-            big_title: "学员反馈",
-            content: [
-                {
-                    src: "assets/images/courses/FRM/1.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/2.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/3.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/4.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/5.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/6.png"
-                },
-            ]
-        },
+
 
     ]
 

@@ -41,5 +41,25 @@ const teachers = {
         `,
         src: "assets/images/tutor/shelby.png"
     },
+    "Josh老师": 
+    {
+        name: "Josh老师",
+        title: `现就职于加拿大最大的养老金投资基金，
+        担任投资分析师。 专注于资产分配和
+        跨资产投资研究。`,
+        des: `曾任职于J.P.Morgan Asset Management，
+        专门研究阿尔法驱动策略。 
+        毕业于多伦多大学 经济学与数学应用专业
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
+    "Tia老师": 
+    {
+        name: "Tia老师",
+        title: `多大金融工程研究生毕业`,
+        des: `目前就职于世界最大的养老金机构之一CPPIB从事资产管理工作。拥有丰富的Networking经验，曾通过Networking斩获多分实习以及全职工作的Offer
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
 
 }

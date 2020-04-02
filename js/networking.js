@@ -1,53 +1,27 @@
 
 $(document).ready(function(){
 
-    const page_title = "FRM保过班 | Easy Career";
-    const course_name = "FRM保过班";
-    const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
+    const page_title = "Networking | Easy Career";
+    const course_name = "Networking";
+    const course_name_des = "";
     const price_origin = "N/A";
     const price_discount = "N/A";
     const course_open_date = "N/A";
-    const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
+    const about_course = "学生将对networking建立起一个合理，积极的expectation, 并熟练掌握如果和快速与不认识的人打交道并转化成自己的人脉，帮助学员完成从0到1的转变和积累。学生还会通过课程学会如何与Industry Professional得体，妥当，自如的交流，建立起自己的自信心，从而开启职业的新篇章。";
     const course_points = [
         {
-            title: "基础串讲",
-            des: "丰富教学经验，积累核心要点。",
+            title: "",
+            des: "最后一个课时是赠送的bonus：鸡尾酒Cocktail Reception, 旨在课程结束后给大家提供一个Networking的实战机会，同时又可以和各路金融行业精英学习交流经验，积累宝贵人脉。",
             icon: "icon-bar-chart-2"
         },
-        {
-            title: "时间灵活",
-            des: "不受时间场地限制,线上线下同步直播。",
-            icon: "icon-award"
-        },
-        {
-            title: "独家教材",
-            des: "直击FRM核心。",
-            icon: "icon-command"
-        },
-        {
-            title: "导师总结Tips",
-            des: "传授稳过技巧。",
-            icon: "icon-check-circle2"
-        },
+
 
 
     ];
     const target_group = [
         {
-            title: "在校大学生",
-            des: "未来希望进入金融行业等，系统性学习金融知识的的在校大学生"
-        },
-        {
-            title: "金融从业人员",
-            des: "目前已经入职银行等相关行业，担任入门级工作，但是希望继续晋升和发展的在职员工"
-        },
-        {
-            title: "新移民",
-            des: "刚刚来到加拿大，希望学习新技能，增加就业机会的、提高发展前景、提升自身实力的新移民"
-        },
-        {
-            title: "其他行业",
-            des: "目前已经就职在其他行业，但是依然想进入投行金融、咨询行业的其他行业人员"
+            title: "任何人群",
+            des: "日后想从事任何商科/与人打交道的工作的同学，networking为求职必备技能。无需专业知识背景或基础，只需要学员有一个想提高自己networking技巧的mindset"
         },
     ];
 
@@ -80,22 +54,28 @@ $(document).ready(function(){
     const course_list = [
             [
                 {
-                    title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    title: `
+                    Introduction to Networking  <br />
+                    `,
+                    detail: "TBD"
                 },{
-                    title: "Quantitative Analysis",
-                    detail: "3 Days"
+                    title: "Get everything ready before reaching out ",
+                    detail: "TBD"
                 },{
-                    title: "Financial Markets and Products",
-                    detail: "7 Days"
+                    title: "Coffee Chat: What and how to talk ",
+                    detail: "TBD"
                 },
                 {
-                    title: "Valuation and Risk Models",
-                    detail: "5 Days"
+                    title: "How to follow-up: Follow-up is the MOST important after establishing that relationship ",
+                    detail: "TBD"
                 },
                 {
-                    title: "Review Session",
-                    detail: "4 Days"
+                    title: "How to stand out in a group networking session",
+                    detail: "TBD"
+                },
+                {
+                    title: "Bonus Class “Cocktail Reception”",
+                    detail: "TBD"
                 },
                 
 
@@ -104,11 +84,10 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://youtu.be/6BlmsZWqDt0", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=DZB46VAIfzc", cover:"assets/images/tutor/shelby.jpg"}
 
     const teacher_name = [
-        "周华鑫 Shelby",
-        "刘畅",
+        "Tia老师"
     ]
 
     const text_books = [
@@ -142,30 +121,6 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
-        {
-            sml_title: "",
-            big_title: "学员反馈",
-            content: [
-                {
-                    src: "assets/images/courses/FRM/1.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/2.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/3.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/4.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/5.png"
-                },
-                {
-                    src: "assets/images/courses/FRM/6.png"
-                },
-            ]
-        },
 
     ]
 

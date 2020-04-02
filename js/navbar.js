@@ -49,34 +49,34 @@ $(document).ready(function(){
             <span>CPA实战课</span>
             <p>签约保过 | 线上线下 | 北美同开</p>
             </a>
-
-            <div class="dropdown-divider"></div>
-            
-            </div>
-            
             </li>
-        <li class="nav-item dropdown">
+
+            <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                报名课程
+                技能课程
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-    <a class="dropdown-item" href="http://moodle.ez4edu.com" target="_blank">
-                <span>学员系统</span>
-                <p>已经报名课程的同学</p>
+            <a class="dropdown-item" href="Tableau.html">
+                <span>Tableau全程班</span>
+                <p>线上线下 | 北美同开</p>
             </a>
-
-            <a class="dropdown-item" href="https://ezcareer.shop" target="_blank">
-                <span>大多伦多地区</span>
-                <p>包括滑铁卢 | 线下及线下课程</p>
+            <a class="dropdown-item" href="python.html">
+                <span>Python全程班</span>
+                <p>线上线下 | 北美同开</p>
             </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://ezc-alberta.shop" target="_blank">
-                <span>阿尔伯塔地区</span>
-                <p>线下及线下课程</p>
+            <a class="dropdown-item" href="excelvba.html">
+                <span>Excel VBA全程班</span>
+                <p>线上线下 | 北美同开</p>
             </a>
-            </div>
-            
+            <a class="dropdown-item" href="networking.html">
+                <span>Networking</span>
+                <p>线上线下 | 北美同开</p>
+            </a>
+            <a class="dropdown-item" href="ba.html">
+                <span>BA实战课</span>
+                <p>线上线下 | 北美同开</p>
+            </a>
             </li>
             
             <li class="nav-item dropdown">
