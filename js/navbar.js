@@ -64,7 +64,7 @@ $(document).ready(function(){
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               
-              <a class="dropdown-item" href="Tableau.html">
+              <a class="dropdown-item" href="tableau.html">
                   <span>Tableau全程班</span>
                   <p>线上线下 | 北美同开</p>
               </a>

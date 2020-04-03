@@ -112,30 +112,7 @@ $(document).ready(function(){
     ]
 
     const text_books = [
-        {
-            title: "CFA百词斩 I",
-            des: "全部知识点概念注释与解读"
-        },
-        {
-            title: "CFA百词斩 II",
-            des: "考试必考公式汇总与习题解答"
-        },
-        {
-            title: "知识框架图",
-            des: "快速搭建CFA知识体系"
-        },
-        {
-            title: "科目独家讲义",
-            des: "随堂讲义，反复巩固"
-        },
-        {
-            title: "考场专用计算器",
-            des: "BA II Plus计算器免费送"
-        },
-        {
-            title: "备考读物Notes",
-            des: "报名就送权威Notes"
-        },
+
         
     ]
 
@@ -203,7 +180,7 @@ $(document).ready(function(){
     $teacher_list = $(`<div></div>`)
     let tempHTML = "";
 
-    $text_books = $(`<div class="row gutter-0"></div>`);
+     
     let text_books_html = "";
     $text_books_picture = $(`
     <img class="top-0 ml-15" src=`+text_books_picture+`  alt="Decoration">
@@ -299,37 +276,75 @@ $(document).ready(function(){
 
 
     // Textbooks
-    for (i = 0; i < text_books.length; i++) {
-        if (i === 0) {
-            text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up">
-                <div class="bordered rising p-3 bg-white">
-                <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
-                <p>`+text_books[i].des+`</p>
-                </div>
-            </div>
+    function create_textbook(text_books) {
+        temp_html = ``
+        if (text_books.length > 0) {
+
+            temp_html += 
             `
-        } else if (i === 1) {
-            text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
-                <div class="bordered rising p-3 bg-white">
-                <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
-                <p>`+text_books[i].des+`</p>
+            <section class="bg-white">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                  <span class="eyebrow mt-5 mb-1 text-primary">保留最有效的备考资料</span>
+                  <h2 class="mb-5">配套教材</h2>
                 </div>
-            </div>
+              </div>
+            <div class="container">
+               <div class="row justify-content-between">
+                <div class="col-12 col-lg-8">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <h2>工欲善其事，<b>必先利其器 </b></h2>
+                    </div>
+                  </div>
+                  <div class="row gutter-0">
             `
-        } else {
-            text_books_html += `
-            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="bordered rising p-3 bg-white">
-                <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
-                <p>`+text_books[i].des+`</p>
+    
+            for (i = 0; i < text_books.length; i++) {
+                if (i === 0) {
+                    temp_html += `
+                    <div class="col-sm-6 col-lg-4" data-aos="fade-up">
+                        <div class="bordered rising p-3 bg-white">
+                        <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
+                        <p>`+text_books[i].des+`</p>
+                        </div>
+                    </div>
+                    `
+                } else if (i === 1) {
+                    temp_html += `
+                    <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                        <div class="bordered rising p-3 bg-white">
+                        <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
+                        <p>`+text_books[i].des+`</p>
+                        </div>
+                    </div>
+                    `
+                } else {
+                    temp_html += `
+                    <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="bordered rising p-3 bg-white">
+                        <h4 class="text-gray"><b>`+text_books[i].title+`</b></h4>
+                        <p>`+text_books[i].des+`</p>
+                        </div>
+                    </div>
+                    `
+                }
+            }
+    
+            temp_html += `
+            </div>
+                </div>
+                <div id="text_books_picture" class="col-sm-4 col-lg-3  presentation presentation-responsive" data-aos="zoom-in-left">
+                </div>
                 </div>
             </div>
+            </section>
             `
         }
+
+        return temp_html
     }
-    $text_books.append(text_books_html);
+    $text_books= $(create_textbook(text_books));
 
 
     // Teacher List
