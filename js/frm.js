@@ -314,36 +314,34 @@ $(document).ready(function(){
                
               <div class="row justify-content-start">
               <div class="col-sm-6 col-lg-4">
-                <h4 class="mb-1"><b>热门目标公司</b></h4>
+                <h4 class="mb-1"><b>热门目标公司sss</b></h4>
                 <h6 class="mb-2 text-ezc"></h6>
               </div>
-              <div class="row mt-8"  data-aos="zoom-in">
+              <div class="row mt-8" data-aos="zoom-in">
               <div class="col partners align-items-center">
-                <div class="owl-carousel" data-items="[12,4,2]">
+                <div class="owl-carousel" data-items="[6,4,2]">
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-1.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-2.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-2.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-3.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-3.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-4.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-4.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-5.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-5.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
+                    <img src="../../assets/images/demo/logo/logo-6.png" alt="Logo">
                   </div>
                 </div>
               </div>
             </div>
                </div>
-             
-    
            </div>
 
     
