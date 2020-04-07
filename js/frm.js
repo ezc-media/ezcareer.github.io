@@ -321,22 +321,22 @@ $(document).ready(function(){
               <div class="col partners align-items-center">
                 <div class="owl-carousel" data-items="[6,4,2]">
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-1.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-2.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-2.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-3.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-3.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-4.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-4.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-5.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-5.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="../../assets/images/demo/logo/logo-6.png" alt="Logo">
+                    <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
                   </div>
                 </div>
               </div>
