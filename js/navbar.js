@@ -1,12 +1,27 @@
-$(document).ready(function(){
 
 
-    $navbar = $(`
+
+  function createNavbar(mode) {
+    header_mode = ""
+    navbar_mode = ""
+
+    if (mode === "light") {
+      header_mode = "header-light"
+      navbar_mode = "navbar-light"
+    } else if (mode === "dark") {
+      header_mode = "header-dark"
+      navbar_mode = "navbar-dark"
+    } else {
+      header_mode = "header-dark"
+      navbar_mode = "navbar-dark"
+    }
+
+    return `
 
     <!-- header -->
-    <header class="header-sticky header-dark" style="border: none !important;">
+    <header class="header-sticky `+header_mode+`" style="border: none !important;">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg `+navbar_mode+`">
           <a class="navbar-brand" href="index.html">
             <img class="navbar-logo navbar-logo-light logo-m" src="assets/images/logos/logodark.svg" alt="Logo">
             <img class="navbar-logo navbar-logo-dark logo-m" src="assets/images/logos/logolight.svg" alt="Logo">
@@ -130,11 +145,15 @@ $(document).ready(function(){
     </header>
     <!-- header -->
 
-    `)
-
-    $("#navbar").html($navbar);
+    `
 
 
-});
+  }
+
+    
+
+  
+
+
 
 

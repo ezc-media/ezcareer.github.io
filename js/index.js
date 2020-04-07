@@ -196,6 +196,7 @@ $(document).ready(function(){
     $history = $(createHistory(history_data));
     $hot_courses = $(createHotCourses(hot_courses));
 
+    $("#navbar").html(createNavbar("dark"));
     $("#history").html($history);
     $('#hot_courses').html($hot_courses);
 

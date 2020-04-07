@@ -467,6 +467,7 @@ $(document).ready(function(){
     $("#video_info").html($video_info);
     $("#text_books_picture").html($text_books_picture);
     $("#all_carousel").html($all_carousel);
+    $("#navbar").html(createNavbar("light"));
     // $("#hot_comps").html($hot_comps);
     
 

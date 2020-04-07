@@ -436,7 +436,7 @@ $(document).ready(function(){
     $("#text_books_picture").html($text_books_picture);
     $("#all_carousel").html($all_carousel);
     // $("#hot_comps").html($hot_comps);
-    
+    $("#navbar").html(createNavbar("light"));
 
     
 

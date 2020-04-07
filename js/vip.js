@@ -438,6 +438,6 @@ $(document).ready(function(){
     $("#packOne").html($packOne);
     $("#packTwo").html($packTwo);
     $("#packThree").html($packThree);
-
+    $("#navbar").html(createNavbar("dark"));
 
 });
