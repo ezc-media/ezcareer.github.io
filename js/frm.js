@@ -314,7 +314,7 @@ $(document).ready(function(){
                
               <div class="row justify-content-start">
               <div class="col-sm-6 col-lg-4">
-                <h4 class="mb-1"><b>热门目标公司sss</b></h4>
+                <h4 class="mb-1"><b>热门ssss目标公司</b></h4>
                 <h6 class="mb-2 text-ezc"></h6>
               </div>
               <div class="row mt-8" data-aos="zoom-in">
