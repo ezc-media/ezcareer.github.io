@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "Python全程班 | Easy Career";
     const course_name = "Python全程班";
     const course_name_des = "Python是当今应用最广泛的编程语言之一，以其效率和代码可读性著称。作为一个科学数据的编程语言，Python介于R和java之间，前者主要集中在数据分析和可视化，而后者主要应用于大型应用。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "549";
+    const price_discount = "449";
+    const course_open_date = "五月";
+    const course_link = "https://ezcareer.shop/products/2020-3-python";
     const course_points = [
         {
             title: "",
@@ -68,51 +69,59 @@ $(document).ready(function(){
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
     const about_course = "Easy Career则提供目前市面上最全面针对商业数据分析方面的Python培训";
 
-    const course_list_tab = ["Schedule"];
+    const course_list_tab = ["Schedule", "Project"];
     const course_list = [
             [
                 {
-                    title: `Introduction to Python 
-                    for data analytics: <br />
-                    · Python basic <br />
-                    · List and Dictionaries <br />
-                    · Functions and Packages`,
-                    detail: "01.28 / 03.10"
+                    title: `
+                    • Python常见数据类型 <br/>
+                    • Python变量的创建和操作 <br/>
+                    • Python常见函数使用 <br/>
+                    • 实战练习 <br/>
+                    `,
+                    detail: "05.12"
                 },{
-                    title: `Advanced data manipulation 
-                    using Python: <br />
-                    · Pandas basic <br />
-                    · Control flow and Filtering`,
-                    detail: "01.30 / 03.12"
+                    title: `
+                    • Python 数据集合(List, Set, Dictionaries) <br/>
+                    • 流程控制和循环: for loop, If, While; break/continue <br/>
+                    • Python常见容器使用(zip, range, enumerate) <br/>
+                    • Python Function的创建和使用 <br/>
+                    • Lambda <br/>
+                    • 实战练习 <br/>
+                    `,
+                    detail: "05.14"
                 },{
-                    title: `Import and clean data in Python: <br />
-                    · Import data from 
-                    different sources <br />
-                    · Different skills to clean and 
-                    prepare data for modeling <br />`,
-                    detail: "02.03 / 03.16"
-                },
+                    title: `
+                    • Numpy基础以及工作中的使用场景 <br/>
+                    • 外部文件的读取和操作 <br/>
+                    • Python处理Excel文件 提高工作效率 <br/>
+                    `,
+                    detail: "05.16"
+                }
+            ],
+            [
                 {
-                    title: `Advanced Pandas
-                    · Manipulate a large amount 
-                    of data using Pandas: <br />
-                    · Merge and combine data <br />
-                    · Data visualization in Python`,
-                    detail: "02.05 / 03.18"
-                },
-                {
-                    title: `Project - Customer analytics and 
-                    Retention Rate Prediction for Telecom Company`,
-                    detail: "02.07 / 03.20"
-                },
-                
-
+                    title: `
+                    Project One  – Python in Business Analytics
+                    使用Pandas分析银行客户行为，评估市场营销策略的好坏 
+                    体验银行中使用Python的真实场景
+                    `,
+                    detail: "05.18"
+                },{
+                    title: `
+                    Project Two  – Python in Machine Learning （真实Case Interview)
+                    掌握机器学习的基本概念
+                    使用Python创建简单机器模型评估信用风险
+                    
+                    `,
+                    detail: "05.20"
+                }
             ]
         
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U"}
+    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U", cover:"assets/images/courses/PYTHON/cover.png"}
 
     const teacher_name = [
         "Leo老师"
@@ -180,9 +189,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

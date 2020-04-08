@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "CFA二级百时班 | Easy Career";
     const course_name = `CFA百时班<i style="color: #33aacc ">二级</i>`;
     const course_name_des = "CFA资深讲师，前北京新东方名师带你一次通过CFA证书考试";
-    const price_origin = "2400";
-    const price_discount = "2200";
+    const price_origin = "N/A";
+    const price_discount = "2400";
     const course_open_date = "N/A";
+    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-1-cfa-level-2-plus-dt-1";
     const about_course = "Easy Career的CFA证书班涵盖CFA二级证书中所有知识点与考点。";
     const course_points = [
         {
@@ -347,9 +348,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

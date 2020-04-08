@@ -5,9 +5,10 @@ $(document).ready(function(){
     const page_title = "CSC证书班 | Easy Career";
     const course_name = "CSC证书班";
     const course_name_des = "全称Canadian Securities Course，是目前加拿大证券、金融、投资、银 行等行业最受欢迎的证书，同时也是相关行业最基本的入门级证书、敲门砖。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "750";
+    const price_discount = "650";
+    const course_open_date = "5月";
+    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-csc";
     const course_points = [
         {
             title: "基础串讲",
@@ -39,68 +40,99 @@ $(document).ready(function(){
     const course_list = [
             [
                 {
-                    title: "The Canadian Investment Marketplace/ The Capital Market",
-                    detail: "01.15"
+                    title: `
+                    - The Canadian Securities Industry <br/>
+                    - The Capital Market <br/>
+                    `,
+                    detail: "03.04"
                 },{
-                    title: "The Canadian Regulatory Environment/ Overview of Economics",
-                    detail: "01.18"
+                    title: `
+                    - The Canadian Regulatory Environment <br/>
+                    - Overview of Economics <br/>
+                    `,
+                    detail: "03.07"
                 },{
-                    title: "Economic Policy/ Fixed-Income Securities: Features and Types",
-                    detail: "01.18"
+                    title: `
+                    - Economic Policy <br/>
+                    - Fixed-Income Securities: Features and Types <br/>
+                    `,
+                    detail: "03.11"
                 },
                 {
-                    title: "Fixed-Income Securities: Pricing and Trading/ Equity Securities: Common and Prefered Share",
-                    detail: "01.22"
+                    title: `
+                    - Fixed-Income Securities: Pricing and Trading <br/>
+                    - Equity Securities: Common and Preferred Shares <br/>
+                    `,
+                    detail: "03.18"
                 },
                 {
-                    title: "Equity Securities: Equity Transaction/ Derivatives",
-                    detail: "01.26"
+                    title: `
+                    - Equity Securities: Equity Transaction <br/>
+                    - Derivatives <br/>
+                    `,
+                    detail: "03.25"
                 },
                 {
-                    title: "Corporations and their Financial Statements/ Financing and Listing Securities",
-                    detail: "01.26"
+                    title: `
+                    - Corporations and their Fianancial Statements <br/>
+                    - Financing and Listing Securities <br/>
+                    `,
+                    detail: "04.01"
                 },
                 {
                     title: "Volume 1 Review Session",
-                    detail: "01.29"
+                    detail: "04.08"
                 },
             ], 
             [
                 {
-                    title: `Fundamental and 
-                    Technical Analysis
-                    / Company Analysis`,
-                    detail: "02.01"
+                    title: `
+                    - Fundamental and Technical Analysis <br/>
+                    - Company Analysis <br/>
+                    `,
+                    detail: "05.06"
                 },{
-                    title: `Introduction to 
-                    the Portfolio Approach
-                    / The Portfolio 
-                    Management Process`,
-                    detail: "02.01"
+                    title: `
+                    - Introduction to the Portfolio Approach <br/>
+                    - The Portfolio Management Process <br/>
+                    `,
+                    detail: "05.13"
                 },{
-                    title: `Mutual Funds: 
-                    Structure and Regulation
-                    / Mutual Funds: 
-                    Types and Features`,
-                    detail: "02.05"
+                    title: `
+                    - Mutual Funds: Structure and Regulation <br/>
+                    - Mutual Funds: Types and Features <br/>
+                    `,
+                    detail: "05.16"
                 },
                 {
-                    title: `Exchange-Trade Funds
-                    / Other Managed Products
-                    / Structure Products`,
-                    detail: "02.08"
+                    title: `
+                    - Exchange-Trade Funds <br/>
+                    - Ohter Managed Products <br/>
+                    - Structure Product <br/>
+                    `,
+                    detail: "05.20"
                 },
                 {
-                    title: `Canadian Taxation
-                    / Fee-based Accounts
-                    / Working with the Retail Client
-                    / Working with 
-                    the Institutional Client`,
-                    detail: "02.15"
+                    title: `
+                    - Canadian Taxation <br/>
+                    - Fee-based Accounts <br/>
+                    - Working with the Retail Client <br/>
+                    - Working with the Institutional Client <br/>
+                    `,
+                    detail: "05.23"
                 },
                 {
-                    title: `Volume 2 Review Session`,
-                    detail: "02.19"
+                    title: `
+                    - Working with the Retail Client  <br/>
+                    - Working with the Institutional Client <br/>
+                    `,
+                    detail: "05.27"
+                },
+                {
+                    title: `
+                    Volume 2 Review Session
+                    `,
+                    detail: "05.30"
                 },
             ]
         
@@ -150,7 +182,7 @@ $(document).ready(function(){
 
 
 
-    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ"}
+    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ", cover:"assets/images/courses/CSC/cover.jpg"}
 
     const teacher_name = [
         "Andy Li",
@@ -239,9 +271,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

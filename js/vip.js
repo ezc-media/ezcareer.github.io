@@ -375,12 +375,12 @@ $(document).ready(function(){
 
         
         for (y = 0; y < allData.length; y++) { 
-            let $phase_en = $(`<h2 class="mb-0"></h2>`);
+            let $phase_en = $(`<h3 class="mb-0"></h3>`);
             // let $phase_content = $(`<strong></strong>`);
             $phase_en.append(stages[y].phase_en);
             // $phase.append($title_content);
     
-            let $phase_cn = $(`<h5 class="mb-4></h5>`);
+            let $phase_cn = $(`<h6 class="mb-4></h6>`);
             // let $phase_content = $(`<strong></strong>`);
             $phase_cn.append(stages[y].phase_cn);
             // $phase.append($title_content);
@@ -390,7 +390,7 @@ $(document).ready(function(){
             
             for (block of allData[y]) {
                 let $title_content = $("<strong></strong>");
-                let $title = $(`<h4 class="mb-1"></h4>`);
+                let $title = $(`<h5 class="mb-1"></h5>`);
                 $title_content.append(block.title);
                 $title.append($title_content);
 
@@ -400,8 +400,8 @@ $(document).ready(function(){
                     let $theRow = $(`<div class="row"></div>`);
                     let $left_col = $(`<div class="col-4 mb-0"></div>`);
                     
-                    let $title_en = $(`<h4 class="mb-0 text-yellow"></h4>`);
-                    let $title_cn = $(`<h3 class="mb-2"></h3>`);
+                    let $title_en = $(`<h5 class="mb-0 text-yellow"></h5>`);
+                    let $title_cn = $(`<h5 class="mb-2"></h5>`);
     
                     $title_en.append(item.title_en);
                     $title_cn.append(item.title_cn);

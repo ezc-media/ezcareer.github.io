@@ -5,8 +5,9 @@ $(document).ready(function(){
     const course_name = "CPA实战课";
     const course_name_des = "注册会计师在经济的不同领域(包括工业，公共会计，政府，教育和非营 利部门)有着至关重要的作用。";
     const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_discount = "2400";
+    const course_open_date = "待定";
+    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-1-cpa";
     const course_points = [
         {
             title: "基础串讲",
@@ -146,9 +147,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

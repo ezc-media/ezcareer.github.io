@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "Excel VBA全程班 | Easy Career";
     const course_name = "Excel VBA全程班";
     const course_name_des = "全称为Visual Basic for Application(金融建模)，是应用程序开发语言 visual basic的子集，主要用于执行程序通用的自动化任务。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "549";
+    const price_discount = "449";
+    const course_open_date = "6月";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-3-excel-vba";
     const about_course = "Easy Career Excel VBA全程班，从金融建模到简历面试再到实战项目，循序渐进的讲解Excel VBA的相 关知识，通过basics&model, table, Advanced Automation, Financial四大部分的讲解，引领学员成为 职场王。";
     const course_points = [
         {
@@ -75,71 +76,56 @@ $(document).ready(function(){
 
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
 
-    const course_list_tab = ["Schedule", "Further Breakdown"];
+    const course_list_tab = ["Schedule"];
     const course_list = [
             [
                 {
-                    title: "Introduction & Advanced Functions / Case study ",
-                    detail: "01.11"
+                    title: `
+                    Introduction: Microsoft Excel Basics <br/>
+                    Advanced Function：Simple Return, Exposure Segmentation, Compound Growth Rate, Present Value, Future Value, Net Present Value, Internal Rate of Return <br/>
+                    Case Study: Business analysis and data visualization of a company's historical sales <br/>
+                    `,
+                    detail: "05.02"
                 },{
-                    title: `Data Analysis I
-                    / Case Study`,
-                    detail: "01.12"
+                    title: `
+                    Data Analysis I：Vlookup, Hlookup, Index, Match, Offset, Charts, Pivot Table, Conditional Formatting  <br/>
+                    Case Study: Portfolio Return and Attribution <br/>
+                    `,
+                    detail: "05.03"
                 },{
-                    title: `Data Analysis II 
-                    / Case Study`,
-                    detail: "01.18"
+                    title: `
+                    Data Analysis II：Matrix Calculation, Solver Linear, Solver Non Linear,Data Table <br/>
+                    Case Study: Asset Allocation and Optimization <br/>
+                    `,
+                    detail: "05.09"
                 },
                 {
-                    title: `VBA
-                    / Case study`,
-                    detail: "01.19"
+                    title: `
+                    VBA: If Statement, Loops - For Loop, While Loop, Do Until <br/>
+                    Case Study: Build a basic Inventory, Management/Sales Management tool <br/>
+                    `,
+                    detail: "05.10"
                 },
                 {
-                    title: `VBA 
-                    / Case Study`,
-                    detail: "01.26"
-                },
-            ],
-            [
-                {
-                    title: `Excel Basics, Simple return,
-                    Exposure Segmentation,Compound 
-                    Growth Rate, Present Value, 
-                    Future Value, Net Present Value, 
-                    International Rate of Return
-                     `,
-                    detail: "01.11"
-                },{
-                    title: `Vlookup,Hlookup, Index, 
-                    Match, Offset, Charts, 
-                    Pivot Table, Conditional Formatting
-                     `,
-                    detail: "01.12"
-                },{
-                    title: `Matrix Calculation, 
-                    Solver Linear, Solver Non Linear
-                     `,
-                    detail: "01.18"
+                    title: `
+                    VBA: Userform <br/>
+                    Case Study: Build a basic trading record system using Unseform and VBA <br/>
+                    `,
+                    detail: "05.16"
                 },
                 {
-                    title: `If Statement, Loops,
-                    For Loops, While Loop, Do Until
-                     `,
-                    detail: "01.19"
+                    title: `
+                    Final Project：Financial Modelling <br/>
+                    Project: Investment Portfolio Analysis <br/>
+                    `,
+                    detail: "05.16"
                 },
-                {
-                    title: `Userform, Operating/ Trading
-                    System Manager
-                     `,
-                    detail: "01.26"
-                },
-            ],
+            ]
         
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A"}
+    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A", cover:"assets/images/courses/EXCELVBA/cover.png"}
 
     const teacher_name = [
         "Josh老师"
@@ -205,9 +191,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

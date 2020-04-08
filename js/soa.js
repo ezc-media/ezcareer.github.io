@@ -5,9 +5,10 @@ $(document).ready(function(){
     const page_title = "SOA证书班 | Easy Career";
     const course_name = "SOA证书班";
     const course_name_des = "北美精算师协会 Society of Actuaries 即 SOA ，北美精算师证书是世界 上具权威性，规模大，拥有会员多的北美精算师协会认证的高端财会证书。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "1100";
+    const price_discount = "799";
+    const course_open_date = "待定";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-1-soa";
     const course_points = [
         {
             title: "一个月取双证",
@@ -138,9 +139,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

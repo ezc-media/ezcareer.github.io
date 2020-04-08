@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "BA实战课 | Easy Career";
     const course_name = "BA实战课";
     const course_name_des = "Business Analyst (BA)商业数据分析: 为理工科和商科交叉专业, 是集统计学,计算机,商业管理为一体 的新兴综合学科。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "599";
+    const price_discount = "499";
+    const course_open_date = "待定";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-2-ba";
     const about_course = "Design A/B testing for Digital Marketing and Conduct Post-campaign Analysis with Tableau for a Telecom Company";
     const course_points = [
         {
@@ -171,9 +172,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

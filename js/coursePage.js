@@ -1,6 +1,6 @@
 
     // Generate Cover
-    function createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info) {
+    function createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link) {
         return `
         
 
@@ -35,7 +35,7 @@
                     <div class="card-body"><img class="card-img-top col-sm-5" src="assets/images/wechat-3.jpg" ">
                       <h5 class="card-title">扫码联系客服，了解课程详情</h5>
                       <p class="card-text">多伦多地区及滑铁卢地区，请扫描二维码，或添加微信 id:ezcteacher</p>
-                      <a href="https://ezcareer.shop/collections/2020-1/products/2020-1-cfa-level-1-plus-dt" target="_blank" class="btn btn-primary">我已经考虑好，想直接付款</a>
+                      <a href=`+course_link+` target="_blank" class="btn btn-primary">我已经考虑好，想直接付款</a>
                     </div>
                   </div> <a class="popup__close2" href="#">X</a>
               </div>
@@ -170,7 +170,7 @@
     }
 
     // Generate Course Table
-    function createCourseTable(course_list_tab, course_list) {
+    function createCourseTable(course_list_tab, course_list, course_link) {
 
         // Course List Tab
         course_list_tab_html = ``
@@ -242,7 +242,7 @@
 
         <div class="row text-primary mt-5">
           <div class="col text-center">
-            <a href="contacts.html" type="button" class="btn btn-white text-black">立刻报名</a>
+            <a href=`+course_link+` type="button" class="btn btn-white text-black">立刻报名</a>
         </div>
         </div>
         

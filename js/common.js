@@ -79,5 +79,21 @@ const teachers = {
         `,
         src: "assets/images/tutor/shelby.png"
     },
+    "月半 Alex": 
+    {
+        name: "月半 Alex",
+        title: `曾就职于顶级投行部`,
+        des: `6年多大金融课程资深名师, 多伦多最懂Economics和, Fixed Income的经济学人, 曾就职于顶级投行部，约克Schulich商学院硕士
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
+    "Jack": 
+    {
+        name: "Jack",
+        title: `3年多大高级金融课程人气名师`,
+        des: `熟悉Quantitative和Derivatives考试中的重难点套路，经济金融统计课程GPA4.0
+        `,
+        src: "assets/images/tutor/shelby.png"
+    },
 
 }

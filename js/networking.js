@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "Networking | Easy Career";
     const course_name = "Networking";
     const course_name_des = "";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "549";
+    const price_discount = "449";
+    const course_open_date = "5月末";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-1-networking-1";
     const about_course = "学生将对networking建立起一个合理，积极的expectation, 并熟练掌握如果和快速与不认识的人打交道并转化成自己的人脉，帮助学员完成从0到1的转变和积累。学生还会通过课程学会如何与Industry Professional得体，妥当，自如的交流，建立起自己的自信心，从而开启职业的新篇章。";
     const course_points = [
         {
@@ -151,9 +152,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

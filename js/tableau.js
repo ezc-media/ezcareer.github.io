@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "Tableau全程班 | Easy Career";
     const course_name = "Tableau全程班";
     const course_name_des = "在大数据时代，数据分析能力尤为重要。Tableau其界面美观、易于操 作，已成为数据分析必备技能之一。不仅仅是集合了商业智能BI和数据可 视化于一身，更是被广泛应用于各个行业。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "299";
+    const price_discount = "199";
+    const course_open_date = "5月中";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-3-tableau-bootcamp";
     const course_points = [
         {
             title: "",
@@ -85,7 +86,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=4ltP61tM7G4"}
+    const video_info = {src:"https://www.youtube.com/watch?v=4ltP61tM7G4", cover:"assets/images/courses/TABLEAU/cover.png"}
 
     const teacher_name = [
         "Leo老师",
@@ -153,9 +154,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

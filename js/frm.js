@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "FRM保过班 | Easy Career";
     const course_name = "FRM保过班";
     const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "1700";
+    const price_discount = "1450";
+    const course_open_date = "预计7月";
+    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-frm-part-i-1";
     const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
     const course_points = [
         {
@@ -101,7 +102,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA"}
+    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:"assets/images/courses/FRM/cover.png"}
 
     const teacher_name = [
         "周华鑫 Shelby",
@@ -193,9 +194,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

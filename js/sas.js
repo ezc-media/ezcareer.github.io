@@ -4,9 +4,10 @@ $(document).ready(function(){
     const page_title = "SAS双证班 | Easy Career";
     const course_name = "SAS双证班";
     const course_name_des = "全称STATISTICAL ANALYSIS SYSTEM，是一门主要运用的领域就在于统计 以及分析的计算机语言，在全球100多个国家地区普及程度极高，在行 政、科研、商业等领域也起着至关重要的作用。";
-    const price_origin = "N/A";
-    const price_discount = "N/A";
-    const course_open_date = "N/A";
+    const price_origin = "899";
+    const price_discount = "799";
+    const course_open_date = "5月";
+    const course_link = "https://ezcareer.shop/products/2020-3-sas";
     const course_points = [
         {
             title: "基础串讲",
@@ -75,86 +76,105 @@ $(document).ready(function(){
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
     const about_course = "Easy Career的SAS课程可以帮助学生在学习或者第一次零基础接触这门软件时避免走弯路，把有限 的精力放在必考的考点上，而不是盲目的复习。通过线上线下同步学习，将每一个data coding，题目及重大考点逐个掌握。";
 
-    const course_list_tab = ["Base（三月班）", "Advanced（五月班）", "Project（六月班）"];
+    const course_list_tab = ["Base", "Advanced", "Project"];
     const course_list = [
             [
                 {
-                    title: `Importing Excel Data into SAS
-                    / Read Character Variable of 
-                    Varying Length
-                    / IF-Then-Else Statements
-                    / Calculate Frequency 
-                    Distribution with PROC FREQ`,
-                    detail: "03.04"
+                    title: `
+                    • Importing Excel Data into SAS <br/>
+                    • Read Character Variable of Varying Length <br/>
+                    • IF-Then-Else Statements <br/>
+                    • Calculate Frequency Distribution with PROC FREQ <br/>
+                    `,
+                    detail: "05.05"
                 },{
-                    title: `SAS Date Formats and Informats
-                    / INTCK & INTNX Function 
-                    with Examples
-                    / Missing Values in SAS
-                    / Proc Format`,
-                    detail: "03.05"
+                    title: `
+                    • SAS Date Formats and Informats <br/>
+                    • INTCK & INTNX Function with Examples <br/>
+                    • Missing Values in SAS <br/>
+                    • Proc Format" <br/>
+`,
+                    detail: "05.06"
                 },{
-                    title: `Delete empty rows in SAS
-                    / Joining and Merging in SAS
-                    / Proc Sort:Identifying and storing 
-                    unique and duplicate values
-                    / Combining and Aggregating 
-                    Data in SAS
-                    / Proc Transpose Explained`,
-                    detail: "03.11"
+                    title: `
+                    • Delete empty rows in SAS <br/>
+                    • Joining and Merging in SAS <br/>
+                    • Proc Sort: Identifying and storing unique and duplicate values <br/>
+                    • Combining and Aggregating Data in SAS <br/>
+                    • Proc Transpose Explained <br/>
+                    `,
+                    detail: "05.12"
                 },
                 {
-                    title: `Calculating Percentiles with SAS
-                    / SAS Arrays and DO Loops
-                    / Pattern Matching with SAS
-                    
-                    考试真题讲解+考试14个题型Review`,
-                    detail: "03.12"
-                },
-            ],
-            [
-                {
-                    title: `Accessing Data Using SQL 
-                    Generate detail reports 
-                    / Generate summary reports 
-                    / sub-queries and in-line views 
-                    / SQL procedure`,
-                    detail: "TBD"
-                },{
-                    title: `Macro Processing 
-                    / Create and use user-defined 
-                    and automatic macro variables 
-                    / Automate programs 
-                    / macro functions. 
-                    / Debug macros. `,
-                    detail: "TBD"
-                },{
-                    title: `Process data using 1 and 
-                    2 dimensional arrays. 
-                    / Process data using hash objects 
-                    / Use SAS utility procedures `,
-                    detail: "TBD"
+                    title: `
+                    • Calculating Percentiles with SAS <br/>
+                    • SAS Arrays and DO Loops <br/>
+                    • Pattern Matching with SAS <br/>
+                    `,
+                    detail: "05.13"
                 },
                 {
-                    title: `考试真题讲解`,
-                    detail: "TBD"
+                    title: `
+                    Base Mock Exam
+                    `,
+                    detail: ""
                 },
             ],
             [
                 {
-                    title: `SAS Retail Banking 实战项目1`,
-                    detail: "03.04"
+                    title: `
+                    • Proc SQL Joins (Merging) <br/>
+                    • Combining Tables Vertically with PROC SQL <br/>
+                    • Insert Rows in the Table <br/>
+                    • Alter Table and Update Column <br/>
+                    `,
+                    detail: "05.19"
+                },{
+                    title: `
+                    • Proc SQL Self Joins <br/>
+                    •Join on Multiple Tables <br/>
+                    • Find records only exist in one table <br/>
+                    • Random Sampling with PROC SQL <br/>
+                    `,
+                    detail: "05.20"
+                },{
+                    title: `
+                    • Alternative to _N_ in PROC SQL <br/>
+                    • Use DISTINCT in CASE WHEN <br/>
+                    • Multiple Ampersand Macro Variables <br/>
+                    `,
+                    detail: "05.26"
+                },
+                {
+                    title: `
+                    • Count number of variables assigned in a macro variable <br/>
+                    • Dropping Variables Ending with a Specific String <br/>
+                    • Identify and Remove Outliers with SAS <br/>
+                    `,
+                    detail: "05.27"
+                },
+                {
+                    title: `
+                    Advanced Mock Exam
+                    `,
+                    detail: ""
+                },
+            ],
+            [
+                {
+                    title: `SAS Retail Banking 实战项目 1`,
+                    detail: "06.16"
                 },{
                     title: `SAS Retail Performance 
-                    Monitoring 实战项目2`,
-                    detail: "03.05"
+                    Monitoring 实战项目 2`,
+                    detail: "06.18"
                 },
             ],
         
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4"}
+    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4", cover:"assets/images/courses/SAS/cover.png"}
 
     const teacher_name = [
         "Leo老师",
@@ -236,9 +256,9 @@ $(document).ready(function(){
 
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
-    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info));
+    $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
     $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
-    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list));
+    $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);

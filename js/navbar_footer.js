@@ -172,7 +172,7 @@
             </ul>
           </div>
           <div class="col-md-2 text-center">
-            <img class="logo-m" src="assets/images/logos/EZC_LOGO_DARK.png" alt="Logo">
+            <img class="logo-m" src="assets/images/logos/logodark.svg" alt="Logo">
           </div>
           <div class="col-md-5 text-center text-md-right">
             <ul class="socials">
