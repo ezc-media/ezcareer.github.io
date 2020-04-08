@@ -199,5 +199,5 @@ $(document).ready(function(){
     $("#navbar").html(createNavbar("dark"));
     $("#history").html($history);
     $('#hot_courses').html($hot_courses);
-
+    $('#footer').html(createFooter());
 });

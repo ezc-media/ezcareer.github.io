@@ -439,5 +439,6 @@ $(document).ready(function(){
     $("#packTwo").html($packTwo);
     $("#packThree").html($packThree);
     $("#navbar").html(createNavbar("dark"));
+    $('#footer').html(createFooter());
 
 });

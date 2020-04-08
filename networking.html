@@ -20,7 +20,8 @@
 
 <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="js/networking.js"></script>
-<script type="text/javascript" src="js/navbar.js"></script>
+<script type="text/javascript" src="js/coursePage.js"></script>
+<script type="text/javascript" src="js/navbar_footer.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -39,176 +40,25 @@
 
 
     <!-- cover -->
-    <section class="bg-light">
-      <div class="container pt-10">
-        
-
-        <div class="row justify-content-start">
-
-        <div class="col-md-6 text-left">
-            <div id="course_name"></div>
-            <div class="col-md-10 text-left">
-            	<div id="course_name_des"></div>
-            	<div id="course_price"></div>
-            	<div id="course_open_date"></div>
-            	
-              <a class="btn btn btn-gray text-white mr-1 mt-1" href="#popup2 ">获取课程资料包</a>
-              <div class="popup2" id="popup2">   
-              <div class="card" style="text-align: center;">
-                    <div class="card-body">
-                    <iframe allowTransparency="true" style="min-height:30rem; min-width:30rem; height:inherit; overflow:auto;" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="//www.123formbuilder.com/my-contact-form-5225901.html">
-                    <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
-                    </iframe><a class="popup__close2" href="#">X</a>
-                    </div>
-                  </div>   
-              	     
-              </div>
-
-
-       
-              <a class="btn btn-with-ico btn-primary mt-1" href="#popup3 ">立刻报名<i class="icon-arrow-right2 fs-20"></i></a>
-                <div class="popup2" id="popup3">
-              
-              
-              <div class="col-md-2 col-lg-4">
-                  <div class="card" style="text-align: center;">
-                    <div class="card-body"><img class="card-img-top col-sm-5" src="assets/images/wechat-3.jpg" ">
-                      <h5 class="card-title">扫码联系客服，了解课程详情</h5>
-                      <p class="card-text">多伦多地区及滑铁卢地区，请扫描二维码，或添加微信 id:ezcteacher</p>
-                      <a href="https://ezcareer.shop/collections/2020-1/products/2020-1-cfa-level-1-plus-dt" target="_blank" class="btn btn-primary">我已经考虑好，想直接付款</a>
-                    </div>
-                  </div> <a class="popup__close2" href="#">X</a>
-              </div>
-              </div>     
-
-
-
-        	</div>
-          </div>
-
-          <div class="col-md-6">
-            <div id="video_info"></div>
-          </div>
-        </div>
-        
-      </div>
-    </section>
+    <section id='cover' class="bg-light"></section>
     <!-- / cover -->
 
 
     <!-- about -->
-    <section>
-      <div class="container">
-        <div class="row justify-content-start">
-          <div class="col-lg-4 text-left">
-            
-            <h4 class="mb-1"><b>关于课程</b></h4>
-            <div id="about_course_des"></div>
-          </div>
-          <div class="col-lg-8">
-            <div id="about_course"></div>
-            <br>
-
-            <div id="about_course_points"></div>
-          
-        </div>
-      </div>
-      <div class="row justify-content-start">
-          <div class="col-sm-6 col-lg-4">
-            <h4 class="mb-1"><b>适合人群</b></h4>
-        	  <h6 class="mb-2 text-ezc">不盲从、不掉队</h6>
-          </div>
-
-
-          <div id="target_group" class="col-sm-6 col-lg-8"></div>
-
-
-       	
-       	<div class="row justify-content-start">
-          <div class="col-sm-6 col-lg-4">
-            <h4 class="mb-1"><b>热门目标公司</b></h4>
-        	<h6 class="mb-2 text-ezc"></h6>
-          </div>
-
-          <div class="row mt-8" data-aos="zoom-in">
-            <div class="col partners align-items-center">
-              <div class="owl-carousel" data-items="[6,4,2]">
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
-                </div>
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-2.png" alt="Logo">
-                </div>
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-3.png" alt="Logo">
-                </div>
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-4.png" alt="Logo">
-                </div>
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-5.png" alt="Logo">
-                </div>
-                <div class="logo">
-                  <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          </div>
-
-        </div>  
-         </div>
-         
-
-       </div>
+    <section id='about'>
     </section>
 
 
     <!-- / about -->
-    <section class="bg-dark-ezc hero">
+    <section id='courseTable' class="bg-dark-ezc hero">
         
-      <div class="container text-white">
-
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <span class="eyebrow mb-1 text-primary">最全面的课程设计</span>
-            <h2>课程大纲</h2>
-          </div>
-        </div>
-
-        <div id="course_list_tab" class="row text-primary"></div>
-
-
-        <div id="course_list"></div>
-
-        <div class="row text-primary mt-5">
-          <div class="col text-center">
-            <a href="contacts.html" type="button" class="btn btn-white text-black">立刻报名</a>
-        </div>
-        </div>
-        
-      </div>
     </section>
     <!-- / careers -->
- <div id="text_books"></div>
+    <div id='text_books'></div>
     <!-- / presentation -->
 
     <!-- pricing -->
-    <section class="bg-light">
-      <div class="container mb-0">
-        <div class="row justify-content-center">
-          <div class="col-md-12 col-lg-12 text-gray text-center">
-            <h2><b>资深导师团队</b></h2>
-           
-          </div>
-        </div>
-      
-        <br>
-
-        <div id="teacher_list"></div>
-
-      </div>
+    <section id='teachers' class="bg-light">
     </section>
     <!-- / pricing -->
 
@@ -217,42 +67,9 @@
     <!-- / carousel -->
   
  <!-- footer -->
-    <footer class="bg-dark text-white">
-      
-      <div class="separator-top">
-        <div class="container py-5">
-          <div class="row justify-content-between align-items-center">
-            <div class="col-md-5 text-center text-md-left">
-              <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="contacts.html">联系我们</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="career.html">加入我们</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Legal Information</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-2 text-center">
-              <img class="logo-m" src="assets/images/logos/EZC_LOGO_DARK.png" alt="Logo">
-            </div>
-            <div class="col-md-5 text-center text-md-right">
-              <ul class="socials">
-                <li><a href="https://www.youtube.com/channel/UCsXdZooAGMJpd5xycwSPGGQ" target="_blank" class="icon-youtube fs-20"></a></li>
-                <li><a href="https://www.linkedin.com/company/easy-career/" target="_blank" class="icon-linkedin fs-20"></a></li>
-                <li><a href="https://www.instagram.com/ezcareer/" class="icon-instagram fs-20" target="_blank"></a></li>
-                <li><a href="contacts.html" class="icon-wechat fs-20"></a></li>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <footer id='footer' class="bg-dark text-white">
     </footer>
     <!-- / footer -->
-
 
 
     <script src="assets/js/vendor.js"></script>
