@@ -161,7 +161,7 @@
           <div class="col-md-5 text-center text-md-left">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link" href="contacts.html">联系我们吧</a>
+                <a class="nav-link" href="contacts.html">联系我们</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="career.html">加入我们</a>
