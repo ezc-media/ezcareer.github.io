@@ -39,7 +39,7 @@ const teachers = {
         des: `超过8年数据领域培训经验。
         深挖行业前沿技术。
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/man.svg"
     },
     "Josh老师": 
     {
@@ -51,7 +51,7 @@ const teachers = {
         专门研究阿尔法驱动策略。 
         毕业于多伦多大学 经济学与数学应用专业
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/man.svg"
     },
     "Tia老师": 
     {
@@ -59,7 +59,7 @@ const teachers = {
         title: `多大金融工程研究生毕业`,
         des: `目前就职于世界最大的养老金机构之一CPPIB从事资产管理工作。拥有丰富的Networking经验，曾通过Networking斩获多分实习以及全职工作的Offer
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/woman.svg"
     },
     "Evan": 
     {
@@ -68,7 +68,7 @@ const teachers = {
         des: `现任多伦多大型Pension Fund高级分析师
         段子手里，最会讲CFA的
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/man.svg"
     },
     "Bob": 
     {
@@ -77,7 +77,7 @@ const teachers = {
         des: `参与多年CFA培训项目与监考
         现就职于BMO Capital Markets 任高级分析师
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/man.svg"
     },
     "月半 Alex": 
     {
