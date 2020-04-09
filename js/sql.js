@@ -125,7 +125,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:"assets/images/courses/SQL/cover.png"}
+    const video_info = {src:"https://www.youtube.com/watch?v=d8-tU_HXLg0", cover:"assets/images/courses/SQL/cover.PNG"}
 
     const teacher_name = [
         "Leo老师"
