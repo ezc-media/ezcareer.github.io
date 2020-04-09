@@ -13,14 +13,14 @@ const teachers = {
         des: `前PwC咨询师，
         6个月高分通过USCPA全科，
         熟悉Financial Reporting and Analysis考试中的重难点套路`,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/jorry.png"
     }, 
     "刘畅": 
     {
         name: "刘畅",
         title: "北京市一级教师",
         des: `曾获北京市三好学生，收获好评无数，在线学员超10万人。`,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/liuchang.png"
     },
     "Andy Li": 
     {
@@ -29,7 +29,7 @@ const teachers = {
         des: `已获得CSC与CPA认证，同时也是国际注册内部审计师（CIA），CPA Ontario专业教育（PEP)认证导师
         研究生毕业于多伦多大学Rotman商学院 Master of Finance
         金融领域职业辅导名师，毕业前就已斩获四大与五大行Offer`,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/andyli.png"
     },
     "Leo老师": 
     {
@@ -85,7 +85,7 @@ const teachers = {
         title: `曾就职于顶级投行部`,
         des: `6年多大金融课程资深名师, 多伦多最懂Economics和, Fixed Income的经济学人, 曾就职于顶级投行部，约克Schulich商学院硕士
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/AlexJiao.png"
     },
     "Jack": 
     {
@@ -93,7 +93,7 @@ const teachers = {
         title: `3年多大高级金融课程人气名师`,
         des: `熟悉Quantitative和Derivatives考试中的重难点套路，经济金融统计课程GPA4.0
         `,
-        src: "assets/images/tutor/shelby.png"
+        src: "assets/images/tutor/JackZhang.png"
     },
 
 }
