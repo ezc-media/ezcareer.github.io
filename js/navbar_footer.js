@@ -87,6 +87,10 @@
                   <span>Python全程班</span>
                   <p>线上线下 | 北美同开</p>
               </a>
+              <a class="dropdown-item" href="sql.html">
+              <span>SQL全程班</span>
+              <p>线上线下 | 北美同开</p>
+              </a>
               <a class="dropdown-item" href="excelvba.html">
                   <span>Excel VBA全程班</span>
                   <p>线上线下 | 北美同开</p>

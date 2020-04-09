@@ -302,6 +302,54 @@ $(document).ready(function(){
                 },
             ]
         },
+        {
+            sml_title: "",
+            big_title: "学员反馈",
+            content: [
+                {
+                    src: "assets/images/courses/CFA/review-1.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-2.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-3.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-4.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-5.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-6.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-7.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-8.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-9.jpg"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-10.jpg"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-11.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-12.jpg"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-13.png"
+                },
+                {
+                    src: "assets/images/courses/CFA/review-14.png"
+                },
+            ]
+        },
 
     ]
 

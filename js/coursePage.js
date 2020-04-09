@@ -136,11 +136,11 @@
                 <h4 class="mb-1"><b>热门目标公司</b></h4>
                 <h6 class="mb-2 text-ezc"></h6>
               </div>
-              <div class="row mt-8" data-aos="zoom-in">
-              <div class="col partners align-items-center">
-                <div class="owl-carousel" data-items="[6,4,2]">
+              <div class="row mt-8">
+              <div class="col-md-10 partners align-items-center">
+                <div class="owl-carousel visible gallery" data-items="[4]" data-autoplay="true" data-loop="true" data-dots="true" data-margin="20" style="overflow:hidden"">
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+                    <img src="assets/images/courses/CFA/comp-1.png" alt="Logo">
                   </div>
                   <div class="logo">
                     <img src="assets/images/demo/logo/logo-2.png" alt="Logo">
@@ -157,6 +157,10 @@
                   <div class="logo">
                     <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
                   </div>
+                  <div class="logo">
+                  <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
+                </div>
+
                 </div>
               </div>
             </div>

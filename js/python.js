@@ -135,7 +135,22 @@ $(document).ready(function(){
     const text_books_picture = ""
 
     const carousels = [
+        {
+            sml_title: "",
+            big_title: "学员反馈",
+            content: [
+                {
+                    src: "assets/images/courses/PYTHON/review-1.jpg"
+                },
+                {
+                    src: "assets/images/courses/PYTHON/review-2.jpg"
+                },
+                {
+                    src: "assets/images/courses/PYTHON/review-3.jpg"
+                },
 
+            ]
+        },
 
     ]
 

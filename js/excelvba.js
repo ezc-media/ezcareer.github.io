@@ -138,7 +138,31 @@ $(document).ready(function(){
     const text_books_picture = "assets/images/page/MockUp.png"
 
     const carousels = [
+        {
+            sml_title: "",
+            big_title: "学员反馈",
+            content: [
+                {
+                    src: "assets/images/courses/EXCELVBA/review-1.jpeg"
+                },
+                {
+                    src: "assets/images/courses/EXCELVBA/review-2.jpeg"
+                },
+                {
+                    src: "assets/images/courses/EXCELVBA/review-3.jpeg"
+                },
+                {
+                    src: "assets/images/courses/EXCELVBA/review-4.jpeg"
+                },
+                {
+                    src: "assets/images/courses/EXCELVBA/review-5.jpeg"
+                },
+                {
+                    src: "assets/images/courses/EXCELVBA/review-6.jpeg"
+                },
 
+            ]
+        },
 
     ]
 

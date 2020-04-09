@@ -193,14 +193,20 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/SAS/1.png"
+                    src: "assets/images/courses/SAS/review-1.jpg"
                 },
                 {
-                    src: "assets/images/courses/SAS/2.png"
+                    src: "assets/images/courses/SAS/review-2.jpeg"
                 },
                 {
-                    src: "assets/images/courses/SAS/3.png"
-                }
+                    src: "assets/images/courses/SAS/review-3.jpeg"
+                },
+                {
+                    src: "assets/images/courses/SAS/review-4.jpeg"
+                },
+                {
+                    src: "assets/images/courses/SAS/review-5.jpeg"
+                },
             ]
         },
 
