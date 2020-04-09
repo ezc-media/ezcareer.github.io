@@ -46,23 +46,24 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/demo/logo/logo-1.png"
+            src: "assets/images/courses/PYTHON/comp-1.png"
         },
         {
-            src: "assets/images/demo/logo/logo-2.png"
+            src: "assets/images/courses/PYTHON/comp-2.png"
         },
+
         {
-            src: "assets/images/demo/logo/logo-3.png"
+            src: "assets/images/courses/PYTHON/comp-3.png"
         },
+
         {
-            src: "assets/images/demo/logo/logo-4.png"
+            src: "assets/images/courses/PYTHON/comp-4.png"
         },
+
         {
-            src: "assets/images/demo/logo/logo-5.png"
+            src: "assets/images/courses/PYTHON/comp-5.png"
         },
-        {
-            src: "assets/images/demo/logo/logo-6.png"
-        },
+
 
     ]
 
