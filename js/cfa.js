@@ -51,22 +51,25 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/demo/logo/logo-1.png"
+            src: "assets/images/courses/CFA/comp-1.png"
         },
         {
-            src: "assets/images/demo/logo/logo-2.png"
+            src: "assets/images/courses/CFA/comp-2.png"
         },
         {
-            src: "assets/images/demo/logo/logo-3.png"
+            src: "assets/images/courses/CFA/comp-3.png"
         },
         {
-            src: "assets/images/demo/logo/logo-4.png"
+            src: "assets/images/courses/CFA/comp-4.png"
         },
         {
-            src: "assets/images/demo/logo/logo-5.png"
+            src: "assets/images/courses/CFA/comp-5.png"
         },
         {
-            src: "assets/images/demo/logo/logo-6.png"
+            src: "assets/images/courses/CFA/comp-6.png"
+        },
+        {
+            src: "assets/images/courses/CFA/comp-7.png"
         },
 
     ]
@@ -404,7 +407,7 @@ $(document).ready(function(){
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
     $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
-    $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
+    $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group, hot_comps_data));
     $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));

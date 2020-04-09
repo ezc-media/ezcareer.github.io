@@ -67,7 +67,7 @@
     }
     
     // Generate About
-    function createAbout(about_course_des, about_course, course_points, target_group) {
+    function createAbout(about_course_des, about_course, course_points, target_group, hot_comps_data) {
 
         //  Course points
         course_points_html = ``
@@ -94,6 +94,16 @@
                     <h4 class="mb-2">`+block.title+`</h4>
                     <p>`+block.des+`</p>
                 </div>`
+        }
+
+        // hot company
+        hot_comp_html = ``
+        for (block of hot_comps_data) {
+          hot_comp_html += `
+          <div class="logo">
+            <img src=`+block.src+` alt="Logo">
+          </div>
+          `
         }
 
 
@@ -133,34 +143,13 @@
                
               <div class="row justify-content-start">
               <div class="col-sm-6 col-lg-4">
-                <h4 class="mb-1"><b>热门目标公司ba</b></h4>
+                <h4 class="mb-1"><b>热门目标公司</b></h4>
                 <h6 class="mb-2 text-ezc"></h6>
               </div>
               <div class="row mt-8">
               <div class="col-md-10 partners align-items-center">
                 <div class="owl-carousel visible gallery" data-items="[4]" data-autoplay="true" data-loop="true" data-dots="true" data-margin="20" style="overflow:hidden"">
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-1.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-2.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-3.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-4.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-5.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-6.png" alt="Logo">
-                  </div>
-                  <div class="logo">
-                  <img src="assets/images/courses/CFA/comp-7.png" alt="Logo">
-                </div>
-
+                `+hot_comp_html+`
                 </div>
               </div>
             </div>
