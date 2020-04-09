@@ -174,7 +174,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4", cover:"assets/images/courses/SAS/cover.png"}
+    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4", cover:"assets/images/courses/SAS/cover.PNG"}
 
     const teacher_name = [
         "Leo老师",

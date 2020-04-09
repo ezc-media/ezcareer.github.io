@@ -122,7 +122,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U", cover:"assets/images/courses/PYTHON/cover.png"}
+    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U", cover:"assets/images/courses/PYTHON/cover.PNG"}
 
     const teacher_name = [
         "Leo老师"

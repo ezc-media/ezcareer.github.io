@@ -107,7 +107,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:"assets/images/courses/FRM/cover.png"}
+    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:"assets/images/courses/FRM/cover.PNG"}
 
     const teacher_name = [
         "周华鑫 Shelby",

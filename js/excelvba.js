@@ -122,7 +122,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A", cover:"assets/images/courses/EXCELVBA/cover.png"}
+    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A", cover:"assets/images/courses/EXCELVBA/cover.PNG"}
 
     const teacher_name = [
         "Josh老师"
