@@ -140,25 +140,25 @@
               <div class="col-md-5 partners align-items-center">
                 <div class="owl-carousel visible gallery" data-items="[4]" data-autoplay="true" data-loop="true" data-dots="true" data-margin="20" style="overflow:hidden"">
                   <div class="logo">
-                    <img src="assets/images/courses/CFA/comp-1.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-1.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-2.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-2.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-3.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-3.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-4.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-4.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-5.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-5.png" alt="Logo">
                   </div>
                   <div class="logo">
-                    <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-6.png" alt="Logo">
                   </div>
                   <div class="logo">
-                  <img src="assets/images/demo/logo/logo-6.png" alt="Logo">
+                  <img src="assets/images/courses/CFA/comp-7.png" alt="Logo">
                 </div>
 
                 </div>
