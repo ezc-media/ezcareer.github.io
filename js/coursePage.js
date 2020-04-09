@@ -137,7 +137,7 @@
                 <h6 class="mb-2 text-ezc"></h6>
               </div>
               <div class="row mt-8">
-              <div class="col-md-10 partners align-items-center">
+              <div class="col-md-5 partners align-items-center">
                 <div class="owl-carousel visible gallery" data-items="[4]" data-autoplay="true" data-loop="true" data-dots="true" data-margin="20" style="overflow:hidden"">
                   <div class="logo">
                     <img src="assets/images/courses/CFA/comp-1.png" alt="Logo">
