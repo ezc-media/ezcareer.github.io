@@ -272,11 +272,12 @@ $(document).ready(function(){
     $("#page_title").html($page_title);
     $("#navbar").html(createNavbar("light"));
     $(`#cover`).html(createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link));
-    $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group));
+    $(`#about`).html(createAbout(about_course_des, about_course, course_points, target_group, hot_comps_data));
     $(`#courseTable`).html(createCourseTable(course_list_tab, course_list, course_link));
     $(`#teachers`).html(createTeacher(teacher_name));
     $("#text_books").html(create_textbook(text_books));
     $("#text_books_picture").html($text_books_picture);
     $("#all_carousel").html(createCarousel(carousels));
     $('#footer').html(createFooter());
+
 });
