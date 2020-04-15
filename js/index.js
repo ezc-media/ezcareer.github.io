@@ -87,40 +87,57 @@ $(document).ready(function(){
 
     hot_courses = [
         {
-            name: "CFA一级百时班Plus"
+            name: "CFA一级百时班Plus",
+            src: "cfa.html"
         },
         {
-            name: "CFA二级百时班"
+            name: "CFA二级百时班",
+            src: "cfa2.html"
         },
         {
-            name: "FRM保过班"
+            name: "FRM保过班",
+            src: "frm.html"
+            
         },
         {
-            name: "CSC证书班"
+            name: "CSC证书班",
+            src: "csc.html"
         },
         {
-            name: "SAS双证班"
+            name: "SAS双证班",
+            src: "sas.html"
         },
         {
-            name: "SOA证书班"
+            name: "SOA证书班",
+            src: "soa.html"
         },
         {
-            name: "CPA实战课"
+            name: "CPA实战课",
+            src: "cpa.html"
         },
         {
-            name: "Tableau全程班"
+            name: "Tableau全程班",
+            src: "tableau.html"
         },
         {
-            name: "Python全程班"
+            name: "Python全程班",
+            src: "python.html"
         },
         {
-            name: "Excel VBA全程班"
+            name: "SQL全程班",
+            src: "sql.html"
         },
         {
-            name: "Networking"
+            name: "Excel VBA全程班",
+            src: "excelvba.html"
         },
         {
-            name: "BA实战课"
+            name: "Networking",
+            src: "networking.html"
+        },
+        {
+            name: "BA实战课",
+            src: "ba.html"
         },
     ]
 
@@ -138,7 +155,7 @@ $(document).ready(function(){
             `
             <div class="col-sm-6 col-lg-4">
                 <div class="rising p-3 bg-white">
-                    <h4 class="text-gray"><b>`+block.name+`</b></h4>
+                    <a href=`+block.src+`><h4 class="text-gray">`+block.name+`</h4></a>
                 </div>
             </div>
             `
