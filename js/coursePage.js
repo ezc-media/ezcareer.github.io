@@ -272,8 +272,9 @@
             for (media of block.content) {
                 carousel_html+=
                     `
-                    <figure class="photo">
-                    <img src=`+media.src+` alt="Image">
+                    <figure class="photo equal equal-double">
+                      <a href=`+media.src+`
+                      style="background-image: url(`+media.src+`)"></a>
                     </figure>
                     `
             }
