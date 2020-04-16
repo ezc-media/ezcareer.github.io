@@ -53,22 +53,16 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/demo/logo/logo-1.png"
+            src: "assets/images/courses/cpa/comp-1.png"
         },
         {
-            src: "assets/images/demo/logo/logo-2.png"
+            src: "assets/images/courses/cpa/comp-2.png"
         },
         {
-            src: "assets/images/demo/logo/logo-3.png"
+            src: "assets/images/courses/cpa/comp-3.png"
         },
         {
-            src: "assets/images/demo/logo/logo-4.png"
-        },
-        {
-            src: "assets/images/demo/logo/logo-5.png"
-        },
-        {
-            src: "assets/images/demo/logo/logo-6.png"
+            src: "assets/images/courses/cpa/comp-4.png"
         },
 
     ]

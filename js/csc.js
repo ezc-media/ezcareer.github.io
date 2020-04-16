@@ -176,7 +176,7 @@ $(document).ready(function(){
 
 
 
-    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ", cover:"assets/images/courses/CSC/cover.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ", cover:"assets/images/courses/CSC/cover.JPG"}
 
     const teacher_name = [
         "Andy Li",

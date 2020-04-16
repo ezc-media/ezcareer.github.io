@@ -6,7 +6,7 @@ $(document).ready(function(){
     const course_name_des = "CFA资深讲师，前北京新东方名师带你一次通过CFA证书考试";
     const price_origin = "N/A";
     const price_discount = "2400";
-    const course_open_date = "N/A";
+    const course_open_date = "2月";
     const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-1-cfa-level-2-plus-dt-1";
     const about_course = "Easy Career的CFA证书班涵盖CFA二级证书中所有知识点与考点。";
     const course_points = [

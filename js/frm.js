@@ -6,7 +6,7 @@ $(document).ready(function(){
     const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
     const price_origin = "1700";
     const price_discount = "1450";
-    const course_open_date = "预计7月";
+    const course_open_date = "2月";
     const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-frm-part-i-1";
     const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
     const course_points = [
@@ -87,21 +87,37 @@ $(document).ready(function(){
             [
                 {
                     title: "Foundations of Risk Management",
-                    detail: "4 Days"
+                    detail: `Feb <br/>01/08/09/15`
                 },{
                     title: "Quantitative Analysis",
-                    detail: "3 Days"
+                    detail: `Feb <br/>19/24/26`
                 },{
                     title: "Financial Markets and Products",
-                    detail: "7 Days"
+                    detail: `
+                    Feb 29<br/>
+                    Mar<br/>01/08/15/22/29<br/>
+                    Apr 05
+                    `
                 },
                 {
                     title: "Valuation and Risk Models",
-                    detail: "5 Days"
+                    detail: `
+                    Apr<br/>
+                    11/18/19/25/26
+                    `
                 },
                 {
                     title: "Review Session",
-                    detail: "4 Days"
+                    detail: `
+                    May<br/>
+                    02/03/09/10
+                    `
+                },
+                {
+                    title: "Exam",
+                    detail: `
+                    May 16
+                    `
                 },
             ]
 

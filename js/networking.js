@@ -58,25 +58,25 @@ $(document).ready(function(){
                     title: `
                     Introduction to Networking  <br />
                     `,
-                    detail: "TBD"
+                    detail: "05.24"
                 },{
                     title: "Get everything ready before reaching out ",
-                    detail: "TBD"
+                    detail: "05.31"
                 },{
                     title: "Coffee Chat: What and how to talk ",
-                    detail: "TBD"
+                    detail: "06.07"
                 },
                 {
                     title: "How to follow-up: Follow-up is the MOST important after establishing that relationship ",
-                    detail: "TBD"
+                    detail: "06.14"
                 },
                 {
                     title: "How to stand out in a group networking session",
-                    detail: "TBD"
+                    detail: "06.21"
                 },
                 {
                     title: "Bonus Class “Cocktail Reception”",
-                    detail: "TBD"
+                    detail: "TBA"
                 },
                 
 
