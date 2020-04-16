@@ -45,27 +45,27 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/FRM/comp-1.png"
+            src: "assets/images/courses/PYTHONML/comp-1.png"
         },
         {
-            src: "assets/images/courses/FRM/comp-2.png"
+            src: "assets/images/courses/PYTHONML/comp-2.png"
+        },
+        {
+            src: "assets/images/courses/PYTHONML/comp-3.png"
+        },
+        {
+            src: "assets/images/courses/PYTHONML/comp-4.png"
+        },
+        {
+            src: "assets/images/courses/PYTHONML/comp-5.png"
+        },
+        {
+            src: "assets/images/courses/PYTHONML/comp-6.png"
+        },
+        {
+            src: "assets/images/courses/PYTHONML/comp-7.png"
         },
 
-        {
-            src: "assets/images/courses/FRM/comp-3.png"
-        },
-
-        {
-            src: "assets/images/courses/FRM/comp-4.png"
-        },
-
-        {
-            src: "assets/images/courses/FRM/comp-5.png"
-        },
-
-        {
-            src: "assets/images/courses/FRM/comp-6.png"
-        },
 
 
     ]
@@ -115,7 +115,7 @@ $(document).ready(function(){
                 },
                 {
                     title: `
-                    Project I: Evaluating different classifiers and regressors
+                    Project I:  <br/> Evaluating different classifiers and regressors
                     `,
                     detail: `
                     05.26
@@ -155,7 +155,7 @@ $(document).ready(function(){
                 },
                 {
                     title: `
-                    Project II: Implementing neural networks
+                    Project II:  <br/> Implementing neural networks
                     `,
                     detail: `
                     06.09
