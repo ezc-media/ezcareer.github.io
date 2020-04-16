@@ -11,7 +11,7 @@ $(document).ready(function(){
                     title_cn: "人生规划评估",
                     content: "注册心理咨询师针对学员现阶段，career、life time goal等方面进行全面分析解惑，出具报告",
                     packages: [
-                        "-", "1.5 hr + Report", "1.5 hr + Report"
+                        "Not Included", "1.5 hr + Report", "1.5 hr + Report"
                     ]
                 }, 
                 {
@@ -19,7 +19,7 @@ $(document).ready(function(){
                     title_cn: "专业导师进行学术与课外活动的定制规划",
                     content: "",
                     packages: [
-                        "-", "-", "1 Hour"
+                        "Not Included", "Not Included", "1 Hour"
                     ]
                 }
             ]
@@ -46,7 +46,7 @@ $(document).ready(function(){
                     title_cn: "个人定制化工作申请策略",
                     content: "专业导师进行职业规划与行业剖析",
                     packages: [
-                        "-", "1 Hour", "2 Hours"
+                        "Not Included", "1 Hour", "2 Hours"
                     ]
                 }, 
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
                     title_cn: "Linkedin专属个人主页打造",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 },
             ]
@@ -104,7 +104,7 @@ $(document).ready(function(){
                     title_cn: "与行业大咖进行咖啡约谈",
                     content: "",
                     packages: [
-                        "-", "5 Times", "Unlimited"
+                        "Not Included", "5 Times", "Unlimited"
                     ]
                 },
                 {
@@ -112,7 +112,7 @@ $(document).ready(function(){
                     title_cn: "人脉拓展活动邀请",
                     content: "",
                     packages: [
-                        "-", "-", "Unlimited"
+                        "Not Included", "Not Included", "Unlimited"
                     ]
                 },
             ]
@@ -212,7 +212,7 @@ $(document).ready(function(){
                     title_cn: "针对岗位的简历精修",
                     content: "",
                     packages: [
-                        "-", "2 Rounds", "Unlimited"
+                        "Not Included", "2 Rounds", "Unlimited"
                     ]
                 }, 
                 {
@@ -220,7 +220,7 @@ $(document).ready(function(){
                     title_cn: "针对岗位的求职信精修",
                     content: "",
                     packages: [
-                        "-", "1 Rounds", "Unlimited"
+                        "Not Included", "1 Rounds", "Unlimited"
                     ]
                 }, 
                 {
@@ -228,7 +228,7 @@ $(document).ready(function(){
                     title_cn: "网申辅导I（针对不同公司的网申准备）",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 },
                 {
@@ -236,7 +236,7 @@ $(document).ready(function(){
                     title_cn: "网申辅导II（针对不同公司的简历投递技巧）",
                     content: "",
                     packages: [
-                        "-", "-", "40 Jobs"
+                        "Not Included", "Not Included", "40 Jobs"
                     ]
                 },
                 {
@@ -244,7 +244,7 @@ $(document).ready(function(){
                     title_cn: "网申测试准备",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "2 Hours"
+                        "Not Included", "1 Hour", "2 Hours"
                     ]
                 },
             ]
@@ -257,7 +257,7 @@ $(document).ready(function(){
                     title_cn: "行为面试准备",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 }, 
                 {
@@ -265,7 +265,7 @@ $(document).ready(function(){
                     title_cn: "技能面试准备",
                     content: "",
                     packages: [
-                        "-", "2 Hours", "2 Hours"
+                        "Not Included", "2 Hours", "2 Hours"
                     ]
                 },
                 {
@@ -273,7 +273,7 @@ $(document).ready(function(){
                     title_cn: "案例面试准备",
                     content: "",
                     packages: [
-                        "-", "2 Hours", "2 Hours"
+                        "Not Included", "2 Hours", "2 Hours"
                     ]
                 },
             ]
@@ -299,7 +299,7 @@ $(document).ready(function(){
                     title_cn: "求职心理疏导 & 缓解求职压力",
                     content: "",
                     packages: [
-                        "-", "-", "4 Hours"
+                        "Not Included", "Not Included", "4 Hours"
                     ]
                 }, 
                 {
@@ -307,7 +307,7 @@ $(document).ready(function(){
                     title_cn: "Office Hours 在线答疑",
                     content: "",
                     packages: [
-                        "-", "Unlimited", "Unlimited"
+                        "Not Included", "Unlimited", "Unlimited"
                     ]
                 },
                 {
@@ -331,7 +331,7 @@ $(document).ready(function(){
                     title_cn: "基础硬技能培训",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 }, 
                 {
@@ -339,7 +339,7 @@ $(document).ready(function(){
                     title_cn: "基础软技能培训",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 }, 
                 {
@@ -347,7 +347,7 @@ $(document).ready(function(){
                     title_cn: "职场升职辅导",
                     content: "",
                     packages: [
-                        "-", "1 Hour", "1 Hour"
+                        "Not Included", "1 Hour", "1 Hour"
                     ]
                 }, 
             ]
@@ -375,12 +375,12 @@ $(document).ready(function(){
 
         
         for (y = 0; y < allData.length; y++) { 
-            let $phase_en = $(`<h3 class="mb-0"></h3>`);
+            let $phase_en = $(`<h2 class="mb-0"></h2>`);
             // let $phase_content = $(`<strong></strong>`);
             $phase_en.append(stages[y].phase_en);
             // $phase.append($title_content);
     
-            let $phase_cn = $(`<h6 class="mb-4></h6>`);
+            let $phase_cn = $(`<h5 class="mb-4"></h5>`);
             // let $phase_content = $(`<strong></strong>`);
             $phase_cn.append(stages[y].phase_cn);
             // $phase.append($title_content);
@@ -389,8 +389,8 @@ $(document).ready(function(){
             packs[x].append($phase_cn)
             
             for (block of allData[y]) {
-                let $title_content = $("<strong></strong>");
-                let $title = $(`<h5 class="mb-1"></h5>`);
+                let $title_content = $(`<strong class="text-yellow"></strong>`);
+                let $title = $(`<h4 class="mb-1"></h4>`);
                 $title_content.append(block.title);
                 $title.append($title_content);
 
@@ -400,8 +400,8 @@ $(document).ready(function(){
                     let $theRow = $(`<div class="row"></div>`);
                     let $left_col = $(`<div class="col-4 mb-0"></div>`);
                     
-                    let $title_en = $(`<h5 class="mb-0 text-yellow"></h5>`);
-                    let $title_cn = $(`<h5 class="mb-2"></h5>`);
+                    let $title_en = $(`<h5 class="mb-0 text-info"></h5>`);
+                    let $title_cn = $(`<h5 class="mb-2 text-secondary"></h5>`);
     
                     $title_en.append(item.title_en);
                     $title_cn.append(item.title_cn);

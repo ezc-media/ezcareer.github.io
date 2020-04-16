@@ -85,7 +85,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=DZB46VAIfzc"}
+    const video_info = {src:"https://youtu.be/QbteVMi4QnQ", cover:"assets/images/courses/NETWORKING/cover.PNG"}
 
     const teacher_name = [
         "Tia老师"
