@@ -116,6 +116,10 @@ $(document).ready(function(){
             src: "cpa.html"
         },
         {
+            name: "Python ML全程班",
+            src: "pythonml.html"
+        },
+        {
             name: "Tableau全程班",
             src: "tableau.html"
         },
