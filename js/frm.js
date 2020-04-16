@@ -31,7 +31,6 @@ $(document).ready(function(){
             icon: "icon-check-circle2"
         },
 
-
     ];
     const target_group = [
         {

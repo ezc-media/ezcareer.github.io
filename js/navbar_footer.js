@@ -78,7 +78,10 @@
                   技能课程
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
+              <a class="dropdown-item" href="pythonml.html">
+                  <span>Python ML全程班</span>
+                  <p>线上直播 | 北美同开 | UA校区</p>
+              </a>
               <a class="dropdown-item" href="tableau.html">
                   <span>Tableau全程班</span>
                   <p>线上线下 | 北美同开</p>

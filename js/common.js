@@ -95,5 +95,13 @@ const teachers = {
         `,
         src: "assets/images/tutor/JackZhang.png"
     },
+    "Z老师": 
+    {
+        name: "Z老师",
+        title: `U of A Ph.D. in Computer Science`,
+        des: `研究方向为Sensor Network，Transfer Learning。3篇Machine Learning/ Transfer Learning 相关 ACM/ IEEE publications。
+        `,
+        src: "assets/images/tutor/man.svg"
+    },
 
 }
