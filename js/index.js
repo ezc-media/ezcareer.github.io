@@ -111,10 +111,10 @@ $(document).ready(function(){
             name: "SOA证书班",
             src: "soa.html"
         },
-        {
-            name: "CPA证书全程班",
-            src: "cpa.html"
-        },
+        // {
+        //     name: "CPA证书全程班",
+        //     src: "cpa.html"
+        // },
         {
             name: "Python ML全程班",
             src: "pythonml.html"

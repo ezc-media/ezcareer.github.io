@@ -67,10 +67,7 @@
               <span>SOA证书班</span>
               <p>签约保过 | 线上线下 | 北美同开</p>
               </a>
-              <a class="dropdown-item" href="cpa.html">
-              <span>CPA证书全程班</span>
-              <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
+
               </li>
               
               <li class="nav-item dropdown">
