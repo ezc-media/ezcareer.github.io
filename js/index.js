@@ -112,7 +112,7 @@ $(document).ready(function(){
             src: "soa.html"
         },
         {
-            name: "CPA实战课",
+            name: "CPA证书全程班",
             src: "cpa.html"
         },
         {

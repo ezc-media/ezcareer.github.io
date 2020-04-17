@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
 
-    const page_title = "CPA实战课 | Easy Career";
-    const course_name = "CPA实战课";
+    const page_title = "CPA证书全程班 | Easy Career";
+    const course_name = "CPA证书全程班";
     const course_name_des = "注册会计师在经济的不同领域(包括工业，公共会计，政府，教育和非营 利部门)有着至关重要的作用。";
     const price_origin = "N/A";
     const price_discount = "2400";
