@@ -329,6 +329,9 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 
+h10, .h10 {
+  font-size: 0.5rem; }
+
 .lead {
   font-size: 1.05rem;
   font-weight: 300; }
@@ -3389,7 +3392,8 @@ input[type="button"].btn-block {
 
 .badge-success {
   color: #fff;
-  background-color: #54AF5D; }
+  background-color: #54AF5D; 
+}
   .badge-success[href]:hover, .badge-success[href]:focus {
     color: #fff;
     text-decoration: none;
