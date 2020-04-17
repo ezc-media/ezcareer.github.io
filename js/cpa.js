@@ -11,7 +11,7 @@ $(document).ready(function(){
     const course_points = [
         {
             title: "基础串讲",
-            des: "45个Data Coding例子 再现考题",
+            des: "再现考题",
             icon: "icon-bar-chart-2"
         },
         {
@@ -26,7 +26,7 @@ $(document).ready(function(){
         },
         {
             title: "千题冲刺",
-            des: "将历年考试核心重点梳理，整理总结SAS考试核心知识点，极大缩短了学生备考时间， 提升考试通过率",
+            des: "将历年考试核心重点梳理，整理总结CPA考试核心知识点，极大缩短了学生备考时间， 提升考试通过率",
             icon: "icon-check-circle2"
         },
 
@@ -53,22 +53,22 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/cpa/comp-1.png"
+            src: "assets/images/courses/CPA/comp-1.png"
         },
         {
-            src: "assets/images/courses/cpa/comp-2.png"
+            src: "assets/images/courses/CPA/comp-2.png"
         },
         {
-            src: "assets/images/courses/cpa/comp-3.png"
+            src: "assets/images/courses/CPA/comp-3.png"
         },
         {
-            src: "assets/images/courses/cpa/comp-4.png"
+            src: "assets/images/courses/CPA/comp-4.png"
         },
 
     ]
 
     const about_course_des = "建立金融知识体系，真题实训，保过考试";
-    const about_course = "Easy Career的SAS课程可以帮助学生在学习或者第一次零基础接触这门软件时避免走弯路，把有限 的精力放在必考的考点上，而不是盲目的复习。通过线上线下同步学习，将每一个data coding，题目及重大考点逐个掌握。";
+    const about_course = "";
 
     const course_list_tab = ["TBD"];
     const course_list = [
