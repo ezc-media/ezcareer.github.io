@@ -1,6 +1,8 @@
 
     // Helpers
     function createChineseDate(theDate) {
+
+
       if (theDate.length === 5) {
         let day = new Date(theDate).getDate("mm.dd")
         let month = new Date(theDate).getMonth("mm.dd")
