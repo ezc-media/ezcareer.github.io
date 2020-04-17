@@ -98,9 +98,7 @@ $(document).ready(function(){
                     · Classification problem definition <br/>
                     · Common classifiers (kNN, SVM, etc.)
                     `,
-                    detail: `
-                    05.19
-                    `
+                    detail: `05.19`
                 },
                 {
                     title: `
@@ -109,17 +107,13 @@ $(document).ready(function(){
                     · Multiple linear regression <br/>
                     · Non-linear regression methods
                     `,
-                    detail: `
-                    05.21
-                    `
+                    detail: `05.21`
                 },
                 {
                     title: `
                     Project I:  <br/> Evaluating different classifiers and regressors
                     `,
-                    detail: `
-                    05.26
-                    `
+                    detail: `05.26`
                 },
                 {
                     title: `
@@ -128,9 +122,7 @@ $(document).ready(function(){
                     · Theoretical guarantees <br/>
                     · Loss functions and activation functions
                     `,
-                    detail: `
-                    05.28
-                    `
+                    detail: `05.28`
                 },
                 {
                     title: `
@@ -139,9 +131,7 @@ $(document).ready(function(){
                     · Convolutional layers <br/>
                     · Pooling layers
                     `,
-                    detail: `
-                    06.02
-                    `
+                    detail: `06.02`
                 },
                 {
                     title: `
@@ -149,17 +139,13 @@ $(document).ready(function(){
                     · LSTM <br/>
                     · NARX
                     `,
-                    detail: `
-                    06.04
-                    `
+                    detail: `06.04`
                 },
                 {
                     title: `
                     Project II:  <br/> Implementing neural networks
                     `,
-                    detail: `
-                    06.09
-                    `
+                    detail: `06.09`
                 },
             ]
 

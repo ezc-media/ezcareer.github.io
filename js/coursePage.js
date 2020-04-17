@@ -1,4 +1,19 @@
 
+    // Helpers
+    function createChineseDate(theDate) {
+      if (theDate.length === 5) {
+        let day = new Date(theDate).getDate("mm.dd")
+        let month = new Date(theDate).getMonth("mm.dd")
+        return month+1 + "月" + day + "日"
+      } else if (theDate.includes("课时")) {
+        let day = new Date(theDate.slice(0,5)).getDate("mm.dd")
+        let month = new Date(theDate.slice(0,5)).getMonth("mm.dd")
+        return month+1 + "月" + day + "日" + theDate.slice(5)
+        
+      }
+      return theDate
+    }
+    
     // Generate Cover
     function createCover(course_name, course_name_des, price_discount, price_origin, course_open_date, video_info, course_link) {
         return `
@@ -165,6 +180,8 @@
     // Generate Course Table
     function createCourseTable(course_list_tab, course_list, course_link) {
 
+
+
         // Course List Tab
         course_list_tab_html = ``
 
@@ -198,8 +215,8 @@
                 <span class="col-md-6 fs-10 font-weight-light text-white">
                 `+block.title+`
                 </span>
-                <span class="col-md-3">
-                `+block.detail+`
+                <span class="col-md-4">
+                `+createChineseDate(block.detail)+`
                 </span>
                 </a>
                 `
