@@ -16004,7 +16004,8 @@ footer {
   display: inline-block;
   border: 1px solid #33aacc;
   border-radius: 22.5px;
-  overflow: hidden; }
+  overflow: hidden; 
+}
   .nav-switch .lavalamp-object {
     display: block;
     position: absolute;
