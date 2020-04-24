@@ -73,8 +73,8 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
-    const about_course = "Easy Career的SAS课程可以帮助学生在学习或者第一次零基础接触这门软件时避免走弯路，把有限 的精力放在必考的考点上，而不是盲目的复习。通过线上线下同步学习，将每一个data coding，题目及重大考点逐个掌握。";
+    const about_course_des = "建立SAS知识体系，真题实训，实战项目";
+    const about_course = "Easy Career的SAS课程可以帮助学生在学习或者第一次零基础接触这门软件时避免走弯路，把有限的精力放在必考的考点上，而不是盲目的复习。通过线上线下同步学习，将每一个data coding，题目及重大考点逐个掌握。";
 
     const course_list_tab = ["Base", "Advanced", "Project"];
     const course_list = [

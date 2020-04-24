@@ -73,7 +73,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "目前最受欢迎的大数据商业智能分析软件，毕业生找工作的必备技能之一";
     const about_course = "Easy Career针对Tableau数据可视化开展为期两天的基础与实战BOOTCAMP集中营，在覆盖全部知识点的同时也实实在在的带领着学生完成一个Tableau Project。是针对大二到大四缺少实习与项目经验的大学生不可或缺的一门课程。";
 
     const course_list_tab = ["TBD"];

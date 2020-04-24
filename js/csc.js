@@ -32,7 +32,7 @@ $(document).ready(function(){
         },
     ];
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "成功考取CSC证书，踏入加拿大金融领域第一步";
     const about_course = `CSC证书课程共42小时，课程针对考试分为Volume 1 & Volume 2两部分， 考前冲刺课程时长为3小时，课次共计14节课，每期课程学段为5周。
     CSC证书班分为基础串讲与考前冲刺两个部分。`;
 

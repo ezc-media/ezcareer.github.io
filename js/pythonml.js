@@ -70,7 +70,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立技术知识体系，真题实训";
+    const about_course_des = "在全民学Python的时代，找工作的你更不能错过";
 
 
     const course_list_tab = ["Schedule (U of Alberta)"];

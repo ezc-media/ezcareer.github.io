@@ -67,7 +67,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "在全民学Python的时代，找工作的你更不能错过";
     const about_course = "Easy Career则提供目前市面上最全面针对商业数据分析方面的Python培训";
 
     const course_list_tab = ["Schedule", "Project"];

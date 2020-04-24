@@ -48,7 +48,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "从0到1的转变和积累，开启职业的新篇章";
 
 
     const course_list_tab = ["Schedule"];

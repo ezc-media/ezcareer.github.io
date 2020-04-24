@@ -29,7 +29,7 @@ $(document).ready(function(){
 
     ];
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "建立SOA知识体系，真题实训，保过考试";
     const about_course = `Easy Career的SOA证书班目前包揽了ASA准精算师考试当中的前两门P-Probability概率论和FM-Fi- nancial Mathematics金融数学。`;
 
     const course_list_tab = ["TBD"];

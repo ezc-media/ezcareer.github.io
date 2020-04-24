@@ -68,7 +68,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "零基础到多行业项目实战";
 
 
     const course_list_tab = ["真实面试题目", "Project"];

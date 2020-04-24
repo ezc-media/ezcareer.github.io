@@ -67,7 +67,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "建立金融知识体系，真题实训";
     const about_course = "";
 
     const course_list_tab = ["TBD"];

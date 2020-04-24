@@ -71,7 +71,7 @@ $(document).ready(function(){
 
     ]
 
-    const about_course_des = "建立金融知识体系，真题实训，保过考试";
+    const about_course_des = "互动性最强的求职必备硬技能课程";
 
     const course_list_tab = ["Schedule"];
     const course_list = [
