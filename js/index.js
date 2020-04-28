@@ -215,7 +215,7 @@ $(document).ready(function(){
         {
             country: ["北美", "USA"],
             items: [
-                ["安永", "EY"], 
+                ["安永", "Ernst & Young"], 
                 ["普华永道", "PwC"],
                 ["毕马威", "KPMG"],
                 ["德勤", "Deloitte"],
@@ -229,7 +229,7 @@ $(document).ready(function(){
                 ["脸书", "Facebook"],
                 ["AT&T公司", "AT&T"],
                 ["第一资本", " Capital One"],
-                ["黑石", "BlackRock"],
+                ["贝莱德", "BlackRock"],
                 ["高盛", "Goldman Sachs"],
                 ["花旗集团", "Citigroup"],
                 ["百威", "Budweiser"],
