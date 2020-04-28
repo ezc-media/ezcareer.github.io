@@ -145,74 +145,112 @@ $(document).ready(function(){
         },
     ]
 
+    // companies = [
+    //     {
+    //         country: ["中国", "China"],
+    //         items: [
+    //             ["立信会计", "BDO"],
+    //             ["申万宏源", "SHENWAN HONGYUAN"],
+    //             ["中信建投证券", "CHINA SECURITIES"],
+    //             ["华兴资本", "China Renaissance"],
+    //             ["华泰证券", "HUATAI SECURITIES"],
+    //             ["深圳证券交易所", "SHENZHEN STOCK EXCHANGE"],
+    //             ["东方花旗", "CITI ORIENT"],
+    //             ["火币网", "HUOBI"],
+    //             ["国泰君安", "GUOTAI JUNAN SECURITIES"],
+    //             ["招商证券", "CHINA MERCHANTS SECURITIES"],
+    //             ["西南证券", "SOUTHWEST SECURITIES"],
+    //             ["长城证券", "GREAT WALL SECURITIES"],
+    //             ["金杜", "KING&WOOD MALLESONS"],
+    //             ["广发证券", "GF SECURITIES"],
+    //             ["方正证券", "FOUNDER SECURITIES"],
+    //             ["安信证券", "ESSENCS SECURITIES"],
+
+
+    //         ]
+    //     },
+    //     {
+    //         country: ["北美", "North America"],
+    //         items: [
+    //             ["安永", "EY"], 
+    //             ["普华永道", "PwC"],
+    //             ["毕马威", "KPMG"],
+    //             ["德勤", "Deloitte"],
+    //             ["致同会计事务所", "Grant Thornton"],
+    //             ["高露洁", "Colgate"],
+    //             ["强生公司", "Johnson & Johnson"],
+    //             ["卡夫亨氏", "Kraft Heinz"],
+    //             ["雅诗兰黛", "Estée Lauder"],
+    //             ["尼尔森", "nielsen"],
+    //             ["摩根大通", "J.P Morgan"],
+
+    //             ["RBC皇家银行", "RBC Royal Bank"],
+    //             ["加拿大帝国商业银行", "Canadian Imperial Bank of Commerce"],
+    //             ["丰业银行", "Scotiabank"],
+    //             ["道明银行", "Toronto-Dominion Bank"],
+    //             ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
+
+
+
+    //         ]
+
+    //     },
+    //     {
+    //         country: ["欧罗巴", "Europe"],
+    //         items: [
+    //             ["联合利华", "Unilever"], 
+    //             ["古驰", "Gucci"], 
+    //             ["路易·威登集团", "LVMH"], 
+    //             ["香奈儿", "CHANEL"], 
+    //             ["联合利华", "Unilever"], 
+    //             ["联合利华", "Unilever"], 
+    //             ["联合利华", "Unilever"], 
+
+    //         ]
+
+    //     }
+    // ]
+
     companies = [
         {
-            country: ["中国", "China"],
-            items: [
-                ["立信会计", "BDO"],
-                ["申万宏源", "SHENWAN HONGYUAN"],
-                ["中信建投证券", "CHINA SECURITIES"],
-                ["华兴资本", "China Renaissance"],
-                ["华泰证券", "HUATAI SECURITIES"],
-                ["深圳证券交易所", "SHENZHEN STOCK EXCHANGE"],
-                ["东方花旗", "CITI ORIENT"],
-                ["火币网", "HUOBI"],
-                ["国泰君安", "GUOTAI JUNAN SECURITIES"],
-                ["招商证券", "CHINA MERCHANTS SECURITIES"],
-                ["西南证券", "SOUTHWEST SECURITIES"],
-                ["长城证券", "GREAT WALL SECURITIES"],
-                ["金杜", "KING&WOOD MALLESONS"],
-                ["广发证券", "GF SECURITIES"],
-                ["方正证券", "FOUNDER SECURITIES"],
-                ["安信证券", "ESSENCS SECURITIES"],
-
-
-            ]
-        },
-        {
-            country: ["北美", "North America"],
+            country: ["美国", "USA"],
             items: [
                 ["安永", "EY"], 
                 ["普华永道", "PwC"],
                 ["毕马威", "KPMG"],
                 ["德勤", "Deloitte"],
-                ["致同会计事务所", "Grant Thornton"],
-                ["高露洁", "Colgate"],
                 ["强生公司", "Johnson & Johnson"],
                 ["卡夫亨氏", "Kraft Heinz"],
-                ["雅诗兰黛", "Estée Lauder"],
-                ["尼尔森", "nielsen"],
                 ["摩根大通", "J.P Morgan"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["RBC皇家银行", "RBC Royal Bank"],
-                ["加拿大帝国商业银行", "Canadian Imperial Bank of Commerce"],
-                ["丰业银行", "Scotiabank"],
-                ["道明银行", "Toronto-Dominion Bank"],
-                ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-                ["城野医生", "Kraft"],
-
+                ["苹果", "Apple"],
+                ["亚马逊", "Amazon"],
+                ["万国商用机器公司", "IBM"],
+                ["微软", "Microsoft"],
+                ["谷歌", "Gogle"],
+                ["因特尔", "Intel"],
+                ["脸书", "Facebook"],
 
             ]
 
         },
         {
-            country: ["欧罗巴", "Europe"],
+            country: ["中国", "China"],
             items: [
-                ["联合利华", "Unilever"], 
-                ["古驰", "Gucci"], 
-                ["路易·威登集团", "LVMH"], 
-                ["香奈儿", "CHANEL"], 
-                ["联合利华", "Unilever"], 
-                ["联合利华", "Unilever"], 
-                ["联合利华", "Unilever"], 
+                ["腾讯", "Tencent"], 
+                ["阿里巴巴", "Alibaba"], 
+                ["百度", "Baidu"], 
+                ["京东", "JD"], 
+                ["字节跳动", "ByteDance"], 
+            ]
+        },
+        {
+            country: ["加拿大", "Canada"],
+            items: [
+                ["RBC皇家银行", "RBC Royal Bank"],
+                ["加拿大帝国商业银行", "Canadian Imperial Bank of Commerce"],
+                ["丰业银行", "Scotiabank"],
+                ["道明银行", "Toronto-Dominion Bank"],
+                ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
 
             ]
 
