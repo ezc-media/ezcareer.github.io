@@ -213,23 +213,27 @@ $(document).ready(function(){
 
     companies = [
         {
-            country: ["美国", "USA"],
+            country: ["北美", "USA"],
             items: [
                 ["安永", "EY"], 
                 ["普华永道", "PwC"],
                 ["毕马威", "KPMG"],
                 ["德勤", "Deloitte"],
-                ["强生公司", "Johnson & Johnson"],
-                ["卡夫亨氏", "Kraft Heinz"],
                 ["摩根大通", "J.P Morgan"],
                 ["苹果", "Apple"],
                 ["亚马逊", "Amazon"],
                 ["万国商用机器公司", "IBM"],
                 ["微软", "Microsoft"],
-                ["谷歌", "Gogle"],
+                ["谷歌", "Google"],
                 ["因特尔", "Intel"],
                 ["脸书", "Facebook"],
-
+                ["AT&T公司", "AT&T"],
+                ["第一资本", " Capital One"],
+                ["黑石", "BlackRock"],
+                ["高盛", "Goldman Sachs"],
+                ["花旗集团", "Citigroup"],
+                ["百威", "Budweiser"],
+                ["麦肯锡", "McKinsey & Company"],
             ]
 
         },
@@ -240,7 +244,18 @@ $(document).ready(function(){
                 ["阿里巴巴", "Alibaba"], 
                 ["百度", "Baidu"], 
                 ["京东", "JD"], 
-                ["字节跳动", "ByteDance"], 
+                ["汇丰银行", "HSBC"], 
+                ["华为", "Huawei"], 
+                ["中国电信", "China Telecommunications"], 
+                ["中信证券", "CITIC Securities"], 
+                ["海通证券", "Haitong Securities"], 
+                ["平安中国", "Ping An Insurance"], 
+                ["香港花旗银行", "Citibank"], 
+                ["香港巴克莱银行", "Barclays"], 
+                ["普华永道中国", "PwC"], 
+                ["安永中国", "Ernst & Young"], 
+                ["毕马威中国", "KPMG"], 
+
             ]
         },
         {
@@ -251,10 +266,15 @@ $(document).ready(function(){
                 ["丰业银行", "Scotiabank"],
                 ["道明银行", "Toronto-Dominion Bank"],
                 ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
+                ["永明金融", "Sun Life Financial"],
+                ["宏利金融", "Manulife"],
+                ["贝尔", "Bell"],
+                ["研科", "Telus"],
+                ["罗杰斯通讯", "Rogers"],
 
             ]
+        },
 
-        }
     ]
 
     function createHotCourses(hot_courses) {
