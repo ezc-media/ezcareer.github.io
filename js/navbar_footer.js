@@ -1,9 +1,116 @@
 
-
-
   function createNavbar(mode) {
     header_mode = ""
     navbar_mode = ""
+
+    let menu_all = () => {
+      let cer_course = certi_course()
+      let skl_course = skill_course()
+      let regi_course = registration_course()
+
+      if (window.location.href.includes("/en/")) {
+        return [
+          {
+            title: "Home",
+            link: "index.html",
+            items: []
+          },
+          {
+            title: "Certif. Course",
+            link: "#",
+            items: cer_course
+          },
+          {
+            title: "Skill Course",
+            link: "#",
+            items: skl_course
+          },
+          {
+            title: "Registration",
+            link: "#",
+            items: regi_course
+          },
+          {
+            title: "VIP Program",
+            link: "vip.html",
+            items: []
+          },
+          {
+            title: "Job Board",
+            link: "http://jobs.ezcareer.ca/",
+            items: []
+          },
+          {
+            title: "Contact",
+            link: "#",
+            items: [
+              {title: "Join Us", link: "career.html"},
+              {title: "Contact Us", link: "contacts.html"}
+            ]
+          }
+        ]
+      } else {
+        return [
+          {
+            title: "首页",
+            link: "index.html",
+            items: []
+          },
+          {
+            title: "证书课程",
+            link: "#",
+            items: cer_course
+          },
+          {
+            title: "技能课程",
+            link: "#",
+            items: skl_course
+          },
+          {
+            title: "报名课程",
+            link: "#",
+            items: regi_course
+          },
+          {
+            title: "1对1求职服务",
+            link: "vip.html",
+            items: []
+          },
+          {
+            title: "岗位直通车",
+            link: "http://jobs.ezcareer.ca/",
+            items: []
+          },
+          {
+            title: "联系我们",
+            link: "#",
+            items: [
+              {title: "加入我们", link: "career.html"},
+              {title: "联系我们", link: "contacts.html"}
+            ]
+          }
+        ]
+      }
+
+    }
+
+    let language_button = () => {
+      let button_text = ""
+      let button_href = ""
+      if (window.location.href.includes("/en/")) {
+        button_text = "中文"
+        button_href = window.location.origin + window.location.pathname.slice(3,)
+      } else {
+        button_text = "English"
+        button_href = window.location.origin + "/en" +window.location.pathname
+      }
+
+      return `
+      <a class="nav-link" href="`+button_href+`" role="button">
+        `+button_text+`
+      </a>
+      `
+    }
 
     if (mode === "light") {
       header_mode = "header-light"
@@ -16,6 +123,76 @@
       navbar_mode = "navbar-dark"
     }
 
+    function createItems() {
+      theMenu = menu_all()
+      lang_button = language_button()
+      
+      tempHTML = `<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav align-items-center mr-auto">
+      `
+
+      for (block of theMenu) {
+
+        if (block.items.length > 0) {
+          tempHTML += `
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              `+block.title+`
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          `
+          if (block.items.length === 2) {
+            for (item of block.items) {
+              tempHTML += 
+              `
+              <a class="dropdown-item" href="`+item.link+`">
+              <span>`+item.title+`</span>
+              </a>
+              `
+            }
+          } else {
+            for (item of block.items) {
+              tempHTML += 
+              `
+              <a class="dropdown-item" href="`+item.link+`">
+              <span>`+item.main_title+`</span>
+              <p>`+item.sub_title+`</p>
+              </a>
+              `
+            }
+  
+            tempHTML += `</li>`
+          }
+
+
+        } else {
+          tempHTML += `
+          <li class="nav-item">
+            <a class="nav-link" href="`+block.link+`" role="button">
+              `+block.title+`
+            </a>
+          </li>
+          `
+        }
+      }
+      tempHTML += 
+      `
+      </ul>
+
+          <ul class="navbar-nav align-items-center mr-0">
+            <li class="nav-item">
+            `+lang_button+`
+            </li>
+          </ul>
+        </div>
+
+      `
+      return tempHTML
+    }
+
+
+    menu_items_html = createItems()
+
     return `
 
     <!-- header -->
@@ -23,151 +200,12 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg `+navbar_mode+`">
           <a class="navbar-brand" href="index.html">
-            <img class="navbar-logo navbar-logo-light logo-m" src="assets/images/logos/logodark.svg" alt="Logo">
-            <img class="navbar-logo navbar-logo-dark logo-m" src="assets/images/logos/logolight.svg" alt="Logo">
+            <img class="navbar-logo navbar-logo-light logo-m" src="`+assets_route+`images/logos/logodark.svg" alt="Logo">
+            <img class="navbar-logo navbar-logo-dark logo-m" src="`+assets_route+`images/logos/logolight.svg" alt="Logo">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html" role="button">
-                  首页
-                </a>
-              </li>
-
-
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  证书课程
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
-              <a class="dropdown-item" href="cfa.html">
-                  <span>CFAI级 百时班Plus</span>
-                  <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="cfa2.html">
-              <span>CFAII级 百时班</span>
-              <p>线上线下 | 北美同开</p>
-          </a>
-              <a class="dropdown-item" href="frm.html">
-              <span>FRM保过班</span>
-              <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="csc.html">
-              <span>CSC证书班</span>
-              <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="sas.html">
-              <span>SAS双证班</span>
-              <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="soa.html">
-              <span>SOA证书班</span>
-              <p>签约保过 | 线上线下 | 北美同开</p>
-              </a>
-
-              </li>
-              
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  技能课程
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="pythonml.html">
-                  <span>Python ML全程班</span>
-                  <p>线上直播 | 北美同开 | UA校区</p>
-              </a>
-              <a class="dropdown-item" href="tableau.html">
-                  <span>Tableau全程班</span>
-                  <p>线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="python.html">
-                  <span>Python全程班</span>
-                  <p>线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="sql.html">
-              <span>SQL全程班</span>
-              <p>线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="excelvba.html">
-                  <span>Excel VBA全程班</span>
-                  <p>线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="networking.html">
-                  <span>Networking</span>
-                  <p>线上线下 | 北美同开</p>
-              </a>
-              <a class="dropdown-item" href="ba.html">
-                  <span>BA实战课</span>
-                  <p>线上线下 | 北美同开</p>
-              </a>
-              </li>
-              
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  报名课程
-                </a>
-                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-              <a class="dropdown-item" href="http://moodle.ez4edu.com" target="_blank">
-                  <span>学员系统</span>
-                  <p>已经报名课程的同学</p>
-                </a>
-
-                <a class="dropdown-item" href="https://ezcareer.shop" target="_blank">
-                  <span>大多伦多地区</span>
-                  <p>包括滑铁卢 | 线下及线下课程</p>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://ezc-alberta.shop" target="_blank">
-                  <span>阿尔伯塔地区</span>
-                  <p>线下及线下课程</p>
-                </a>
-              </div>
-                
-              </li>
-              
-              <li class="nav-item dropdown">
-               <a class="nav-link" href="vip.html" role="button">
-                  1对1求职服务
-                </a>
-                
-              </li>
-               <li class="nav-item dropdown">
-               <a class="nav-link" href="http://jobs.ezcareer.ca/" role="button" target="_blank">
-                  岗位直通车
-                </a>
-                
-              </li>
-
-  <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  联系我们
-                </a>
-                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="career.html" target="_blank">
-                  <span>加入我们</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="contacts.html" target="_blank">
-                  <span>联系我们</span>
-                </a>
-              </div>
-                
-              </li>
-
-            </ul>
-
-            <ul class="navbar-nav align-items-center mr-0">
-              <li class="nav-item">
-                <a class="nav-link" href="http://www.easygroup.ca" role="button">
-                  Powered by Easy Group
-                </a>
-              </li>
-            </ul>
-          </div>
+          `+menu_items_html+`
         </nav>
       </div>
     </header>
@@ -200,7 +238,7 @@
             </ul>
           </div>
           <div class="col-md-2 text-center">
-            <img class="logo-m" src="assets/images/logos/logodark.svg" alt="Logo">
+            <img class="logo-m" src="`+assets_route+`images/logos/logodark.svg" alt="Logo">
           </div>
           <div class="col-md-5 text-center text-md-right">
             <ul class="socials">

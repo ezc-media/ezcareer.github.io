@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    history_data = [
+    let history_data = [
         {
             date: "2018",
             des: "Easy Career",
@@ -85,7 +85,7 @@ $(document).ready(function(){
         
     ];
 
-    hot_courses = [
+    let hot_courses = [
         {
             name: "CFA一级百时班Plus",
             src: "cfa.html"
@@ -145,75 +145,75 @@ $(document).ready(function(){
         },
     ]
 
-    // companies = [
-    //     {
-    //         country: ["中国", "China"],
-    //         items: [
-    //             ["立信会计", "BDO"],
-    //             ["申万宏源", "SHENWAN HONGYUAN"],
-    //             ["中信建投证券", "CHINA SECURITIES"],
-    //             ["华兴资本", "China Renaissance"],
-    //             ["华泰证券", "HUATAI SECURITIES"],
-    //             ["深圳证券交易所", "SHENZHEN STOCK EXCHANGE"],
-    //             ["东方花旗", "CITI ORIENT"],
-    //             ["火币网", "HUOBI"],
-    //             ["国泰君安", "GUOTAI JUNAN SECURITIES"],
-    //             ["招商证券", "CHINA MERCHANTS SECURITIES"],
-    //             ["西南证券", "SOUTHWEST SECURITIES"],
-    //             ["长城证券", "GREAT WALL SECURITIES"],
-    //             ["金杜", "KING&WOOD MALLESONS"],
-    //             ["广发证券", "GF SECURITIES"],
-    //             ["方正证券", "FOUNDER SECURITIES"],
-    //             ["安信证券", "ESSENCS SECURITIES"],
-
-
-    //         ]
-    //     },
-    //     {
-    //         country: ["北美", "North America"],
-    //         items: [
-    //             ["安永", "EY"], 
-    //             ["普华永道", "PwC"],
-    //             ["毕马威", "KPMG"],
-    //             ["德勤", "Deloitte"],
-    //             ["致同会计事务所", "Grant Thornton"],
-    //             ["高露洁", "Colgate"],
-    //             ["强生公司", "Johnson & Johnson"],
-    //             ["卡夫亨氏", "Kraft Heinz"],
-    //             ["雅诗兰黛", "Estée Lauder"],
-    //             ["尼尔森", "nielsen"],
-    //             ["摩根大通", "J.P Morgan"],
-
-    //             ["RBC皇家银行", "RBC Royal Bank"],
-    //             ["加拿大帝国商业银行", "Canadian Imperial Bank of Commerce"],
-    //             ["丰业银行", "Scotiabank"],
-    //             ["道明银行", "Toronto-Dominion Bank"],
-    //             ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
-
-
-
-    //         ]
-
-    //     },
-    //     {
-    //         country: ["欧罗巴", "Europe"],
-    //         items: [
-    //             ["联合利华", "Unilever"], 
-    //             ["古驰", "Gucci"], 
-    //             ["路易·威登集团", "LVMH"], 
-    //             ["香奈儿", "CHANEL"], 
-    //             ["联合利华", "Unilever"], 
-    //             ["联合利华", "Unilever"], 
-    //             ["联合利华", "Unilever"], 
-
-    //         ]
-
-    //     }
-    // ]
-
-    companies = [
+    let companies = [
         {
             country: ["北美", "USA"],
+            items: [
+                ["安永", "Ernst & Young"], 
+                ["普华永道", "PwC"],
+                ["毕马威", "KPMG"],
+                ["德勤", "Deloitte"],
+                ["摩根大通", "J.P Morgan"],
+                ["苹果", "Apple"],
+                ["亚马逊", "Amazon"],
+                ["万国商用机器公司", "IBM"],
+                ["微软", "Microsoft"],
+                ["谷歌", "Google"],
+                ["因特尔", "Intel"],
+                ["脸书", "Facebook"],
+                ["AT&T公司", "AT&T"],
+                ["第一资本", " Capital One"],
+                ["贝莱德", "BlackRock"],
+                ["高盛", "Goldman Sachs"],
+                ["花旗集团", "Citigroup"],
+                ["百威", "Budweiser"],
+                ["麦肯锡", "McKinsey & Company"],
+            ]
+
+        },
+        {
+            country: ["中国", "China"],
+            items: [
+                ["腾讯", "Tencent"], 
+                ["阿里巴巴", "Alibaba"], 
+                ["百度", "Baidu"], 
+                ["京东", "JD"], 
+                ["汇丰银行", "HSBC"], 
+                ["华为", "Huawei"], 
+                ["中国电信", "China Telecommunications"], 
+                ["中信证券", "CITIC Securities"], 
+                ["海通证券", "Haitong Securities"], 
+                ["平安中国", "Ping An Insurance"], 
+                ["香港花旗银行", "Citibank"], 
+                ["香港巴克莱银行", "Barclays"], 
+                ["普华永道中国", "PwC"], 
+                ["安永中国", "Ernst & Young"], 
+                ["毕马威中国", "KPMG"], 
+
+            ]
+        },
+        {
+            country: ["加拿大", "Canada"],
+            items: [
+                ["RBC皇家银行", "RBC Royal Bank"],
+                ["加拿大帝国商业银行", "Canadian Imperial Bank of Commerce"],
+                ["丰业银行", "Scotiabank"],
+                ["道明银行", "Toronto-Dominion Bank"],
+                ["加拿大退休金计划投资局", "CPP INVESTMENT BOARD"],
+                ["永明金融", "Sun Life Financial"],
+                ["宏利金融", "Manulife"],
+                ["贝尔", "Bell"],
+                ["研科", "Telus"],
+                ["罗杰斯通讯", "Rogers"],
+
+            ]
+        },
+
+    ]
+
+    let companies_en = [
+        {
+            country: ["USA", "USA"],
             items: [
                 ["安永", "Ernst & Young"], 
                 ["普华永道", "PwC"],
@@ -381,14 +381,26 @@ $(document).ready(function(){
         return tempHTML;
     }
     
+    if (window.location.href.includes("/en/")) {
+        if (companies_en) {
+            $companies = $(createCompanies(companies_en));
+        }
+        
+    } else {
+        if (companies) {
+            $companies = $(createCompanies(companies));
+        }
+        
+    }
 
     $history = $(createHistory(history_data));
     $hot_courses = $(createHotCourses(hot_courses));
+
    
 
     $("#navbar").html(createNavbar("dark"));
     $("#history").html($history);
     $('#hot_courses').html($hot_courses);
-    $('#companies').html(createCompanies(companies))
+    $('#companies').html($companies)
     $('#footer').html(createFooter());
 });

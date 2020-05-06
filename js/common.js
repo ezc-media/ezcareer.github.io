@@ -1,3 +1,208 @@
+
+let link_lang = ""
+let assets_route = "assets/"
+
+if (window.location.href.includes("/en/")) {
+    link_lang = "en/"
+    assets_route = "../assets/"
+}
+
+const certi_course = () => {
+    
+    if (window.location.href.includes("/en/")) {
+        
+        return [
+            {
+                main_title: "CFA I Hundred Hours Plus Course",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `cfa.html`
+            },
+            {
+                main_title: "CFA II Hundred Hour Course",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `cfa2.html`
+            },
+            {
+                main_title: "FRM Pass Guaranteed Course",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `frm.html`
+            },
+            {
+                main_title: "CSC Certification Class",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `csc.html`
+            },
+            {
+                main_title: "SAS Double Certificate Class",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `sas.html`
+            },
+            {
+                main_title: "SOA Certificates Class",
+                sub_title: "Pass Guaranteed | ON/OFFline | North America",
+                link: link_lang + `soa.html`
+            },
+        ]
+    } else {
+        return [
+            {
+                main_title: "CFAI级 百时班Plus",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `cfa.html`
+            },
+            {
+                main_title: "CFAII级 百时班",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `cfa2.html`
+            },
+            {
+                main_title: "FRM保过班",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `frm.html`
+            },
+            {
+                main_title: "CSC证书班",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `csc.html`
+            },
+            {
+                main_title: "SAS双证班",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `sas.html`
+            },
+            {
+                main_title: "SOA证书班",
+                sub_title: "签约保过 | 线上线下 | 北美同开",
+                link: link_lang + `soa.html`
+            },
+        ]
+    }
+}
+
+const skill_course = () => {
+    
+    if (window.location.href.includes("/en/")) {
+        
+        return [
+            {
+                main_title: "Python ML Full Course",
+                sub_title: "Live Course | North America | U of Alberta",
+                link: link_lang + `pythonml.html`
+            },
+            {
+                main_title: "Tableau Full Course",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `tableau.html`
+            },
+            {
+                main_title: "Python Full Course",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `python.html`
+            },
+            {
+                main_title: "SQL Full Course",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `sql.html`
+            },
+            {
+                main_title: "Excel VBA Full Course",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `excelvba.html`
+            },
+            {
+                main_title: "Networking",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `networking.html`
+            },
+            {
+                main_title: "BA Pratical Course",
+                sub_title: "ON/OFFline | North America",
+                link: link_lang + `ba.html`
+            },
+        ]
+    } else {
+        return [
+            {
+                main_title: "Python ML全程班",
+                sub_title: "线上直播 | 北美同开 | UA校区",
+                link: link_lang + `pythonml.html`
+            },
+            {
+                main_title: "Tableau全程班",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `tableau.html`
+            },
+            {
+                main_title: "Python全程班",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `python.html`
+            },
+            {
+                main_title: "SQL全程班",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `sql.html`
+            },
+            {
+                main_title: "Excel VBA全程班",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `excelvba.html`
+            },
+            {
+                main_title: "Networking",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `networking.html`
+            },
+            {
+                main_title: "BA实战课",
+                sub_title: "线上线下 | 北美同开",
+                link: link_lang + `ba.html`
+            },
+        ]
+    }
+}
+
+const registration_course = () => {
+    if (window.location.href.includes("/en/")) {
+        return [
+            {
+                main_title: "Student Portal",
+                sub_title: "Registered Student Only",
+                link: `http://moodle.ez4edu.com`
+            },
+            {
+                main_title: "Grand Toronto Area",
+                sub_title: "Waterloo | ON/OFFline Courses",
+                link: `https://ezcareer.shop`
+            },
+            {
+                main_title: "Alberta Area",
+                sub_title: "ON/OFFline Courses",
+                link: link_lang + `https://ezc-alberta.shop`
+            },
+            
+        ]
+    } else {
+        return [
+            {
+                main_title: "学员系统",
+                sub_title: "已经报名课程的同学",
+                link: `http://moodle.ez4edu.com`
+            },
+            {
+                main_title: "大多伦多地区",
+                sub_title: "包括滑铁卢 | 线上及线下课程",
+                link: `https://ezcareer.shop`
+            },
+            {
+                main_title: "阿尔伯塔地区",
+                sub_title: "线上及线下课程",
+                link: link_lang + `https://ezc-alberta.shop`
+            },
+            
+        ]
+    }
+}
+
 const teachers = {
     "周华鑫 Shelby": 
     {
