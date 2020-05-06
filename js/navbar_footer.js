@@ -99,10 +99,22 @@
       let button_href = ""
       if (window.location.href.includes("/en/")) {
         button_text = "中文"
-        button_href = window.location.origin + window.location.pathname.slice(3,)
+        if (window.location.href.includes("ezcareer.github.io")) {
+          button_href = window.location.origin + window.location.pathname.replace("/en", "")
+        } else {
+          button_href = window.location.origin + window.location.pathname.slice(3,)
+        }
+        
       } else {
         button_text = "English"
-        button_href = window.location.origin + "/en" +window.location.pathname
+        if (window.location.href.includes("ezcareer.github.io")) {
+          lastSlash = window.location.pathname.lastIndexOf("/")
+          button_href = window.location.origin + window.location.pathname.slice(0,lastSlash) + "/en/" + window.location.pathname.slice(lastSlash+1)
+        } else {
+          button_href = window.location.origin + "/en" + window.location.pathname
+        }
+        
+        
       }
 
       return `
