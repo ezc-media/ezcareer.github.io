@@ -228,21 +228,34 @@
 
   }
 
+  const footer_data = () => {
+    if (window.location.href.includes("/en/")) {
+      return {
+        contactUs: "Contact",
+        joinUs: "Jobs"
+      }
+    } else {
+      return {
+        contactUs: "联系我们",
+        joinUs: "加入我们"
+      }
+    }
+
+  }
     
   function createFooter() {
+    footer_dt = footer_data()
     return `
-
-      
     <div class="separator-top">
       <div class="container py-5">
         <div class="row justify-content-between align-items-center">
           <div class="col-md-5 text-center text-md-left">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link" href="contacts.html">联系我们</a>
+                <a class="nav-link" href="contacts.html">`+footer_dt.contactUs+`</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="career.html">加入我们</a>
+                <a class="nav-link" href="career.html">`+footer_dt.joinUs+`</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Legal Information</a>
@@ -251,6 +264,9 @@
           </div>
           <div class="col-md-2 text-center">
             <img class="logo-m" src="`+assets_route+`images/logos/logodark.svg" alt="Logo">
+            <a class="nav-link" href="http://www.easygroup.ca" style="font-size:0.5em !important">
+            Powered by Easy Group
+            </a>
           </div>
           <div class="col-md-5 text-center text-md-right">
             <ul class="socials">
@@ -258,8 +274,7 @@
               <li><a href="https://www.linkedin.com/company/easy-career/" target="_blank" class="icon-linkedin fs-20"></a></li>
               <li><a href="https://www.instagram.com/ezcareer/" class="icon-instagram fs-20" target="_blank"></a></li>
               <li><a href="contacts.html" class="icon-wechat fs-20"></a></li>
-              
-            </ul>
+
           </div>
         </div>
       </div>
