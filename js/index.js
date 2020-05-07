@@ -313,7 +313,7 @@ $(document).ready(function(){
                 teacher_200: `<div style="font-size: 0.8em">200+ Elite Mentors</div>`,
                 protect_student: `<div style="font-size: 0.8em">Career Supports for Intl. Students</div>`,
                 student_jb: "Job Board for International Student",
-                go_jb: "Job Board",
+                go_jb: "Easy Education",
                 vip_program: "VIP Program",
                 learn_more: "Learn more",
                 gpa_40: "Easy 4.0",
