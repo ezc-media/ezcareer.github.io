@@ -305,6 +305,12 @@ $(document).ready(function(){
     const cover_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
+                ignite_bigtitle: "Ignite",
+                ignite_smalltitle: "Career Workshop Series",
+                ignite_gotobutton: "Learn More",
+                ignite_box1: "15 Online Events",
+                ignite_box2: "Free for All",
+                ignite_box3: "Work with top figures in various industries, connecting school and career",
                 one_stop: "One-Stop International Student Career Consultant",
                 contact_us: "Contact Us",
                 watch_video: "Introduction Video",
@@ -323,6 +329,12 @@ $(document).ready(function(){
             }
         } else {
             return {
+                ignite_bigtitle: "Ignite",
+                ignite_smalltitle: "线上职场活动",
+                ignite_gotobutton: "了解更多",
+                ignite_box1: "15场线上活动",
+                ignite_box2: "全程免费",
+                ignite_box3: "携手各行业顶尖人物，一键链接校内校外",
                 one_stop: "一站式留学生职业服务",
                 contact_us: "联系我们",
                 watch_video: "观看品牌视频",
@@ -548,9 +560,62 @@ $(document).ready(function(){
         <div class="gallery">
           <div class="gallery-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide vh-100">
-                <div class="image image-overlay" style="background-image:url(`+assets_route+`images/landing/landing-1.jpg)">
+
+            <div class="swiper-slide vh-100">
+                <div class="image image-overlay" style="background-image:url(`+assets_route+`images/landing/landing-ignite.png)"></div>
+                <div class="caption text-white" data-swiper-parallax="-100%">
+                  <div class="container">
+                  <div class="row justify-content-between vh-100">
+                    <div class="col-lg-8 align-self-center text-white text-shadow" data-swiper-parallax="-100%">
+                      <span class="eyebrow text-white mb-1">`+cover_dt.ignite_smalltitle+`</span>
+                      <h1 class="display-2">`+cover_dt.ignite_bigtitle+`</h1>
+  
+                      <a href="http://www.ezcignite.com/" class="btn btn-white btn-rounded px-5">`+cover_dt.ignite_gotobutton+`</a>
+                    </div>
+                    <div class="col-lg-4 align-self-end">
+                      <div class="row gutter-1">
+  
+                          <div class="col-6 text-white">
+                          <div class="equal">
+                            <div class="bordered">
+                               <div class="equal-header">
+                                <h4>
+                                    `+cover_dt.ignite_box1+`</h4>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+  
+                        <div class="col-6 text-white">
+                          <div class="equal">
+                            <div class="bordered">
+                              <div class="equal-header">
+                                <h4>`+cover_dt.ignite_box2+`</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6 text-white">
+                          <div class="equal">
+                            <div class="bordered">
+                              <div class="equal-header">
+                                <h6>`+cover_dt.ignite_box3+`</h6>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
                   </div>
+                </div>
+                </div>
+              </div>
+
+            
+              <div class="swiper-slide vh-100">
+                <div class="image image-overlay" style="background-image:url(`+assets_route+`images/landing/landing-1.jpg)"></div>
                 <div class="caption text-white" data-swiper-parallax="-100%">
                   <div class="container">
                   <div class="row justify-content-between vh-100">
@@ -568,10 +633,8 @@ $(document).ready(function(){
                             <div class="bordered">
                                <div class="equal-footer">
                                 <div class="component-example">
-             
-                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=DZB46VAIfzc">`+cover_dt.watch_video+`<i class="icon-play2"></i></a>
-         
-            </div>
+                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=DZB46VAIfzc">`+cover_dt.watch_video+`<i class="icon-play2"></i></a>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -607,8 +670,6 @@ $(document).ready(function(){
                   </div>
                 </div>
                 </div>
-  
-  
               </div>
               
               <div class="swiper-slide">
@@ -626,7 +687,7 @@ $(document).ready(function(){
                   </div>
                 </div>
               </div>
-      <div class="swiper-slide">
+            <div class="swiper-slide">
                 <div class="image image-overlay" style="background-image:url(`+assets_route+`images/landing/landing-2.jpg)">
                 </div>
                 <div class="caption text-white" data-swiper-parallax="-100%">
@@ -663,6 +724,9 @@ $(document).ready(function(){
           </div>
           <div class="gallery-thumbs">
             <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h5>`+cover_dt.ignite_bigtitle+`</h5>
+            </div>
               <div class="swiper-slide">
                 <h5>`+cover_dt.career_consultant+`</h5>
               </div>
