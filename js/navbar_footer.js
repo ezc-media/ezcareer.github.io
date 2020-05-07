@@ -264,7 +264,7 @@
           </div>
           <div class="col-md-2 text-center">
             <img class="logo-m" src="`+assets_route+`images/logos/logodark.svg" alt="Logo">
-            <a class="nav-link" href="http://www.easygroup.ca" style="font-size:0.5em !important">
+            <a class="nav-link" href="index.html" style="font-size:0.5em !important">
             Powered by Easy Group
             </a>
           </div>

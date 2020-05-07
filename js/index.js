@@ -305,21 +305,21 @@ $(document).ready(function(){
     const cover_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
-                one_stop: "One Stop International Student Career Consultant",
-                contact_us: "联系我们",
-                watch_video: "观看品牌视频",
-                begin_2017: "始于2017",
-                NA_findjob: "北美求职风向标",
-                teacher_200: "200+ 精英导师",
-                protect_student: "为留学生的就业保驾护航",
-                student_jb: "适合留学生的Job Board",
-                go_jb: "进入官网",
-                vip_program: "私人订制求职特训计划",
-                learn_more: "了解更多",
-                gpa_40: "让你的GPA轻松4.0",
-                career_consultant: "职业咨询",
-                jb: "岗位直通车",
-                class_course: "课程辅导"
+                one_stop: "One-Stop International Student Career Consultant",
+                contact_us: "Contact Us",
+                watch_video: "Introduction Video",
+                begin_2017: `<div style="font-size: 0.8em">Established in 2017</div>`,
+                NA_findjob: `<div style="font-size: 0.8em">Bellwether of Career Consulting</div>`,
+                teacher_200: `<div style="font-size: 0.8em">200+ Elite Mentors</div>`,
+                protect_student: `<div style="font-size: 0.8em">Career Supports for Intl. Students</div>`,
+                student_jb: "Job Board for International Student",
+                go_jb: "Job Board",
+                vip_program: "VIP Program",
+                learn_more: "Learn more",
+                gpa_40: "Easy 4.0",
+                career_consultant: "Career Consulting",
+                jb: "Easy Education",
+                class_course: "Tutoring Service"
             }
         } else {
             return {
@@ -346,13 +346,13 @@ $(document).ready(function(){
     const about_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
-                intro: "EASY CAREER is a job education agency. The company is headquartered in the center of Toronto. It is one of the subsidiaries of Canada ’s first education brand Easy Group. It is committed to helping global university and college students and working elites with their employment. Through independent and self-developed job skills training products and one on one systematic consulting services, the ability and background of students are comprehensively improved. In the finance, consulting, technology, fast-moving consuming, data, marketing and many other popular industries, it helps global college students to settle in the world's leading companies.",
+                intro: "Easy Career is a job consultant agency. The company is headquartered in the center of Toronto. It is one of the subsidiaries of Canada ’s first education brand Easy Group. It is committed to helping university and college students and working elites with their employment around the world. Through independent and self-developed job skills training products and one on one VIP consulting services, the abilities and experiences of students are comprehensively improved. In the finance, consulting, technology, fast-moving consuming, data processing, marketing and many other popular industries, it helps students to get offer from world's leading companies.",
                 card1title: "职业必备技能",
-                card1content: "结合行业实战项目，在课程中熟练掌握不同行业工作中所需要的各种技能。灵活的线上加线下课程模式让用户充分利用自己的时间去学习。",
+                card1content: "Mastering essential work skills through pratical projects in various industries. Our ON/OFFLine courses provide a flexible schedule for studnets to utilize their time on study.",
                 card2title: "求职核心能力",
-                card2content: "1对1求职特训计划，以下简称VIP Program，旨在为学生提供定制化的，系统性地一站式求职教育咨询服务,针对性地准备即将开始的职场生涯。",
+                card2content: "The 1-on-1 job search training program, hereinafter called VIP Program, aims to provide a customized, systematic and one-stop job search education consulting services for students, to prepare for the upcoming career in a targeted manner.",
                 card3title: "保Offer全职/实习项目",
-                card3content: "帮助申北美知名大公司，创投公司，世界五百强等。根据学生能力特点及个人需求，帮助其完成各类型职位申请。",
+                card3content: "Providing assitances for applying leading companies, including venture capital and Global 500 and so on. Helping our customers to complete job applications according to their characteristics of ability and personal needs.",
             }
 
         } else {
@@ -361,7 +361,7 @@ $(document).ready(function(){
                 card1title: "职业必备技能",
                 card1content: "结合行业实战项目，在课程中熟练掌握不同行业工作中所需要的各种技能。灵活的线上加线下课程模式让用户充分利用自己的时间去学习。",
                 card2title: "求职核心能力",
-                card2content: "1对1求职特训计划，以下简称VIP Program，旨在为学生提供定制化的，系统性地一站式求职教育咨询服务,针对性地准备即将开始的职场生涯。",
+                card2content: "1对1求职特训计划，以下简称VIP Program，旨在为学生提供定制化的，系统性的一站式求职教育咨询服务，针对性地准备即将开始的职场生涯。",
                 card3title: "保Offer全职/实习项目",
                 card3content: "帮助申北美知名大公司，创投公司，世界五百强等。根据学生能力特点及个人需求，帮助其完成各类型职位申请。",
             }
@@ -372,7 +372,7 @@ $(document).ready(function(){
         if (window.location.href.includes("/en/")) {
             return {
                 toset: `<h2 class="h1">VIP Program <br><b style="color: #33aacc">定制</b>属于你的<br>求职计划</h2>`,
-                ask_now: "Ask Now",
+                ask_now: "Contact Us",
             }
 
         } else {
@@ -398,7 +398,7 @@ $(document).ready(function(){
     const homeCarousel_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
-                carousel_content: "Easy Career belongs to Easy Group集团。集团旗下拥有Easy 4.0 (易途教育)，孜循Edu, Easy Career (易职)，HiOffer，WeCare微致等附属服务培训体系。集团总部位于中国深圳，在加拿大、美国等地区设有海外分部。以教育作为出发点， “责任心至上” 作为核心理念，集团业务涵盖留学规划，海外生活辅助，高等教育辅导，求职咨询，研究生申请，创业孵化等领域。切实打造留学产业闭环，为想要留学，已经留学，完成留学的学子以及他们的家长创造真正有价值的服务。"
+                carousel_content: "Easy Career is one of the subsidiaries of Canada ’s first education brand Easy Group. Easy group owns subsidiary service training groups such as Easy 4.0(易途教育), ZiXun Edu, Easy Career, HiOffer and WeCare. The group is headquartered in Shenzhen, China, with overseas branches in Canada, the United States and other regions. Taking education as the starting point and 'responsibility first' as the core concept, the group's business covers fields such as study abroad planning, overseas life assistance, higher education counseling, job search consulting, graduate application, and business incubation. Creating a circle of the study abroad industry, and provide truly valuable services to students who want to study abroad, have already studied abroad, completed their study abroad, and their parents."
             }
 
         } else {
@@ -411,12 +411,12 @@ $(document).ready(function(){
     const offerDiv_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
-                offer_intro: `<h2>这里是<br>你距离<span style="color:#33aacc">高薪Offer</span><br>最近的地方</h2>
-                <p >EASY CAREER创立于2017年初，致力于整合全球各行业的职场精英，为大学生提供体系化，定制化的职业教育，通过1对1、多对1和班课实时在线视频/直播学习平台，将全球大学生和职场精英进行对接。
-                我们从市场的角度和客户的需求出发，为学员建立完善的职业规划方案及体系化的课程规划，以提升学员职场核心竞争力为中心，开展针对性的辅导与培训，帮助学员顺利进入目标行业与公司岗位。</p>`,
-                elite_teacher: `签约精英导师淘汰率`,
-                four_month: `四个月内获得Offer成功率`,
-                satisfy: `User Satisfaction`
+                offer_intro: `<h2>The Road to <br><span style="color:#33aacc">High Paying Jobs</span></br></h2>
+                <p >Founded in early 2017, EASY CAREER is committed to integrating elites in various industries around the world to provide systematic and customized career consultance for college students. Through the 1-to-1, many-to-1, and live video/ online courses, connecting global students with the workplace elites through our services. From the perspective of the market and the needs of customers, we establish a complete career planning program and systematic curriculum planning for students, focus on enhancing the core competitiveness of students in the workplace, and provide targeted counseling and training to help students successfully entering the target industry.
+                </p>`,
+                elite_teacher: `Elimination rate of out elite mentors`,
+                four_month: `Probability of obtain an offer in four months`,
+                satisfy: `Customer Satisfaction`
             }
 
         } else {
@@ -442,7 +442,7 @@ $(document).ready(function(){
         temp_html += `
         <div class="container">
         <div class="row justify-content-between text-center">
-          <div class="col-12 col-lg-12">
+          <div class="col-12 col-lg-12"
             <div class="row gutter-0">
         `
         for (block of all_data) {
@@ -988,7 +988,7 @@ $(document).ready(function(){
 
 
     function createNews() {
-        news_dt = news_data()
+        news_dt = news_data();
 
         return `
         <div class="container">
