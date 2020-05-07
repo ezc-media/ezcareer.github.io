@@ -318,7 +318,7 @@ $(document).ready(function(){
                 learn_more: "Learn more",
                 gpa_40: "Easy 4.0",
                 career_consultant: "Career Consulting",
-                jb: "Easy Education",
+                jb: "Job Board",
                 class_course: "Tutoring Service"
             }
         } else {
