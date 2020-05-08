@@ -310,7 +310,7 @@ $(document).ready(function(){
                 ignite_gotobutton: "Learn More",
                 ignite_box1: "15 Online Events",
                 ignite_box2: "Free for All",
-                ignite_box3: "Work with top figures in various industries, connecting school and career",
+                ignite_box3: "Work with top figures in various industries, connecting school and industry",
                 one_stop: "One-Stop International Student Career Consultant",
                 contact_us: "Contact Us",
                 watch_video: "Introduction Video",
