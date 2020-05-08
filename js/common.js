@@ -170,8 +170,8 @@ const registration_course = () => {
                 link: `http://moodle.ez4edu.com`
             },
             {
-                main_title: "Grand Toronto Area",
-                sub_title: "Waterloo | ON/OFFline Courses",
+                main_title: "North America",
+                sub_title: "US/Canada | ON/OFFline Courses",
                 link: `https://ezcareer.shop`
             },
             {
@@ -189,8 +189,8 @@ const registration_course = () => {
                 link: `http://moodle.ez4edu.com`
             },
             {
-                main_title: "大多伦多地区",
-                sub_title: "包括滑铁卢 | 线上及线下课程",
+                main_title: "北美地区",
+                sub_title: "美国/加拿大 | 线上线下课程",
                 link: `https://ezcareer.shop`
             },
             {
