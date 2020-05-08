@@ -305,8 +305,8 @@ $(document).ready(function(){
     const cover_data = () => {
         if (window.location.href.includes("/en/")) {
             return {
-                ignite_bigtitle: "Ignite",
-                ignite_smalltitle: "Career Workshop Series",
+                ignite_bigtitle: `Ignite Career Event`,
+                ignite_smalltitle: "Ignite Your Future",
                 ignite_gotobutton: "Learn More",
                 ignite_box1: "15 Online Events",
                 ignite_box2: "Free for All",
@@ -329,8 +329,8 @@ $(document).ready(function(){
             }
         } else {
             return {
-                ignite_bigtitle: "Ignite",
-                ignite_smalltitle: "线上职场活动",
+                ignite_bigtitle: "Ignite职场活动",
+                ignite_smalltitle: "Ignite Your Future",
                 ignite_gotobutton: "了解更多",
                 ignite_box1: "15场线上活动",
                 ignite_box2: "全程免费",
