@@ -319,7 +319,8 @@ $(document).ready(function(){
                 teacher_200: `<div style="font-size: 0.8em">200+ Elite Mentors</div>`,
                 protect_student: `<div style="font-size: 0.8em">Career Supports for Intl. Students</div>`,
                 student_jb: "Job Board for International Student",
-                go_jb: "Easy Education",
+                go_jb: "Find a Job",
+                go_easy: "Learn More",
                 vip_program: "VIP Program",
                 learn_more: "Learn more",
                 gpa_40: "Easy 4.0",
@@ -344,6 +345,7 @@ $(document).ready(function(){
                 protect_student: "为留学生的就业保驾护航",
                 student_jb: "适合留学生的Job Board",
                 go_jb: "进入官网",
+                go_easy: "了解更多",
                 vip_program: "私人订制求职特训计划",
                 learn_more: "了解更多",
                 gpa_40: "让你的GPA轻松4.0",
@@ -711,7 +713,7 @@ $(document).ready(function(){
                       <div class="col-md-10 col-lg-8 text-center">
                         <span class="eyebrow mb-2">Tutoring Services</span>
                         <h1 class="display-2">`+cover_dt.gpa_40+`</h1>
-                        <a href="https://ez4edu.com/" class="btn btn-white btn-rounded px-5" target="_blank">`+cover_dt.go_jb+`</a>
+                        <a href="https://ez4edu.com/" class="btn btn-white btn-rounded px-5" target="_blank">`+cover_dt.go_easy+`</a>
                       </div>
                     </div>
                   </div>
