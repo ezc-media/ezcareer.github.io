@@ -53,22 +53,22 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/SAS/comp-1.png"
+            src: assets_route + "images/courses/SAS/comp-1.png"
         },
         {
-            src: "assets/images/courses/SAS/comp-2.png"
+            src: assets_route + "images/courses/SAS/comp-2.png"
         },
         {
-            src: "assets/images/courses/SAS/comp-3.png"
+            src: assets_route + "images/courses/SAS/comp-3.png"
         },
         {
-            src: "assets/images/courses/SAS/comp-4.png"
+            src: assets_route + "images/courses/SAS/comp-4.png"
         },
         {
-            src: "assets/images/courses/SAS/comp-5.png"
+            src: assets_route + "images/courses/SAS/comp-5.png"
         },
         {
-            src: "assets/images/courses/SAS/comp-6.png"
+            src: assets_route + "images/courses/SAS/comp-6.png"
         },
 
     ]
@@ -174,7 +174,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4", cover:"assets/images/courses/SAS/cover.PNG"}
+    const video_info = {src:"https://www.youtube.com/watch?v=ia5nDh4Exn4", cover:assets_route + "images/courses/SAS/cover.PNG"}
 
     const teacher_name = [
         "Leo老师",
@@ -185,7 +185,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -193,19 +193,19 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/SAS/review-1.jpg"
+                    src: assets_route + "images/courses/SAS/review-1.jpg"
                 },
                 {
-                    src: "assets/images/courses/SAS/review-2.jpeg"
+                    src: assets_route + "images/courses/SAS/review-2.jpeg"
                 },
                 {
-                    src: "assets/images/courses/SAS/review-3.jpeg"
+                    src: assets_route + "images/courses/SAS/review-3.jpeg"
                 },
                 {
-                    src: "assets/images/courses/SAS/review-4.jpeg"
+                    src: assets_route + "images/courses/SAS/review-4.jpeg"
                 },
                 {
-                    src: "assets/images/courses/SAS/review-5.jpeg"
+                    src: assets_route + "images/courses/SAS/review-5.jpeg"
                 },
             ]
         },
@@ -246,7 +246,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

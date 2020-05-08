@@ -54,19 +54,19 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/EXCELVBA/comp-1.png"
+            src: assets_route + "images/courses/EXCELVBA/comp-1.png"
         },
         {
-            src: "assets/images/courses/EXCELVBA/comp-2.png"
+            src: assets_route + "images/courses/EXCELVBA/comp-2.png"
         },
         {
-            src: "assets/images/courses/EXCELVBA/comp-3.png"
+            src: assets_route + "images/courses/EXCELVBA/comp-3.png"
         },
         {
-            src: "assets/images/courses/EXCELVBA/comp-4.png"
+            src: assets_route + "images/courses/EXCELVBA/comp-4.png"
         },
         {
-            src: "assets/images/courses/EXCELVBA/comp-5.png"
+            src: assets_route + "images/courses/EXCELVBA/comp-5.png"
         },
 
     ]
@@ -122,7 +122,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A", cover:"assets/images/courses/EXCELVBA/cover.PNG"}
+    const video_info = {src:"https://www.youtube.com/watch?v=7QEarwh8O0A", cover:assets_route + "images/courses/EXCELVBA/cover.PNG"}
 
     const teacher_name = [
         "Josh老师"
@@ -132,7 +132,7 @@ $(document).ready(function(){
 
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -140,22 +140,22 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/EXCELVBA/review-1.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-1.jpeg"
                 },
                 {
-                    src: "assets/images/courses/EXCELVBA/review-2.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-2.jpeg"
                 },
                 {
-                    src: "assets/images/courses/EXCELVBA/review-3.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-3.jpeg"
                 },
                 {
-                    src: "assets/images/courses/EXCELVBA/review-4.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-4.jpeg"
                 },
                 {
-                    src: "assets/images/courses/EXCELVBA/review-5.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-5.jpeg"
                 },
                 {
-                    src: "assets/images/courses/EXCELVBA/review-6.jpeg"
+                    src: assets_route + "images/courses/EXCELVBA/review-6.jpeg"
                 },
 
             ]
@@ -196,7 +196,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

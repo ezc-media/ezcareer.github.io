@@ -49,22 +49,22 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/SOA/comp-1.png"
+            src: assets_route + "images/courses/SOA/comp-1.png"
         },
         {
-            src: "assets/images/courses/SOA/comp-2.png"
-        },
-
-        {
-            src: "assets/images/courses/SOA/comp-3.png"
+            src: assets_route + "images/courses/SOA/comp-2.png"
         },
 
         {
-            src: "assets/images/courses/SOA/comp-4.png"
+            src: assets_route + "images/courses/SOA/comp-3.png"
         },
 
         {
-            src: "assets/images/courses/SOA/comp-5.png"
+            src: assets_route + "images/courses/SOA/comp-4.png"
+        },
+
+        {
+            src: assets_route + "images/courses/SOA/comp-5.png"
         },
 
 
@@ -83,7 +83,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
 
@@ -124,7 +124,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

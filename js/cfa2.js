@@ -50,22 +50,22 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/demo/logo/logo-1.png"
+            src: assets_route + "images/demo/logo/logo-1.png"
         },
         {
-            src: "assets/images/demo/logo/logo-2.png"
+            src: assets_route + "images/demo/logo/logo-2.png"
         },
         {
-            src: "assets/images/demo/logo/logo-3.png"
+            src: assets_route + "images/demo/logo/logo-3.png"
         },
         {
-            src: "assets/images/demo/logo/logo-4.png"
+            src: assets_route + "images/demo/logo/logo-4.png"
         },
         {
-            src: "assets/images/demo/logo/logo-5.png"
+            src: assets_route + "images/demo/logo/logo-5.png"
         },
         {
-            src: "assets/images/demo/logo/logo-6.png"
+            src: assets_route + "images/demo/logo/logo-6.png"
         },
 
     ]
@@ -232,7 +232,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=AjERHb5rVpU", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=AjERHb5rVpU", cover:assets_route + "images/tutor/shelby.jpg"}
 
     const teacher_name = [
         "周华鑫 Shelby",
@@ -268,7 +268,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -276,22 +276,22 @@ $(document).ready(function(){
             big_title: "成功案例",
             content: [
                 {
-                    src: "assets/images/records/CFA1.png"
+                    src: assets_route + "images/records/CFA1.png"
                 },
                 {
-                    src: "assets/images/records/CFA2.png"
+                    src: assets_route + "images/records/CFA2.png"
                 },
                 {
-                    src: "assets/images/records/CFA3.png"
+                    src: assets_route + "images/records/CFA3.png"
                 },
                 {
-                    src: "assets/images/records/CFA4.png"
+                    src: assets_route + "images/records/CFA4.png"
                 },
                 {
-                    src: "assets/images/records/CFA5.png"
+                    src: assets_route + "images/records/CFA5.png"
                 },
                 {
-                    src: "assets/images/records/CFA6.png"
+                    src: assets_route + "images/records/CFA6.png"
                 },
             ]
         },
@@ -332,7 +332,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

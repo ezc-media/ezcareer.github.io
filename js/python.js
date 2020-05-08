@@ -46,22 +46,22 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/PYTHON/comp-1.png"
+            src: assets_route + "images/courses/PYTHON/comp-1.png"
         },
         {
-            src: "assets/images/courses/PYTHON/comp-2.png"
-        },
-
-        {
-            src: "assets/images/courses/PYTHON/comp-3.png"
+            src: assets_route + "images/courses/PYTHON/comp-2.png"
         },
 
         {
-            src: "assets/images/courses/PYTHON/comp-4.png"
+            src: assets_route + "images/courses/PYTHON/comp-3.png"
         },
 
         {
-            src: "assets/images/courses/PYTHON/comp-5.png"
+            src: assets_route + "images/courses/PYTHON/comp-4.png"
+        },
+
+        {
+            src: assets_route + "images/courses/PYTHON/comp-5.png"
         },
 
 
@@ -122,7 +122,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U", cover:"assets/images/courses/PYTHON/cover.PNG"}
+    const video_info = {src:"https://www.youtube.com/watch?v=YjhwF97_80U", cover:assets_route + "images/courses/PYTHON/cover.PNG"}
 
     const teacher_name = [
         "Leo老师"
@@ -141,13 +141,13 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/PYTHON/review-1.jpg"
+                    src: assets_route + "images/courses/PYTHON/review-1.jpg"
                 },
                 {
-                    src: "assets/images/courses/PYTHON/review-2.jpg"
+                    src: assets_route + "images/courses/PYTHON/review-2.jpg"
                 },
                 {
-                    src: "assets/images/courses/PYTHON/review-3.jpg"
+                    src: assets_route + "images/courses/PYTHON/review-3.jpg"
                 },
 
             ]
@@ -189,7 +189,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

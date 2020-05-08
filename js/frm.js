@@ -53,26 +53,26 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/FRM/comp-1.png"
+            src: assets_route + "images/courses/FRM/comp-1.png"
         },
         {
-            src: "assets/images/courses/FRM/comp-2.png"
-        },
-
-        {
-            src: "assets/images/courses/FRM/comp-3.png"
+            src: assets_route + "images/courses/FRM/comp-2.png"
         },
 
         {
-            src: "assets/images/courses/FRM/comp-4.png"
+            src: assets_route + "images/courses/FRM/comp-3.png"
         },
 
         {
-            src: "assets/images/courses/FRM/comp-5.png"
+            src: assets_route + "images/courses/FRM/comp-4.png"
         },
 
         {
-            src: "assets/images/courses/FRM/comp-6.png"
+            src: assets_route + "images/courses/FRM/comp-5.png"
+        },
+
+        {
+            src: assets_route + "images/courses/FRM/comp-6.png"
         },
 
 
@@ -122,7 +122,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:"assets/images/courses/FRM/cover.PNG"}
+    const video_info = {src:"https://www.youtube.com/watch?v=lGHruKSW7hA", cover:assets_route + "images/courses/FRM/cover.PNG"}
 
     const teacher_name = [
         "周华鑫 Shelby",
@@ -134,7 +134,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -142,22 +142,22 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/FRM/1.png"
+                    src: assets_route + "images/courses/FRM/1.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/2.png"
+                    src: assets_route + "images/courses/FRM/2.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/3.png"
+                    src: assets_route + "images/courses/FRM/3.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/4.png"
+                    src: assets_route + "images/courses/FRM/4.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/5.png"
+                    src: assets_route + "images/courses/FRM/5.png"
                 },
                 {
-                    src: "assets/images/courses/FRM/6.png"
+                    src: assets_route + "images/courses/FRM/6.png"
                 },
             ]
         },
@@ -198,7 +198,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

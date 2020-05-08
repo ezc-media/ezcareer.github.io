@@ -45,25 +45,25 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/PYTHONML/comp-1.png"
+            src: assets_route + "images/courses/PYTHONML/comp-1.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-2.png"
+            src: assets_route + "images/courses/PYTHONML/comp-2.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-3.png"
+            src: assets_route + "images/courses/PYTHONML/comp-3.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-4.png"
+            src: assets_route + "images/courses/PYTHONML/comp-4.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-5.png"
+            src: assets_route + "images/courses/PYTHONML/comp-5.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-6.png"
+            src: assets_route + "images/courses/PYTHONML/comp-6.png"
         },
         {
-            src: "assets/images/courses/PYTHONML/comp-7.png"
+            src: assets_route + "images/courses/PYTHONML/comp-7.png"
         },
 
 
@@ -162,7 +162,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -170,25 +170,25 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/PYTHONML/review-1.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-1.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-2.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-2.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-3.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-3.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-4.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-4.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-5.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-5.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-6.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-6.jpeg"
                 },
                 {
-                    src: "assets/images/courses/PYTHONML/review-7.jpeg"
+                    src: assets_route + "images/courses/PYTHONML/review-7.jpeg"
                 },
             ]
         },

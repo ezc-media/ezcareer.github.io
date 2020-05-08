@@ -160,23 +160,23 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/CSC/comp-1.png"
+            src: assets_route + "images/courses/CSC/comp-1.png"
         },
         {
-            src: "assets/images/courses/CSC/comp-2.png"
+            src: assets_route + "images/courses/CSC/comp-2.png"
         },
         {
-            src: "assets/images/courses/CSC/comp-3.png"
+            src: assets_route + "images/courses/CSC/comp-3.png"
         },
         {
-            src: "assets/images/courses/CSC/comp-4.png"
+            src: assets_route + "images/courses/CSC/comp-4.png"
         },
 
     ]
 
 
 
-    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ", cover:"assets/images/courses/CSC/cover.JPG"}
+    const video_info = {src:"https://www.youtube.com/watch?v=HZjCcG2iyaQ", cover:assets_route + "images/courses/CSC/cover.JPG"}
 
     const teacher_name = [
         "Andy Li",
@@ -187,7 +187,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -195,22 +195,22 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/CSC/1.png"
+                    src: assets_route + "images/courses/CSC/1.png"
                 },
                 {
-                    src: "assets/images/courses/CSC/2.png"
+                    src: assets_route + "images/courses/CSC/2.png"
                 },
                 {
-                    src: "assets/images/courses/CSC/3.png"
+                    src: assets_route + "images/courses/CSC/3.png"
                 },
                 {
-                    src: "assets/images/courses/CSC/4.png"
+                    src: assets_route + "images/courses/CSC/4.png"
                 },
                 {
-                    src: "assets/images/courses/CSC/5.png"
+                    src: assets_route + "images/courses/CSC/5.png"
                 },
                 {
-                    src: "assets/images/courses/CSC/6.png"
+                    src: assets_route + "images/courses/CSC/6.png"
                 },
             ]
         },
@@ -249,7 +249,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>联系我们 | Easy Career | 找工作，上易职</title>
+    <link rel="stylesheet" href="../assets/css/vendor.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../js/navbar_footer.js"></script>
+    <script type="text/javascript" src="../js/contact.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140811008-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140811008-5');
+</script>
+
+  </head>
+  <body>
+
+    <!-- header -->
+<div id="navbar"></div>
+    <!-- header -->
+
+    <!-- map -->
+    <section class="hero hero-with-header text-white" >
+      <div class="map">
+        <div class="container">
+          <div class="row vh-50 align-items-end">
+            <div class="col-md-10">
+              <h1 class="mb-0">多伦多总部</h1>
+              <p>80 Bloor St. W, Toronto, ON</p>
+            </div>
+          </div>
+        </div>
+        <div id="map" class="map-area"></div> 
+      </div>
+    </section>
+    <!-- / map -->
+
+
+    <section class="bg-light" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="eyebrow mb-1 text-primary">Get in touch with us</span>
+            <h2>联系我们</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="boxed p-5">
+              <h2>Toronto</h2>
+              <ul class="list-group list-group-line">
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-map-pin2 fs-24 text-orange"></i>
+                  <span>80 Bloor St W Toronto, ON M5S 2V1</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-mail fs-24 text-orange"></i>
+                  <span>ezc.contact@easygroup.ca</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-phone2 fs-24 text-orange"></i>
+                  <span>(647)671-1222</span>
+                </li>
+              </ul>
+              
+            </div>
+            
+          </div>
+
+          <div class="col-lg-4">
+            <div class="boxed p-5">
+              <h2>微信平台</h2>
+              <p>公众号搜索：EasyCareer</p>
+              <ul class="list-group list-group-line">
+                <li class="list-group-item d-flex align-items-center">
+                  <img src="../assets/images/wechatid.jpg" alt="Image">
+                </li>
+              </ul>
+              
+            </div>
+            
+          </div>
+          <div class="col-lg-4">
+            <div class="boxed p-5">
+              <h2>加东地区<br>微信客服</h2>               <p>多伦多地区及滑铁卢地区，请加微信id:ezcteacher </p>
+
+              <ul class="list-group list-group-line">
+                <li class="list-group-item d-flex align-items-center">
+                  <img src="../assets/images/wechat-2.jpg" alt="Image">
+                </li>               
+              </ul>
+
+            </div>
+            
+          </div>
+   
+        </div>
+
+         <div class="row">
+
+         <div class="col-lg-4">
+        <div class="boxed p-5">
+              <h2>Edmonton</h2>
+              <ul class="list-group list-group-line">
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-map-pin2 fs-24 text-orange"></i>
+                  <span>507室 8215-112 St. West, Edmonton, AB T6G 2C8, Canada </span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-mail fs-24 text-orange"></i>
+                  <span>ezc.contact@easygroup.ca</span>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="icon-phone2 fs-24 text-orange"></i>
+                  <span>(647) 671-1222</span>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+           <div class="col-lg-4">
+         
+            <div class="boxed p-5"">
+              <h2>阿尔伯塔地区<br>微信客服</h2>               <p>阿尔伯塔地区，请加微信id:EasyCareerAB </p>
+
+              <ul class="list-group list-group-line">
+                <li class="list-group-item d-flex align-items-center">
+                  <img src="../assets/images/wechat-ua.jpg" alt="Image">
+                </li>               
+              </ul>
+
+            </div>
+          </div>
+      
+      </div>
+    </section>
+    
+ <!-- footer -->
+ <footer id='footer' class="bg-dark text-white">
+</footer>
+<!-- / footer -->
+
+
+
+
+    <script>
+       function initMap() {
+        // Styles a map in night mode.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 43.669763, lng: -79.390053},
+          zoom: 15,
+          disableDefaultUI: true,
+          styles: [
+            {
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#212121"
+                }
+              ]
+            },
+            {
+              "elementType": "labels.icon",
+              "stylers": [
+                {
+                  "visibility": "off"
+                }
+              ]
+            },
+            {
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                {
+                  "color": "#212121"
+                }
+              ]
+            },
+            {
+              "featureType": "administrative",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "featureType": "administrative.country",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#9e9e9e"
+                }
+              ]
+            },
+            {
+              "featureType": "administrative.land_parcel",
+              "stylers": [
+                {
+                  "visibility": "off"
+                }
+              ]
+            },
+            {
+              "featureType": "administrative.locality",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#bdbdbd"
+                }
+              ]
+            },
+            {
+              "featureType": "poi",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "featureType": "poi.park",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#181818"
+                }
+              ]
+            },
+            {
+              "featureType": "poi.park",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#616161"
+                }
+              ]
+            },
+            {
+              "featureType": "poi.park",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                {
+                  "color": "#1b1b1b"
+                }
+              ]
+            },
+            {
+              "featureType": "road",
+              "elementType": "geometry.fill",
+              "stylers": [
+                {
+                  "color": "#2c2c2c"
+                }
+              ]
+            },
+            {
+              "featureType": "road",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#8a8a8a"
+                }
+              ]
+            },
+            {
+              "featureType": "road.arterial",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#373737"
+                }
+              ]
+            },
+            {
+              "featureType": "road.highway",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#3c3c3c"
+                }
+              ]
+            },
+            {
+              "featureType": "road.highway.controlled_access",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#4e4e4e"
+                }
+              ]
+            },
+            {
+              "featureType": "road.local",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#616161"
+                },
+                {
+                  "visibility": "off"
+                }
+              ]
+            },
+            {
+              "featureType": "transit",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "featureType": "water",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#000000"
+                }
+              ]
+            },
+            {
+              "featureType": "water",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#3d3d3d"
+                }
+              ]
+            }
+          ]
+        });
+
+        var pin ='../assets/images/pin.svg';
+
+        var marker = {
+            url: pin,
+            //state your size parameters in terms of pixels
+            size: new google.maps.Size(70, 60),
+            scaledSize: new google.maps.Size(70, 60),
+            origin: new google.maps.Point(0,0)
+        }
+
+        var marker = new google.maps.Marker({
+          position: map.getCenter(),
+          icon: pin,
+          map: map
+        });
+      }
+    </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvsbV0vLTO6dhNOZbG_Wk-8RvQSc_9Vu4&callback=initMap"
+      async defer></script>
+
+    <script src="//code.tidio.co/bvmdkbiydd0dddefe6od2ym6lrtkl9te.js"></script>
+
+    <script src="../assets/js/vendor.js"></script>
+    <script src="../assets/js/app.js"></script>
+  </body>
+</html>

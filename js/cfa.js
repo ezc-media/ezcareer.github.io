@@ -51,25 +51,25 @@ $(document).ready(function(){
 
     const hot_comps_data = [
         {
-            src: "assets/images/courses/CFA/comp-1.png"
+            src: assets_route + "images/courses/CFA/comp-1.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-2.png"
+            src: assets_route + "images/courses/CFA/comp-2.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-3.png"
+            src: assets_route + "images/courses/CFA/comp-3.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-4.png"
+            src: assets_route + "images/courses/CFA/comp-4.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-5.png"
+            src: assets_route + "images/courses/CFA/comp-5.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-6.png"
+            src: assets_route + "images/courses/CFA/comp-6.png"
         },
         {
-            src: "assets/images/courses/CFA/comp-7.png"
+            src: assets_route + "images/courses/CFA/comp-7.png"
         },
 
     ]
@@ -242,7 +242,7 @@ $(document).ready(function(){
 
     ]
 
-    const video_info = {src:"https://www.youtube.com/watch?v=AjERHb5rVpU", cover:"assets/images/tutor/shelby.jpg"}
+    const video_info = {src:"https://www.youtube.com/watch?v=AjERHb5rVpU", cover:assets_route + "images/tutor/shelby.jpg"}
 
     const teacher_name = [
         "周华鑫 Shelby",
@@ -278,7 +278,7 @@ $(document).ready(function(){
         
     ]
 
-    const text_books_picture = "assets/images/page/MockUp.png"
+    const text_books_picture = assets_route + "images/page/MockUp.png"
 
     const carousels = [
         {
@@ -286,22 +286,22 @@ $(document).ready(function(){
             big_title: "成功案例",
             content: [
                 {
-                    src: "assets/images/records/CFA1.png"
+                    src: assets_route + "images/records/CFA1.png"
                 },
                 {
-                    src: "assets/images/records/CFA2.png"
+                    src: assets_route + "images/records/CFA2.png"
                 },
                 {
-                    src: "assets/images/records/CFA3.png"
+                    src: assets_route + "images/records/CFA3.png"
                 },
                 {
-                    src: "assets/images/records/CFA4.png"
+                    src: assets_route + "images/records/CFA4.png"
                 },
                 {
-                    src: "assets/images/records/CFA5.png"
+                    src: assets_route + "images/records/CFA5.png"
                 },
                 {
-                    src: "assets/images/records/CFA6.png"
+                    src: assets_route + "images/records/CFA6.png"
                 },
             ]
         },
@@ -310,46 +310,46 @@ $(document).ready(function(){
             big_title: "学员反馈",
             content: [
                 {
-                    src: "assets/images/courses/CFA/review-1.png"
+                    src: assets_route + "images/courses/CFA/review-1.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-2.png"
+                    src: assets_route + "images/courses/CFA/review-2.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-3.png"
+                    src: assets_route + "images/courses/CFA/review-3.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-4.png"
+                    src: assets_route + "images/courses/CFA/review-4.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-5.png"
+                    src: assets_route + "images/courses/CFA/review-5.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-6.png"
+                    src: assets_route + "images/courses/CFA/review-6.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-7.png"
+                    src: assets_route + "images/courses/CFA/review-7.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-8.png"
+                    src: assets_route + "images/courses/CFA/review-8.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-9.jpg"
+                    src: assets_route + "images/courses/CFA/review-9.jpg"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-10.jpg"
+                    src: assets_route + "images/courses/CFA/review-10.jpg"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-11.png"
+                    src: assets_route + "images/courses/CFA/review-11.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-12.jpg"
+                    src: assets_route + "images/courses/CFA/review-12.jpg"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-13.png"
+                    src: assets_route + "images/courses/CFA/review-13.png"
                 },
                 {
-                    src: "assets/images/courses/CFA/review-14.png"
+                    src: assets_route + "images/courses/CFA/review-14.png"
                 },
             ]
         },
@@ -390,7 +390,7 @@ $(document).ready(function(){
         
     //         hot_comp_html += `
     //         <div class="logo">
-    //         <img src="assets/images/demo/logo/logo-1.png" alt="Logo">
+    //         <img src=assets_route + "images/demo/logo/logo-1.png" alt="Logo">
     //         </div>
     //         `
         

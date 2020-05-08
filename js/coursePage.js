@@ -49,7 +49,7 @@
               
               <div class="col-md-2 col-lg-4">
                   <div class="card" style="text-align: center;">
-                    <div class="card-body"><img class="card-img-top col-sm-5" src="assets/images/wechat-3.jpg" ">
+                    <div class="card-body"><img class="card-img-top col-sm-5" src="`+assets_route+`images/wechat-3.jpg">
                       <h5 class="card-title">扫码联系客服，了解课程详情</h5>
                       <p class="card-text">多伦多地区及滑铁卢地区，请扫描二维码，或添加微信 id:ezcteacher</p>
                       <a href=`+course_link+` target="_blank" class="btn btn-primary">我已经考虑好，想直接付款</a>
