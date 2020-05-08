@@ -698,7 +698,7 @@ $(document).ready(function(){
                       <div class="col-md-10 col-lg-8 text-center">
                         <span class="eyebrow mb-2">VIP Program</span>
                         <h1 class="display-2">`+cover_dt.vip_program+`</h1>
-                        <a href="http://www.ezcareer.ca/vip.html" class="btn btn-white btn-rounded px-5" target="_blank">`+cover_dt.learn_more+`</a>
+                        <a href="vip.html" class="btn btn-white btn-rounded px-5" target="_blank">`+cover_dt.learn_more+`</a>
                       </div>
                     </div>
                   </div>
