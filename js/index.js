@@ -172,7 +172,7 @@ $(document).ready(function(){
 
     let companies = [
         {
-            country: ["北美", "USA"],
+            country: ["北美", "North America"],
             items: [
                 ["安永", "Ernst & Young"], 
                 ["普华永道", "PwC"],
@@ -237,7 +237,7 @@ $(document).ready(function(){
 
     let companies_en = [
         {
-            country: ["USA", "USA"],
+            country: ["北美", "North America"],
             items: [
                 ["安永", "Ernst & Young"], 
                 ["普华永道", "PwC"],
