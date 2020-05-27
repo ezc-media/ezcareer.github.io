@@ -6,8 +6,8 @@ $(document).ready(function(){
     const course_name_des = "全称为Visual Basic for Application(金融建模)，是应用程序开发语言 visual basic的子集，主要用于执行程序通用的自动化任务。";
     const price_origin = "549";
     const price_discount = "449";
-    const course_open_date = "5月";
-    const course_link = "https://ezcareer.shop/collections/2020/products/2020-3-excel-vba";
+    const course_open_date = "7月";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-4-excel-vba";
     const about_course = "Easy Career Excel VBA全程班，从金融建模到简历面试再到实战项目，循序渐进的讲解Excel VBA的相 关知识，通过basics&model, table, Advanced Automation, Financial四大部分的讲解，引领学员成为 职场王。";
     const course_points = [
         {

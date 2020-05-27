@@ -6,8 +6,8 @@ $(document).ready(function(){
     const course_name_des = "全程Structured Query Language，是专门为数据库而建立的操作命令 集，是一种功能齐全的数据库语言。作为一名数据分析师，提取数据是相 当重要，需要通过SQL语言来实现。";
     const price_origin = "549";
     const price_discount = "449";
-    const course_open_date = "5月";
-    const course_link = "https://ezcareer.shop/collections/2020/products/2020-3-sql";
+    const course_open_date = "6月10日";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-4-sql";
     const about_course = "Easy Career的SQL课程将由行业内最专业的大牛全权负责，把基础知识和数据库知识进行串讲，并附加上全真模拟的面试辅导以及零售行业和市场Campaign项目的学习制作，优秀毕业的同学也可以在结课时获得导师提供的推荐信。";
     const course_points = [
         {

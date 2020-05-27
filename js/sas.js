@@ -6,8 +6,8 @@ $(document).ready(function(){
     const course_name_des = "全称STATISTICAL ANALYSIS SYSTEM，是一门主要运用的领域就在于统计 以及分析的计算机语言，在全球100多个国家地区普及程度极高，在行 政、科研、商业等领域也起着至关重要的作用。";
     const price_origin = "899";
     const price_discount = "799";
-    const course_open_date = "5月";
-    const course_link = "https://ezcareer.shop/products/2020-3-sas";
+    const course_open_date = "7月";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-4-sas";
     const course_points = [
         {
             title: "基础串讲",

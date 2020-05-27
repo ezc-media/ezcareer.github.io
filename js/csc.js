@@ -7,8 +7,8 @@ $(document).ready(function(){
     const course_name_des = "全称Canadian Securities Course，是目前加拿大证券、金融、投资、银 行等行业最受欢迎的证书，同时也是相关行业最基本的入门级证书、敲门砖。";
     const price_origin = "750";
     const price_discount = "650";
-    const course_open_date = "5月";
-    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-csc";
+    const course_open_date = "6月";
+    const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-3-csc";
     const course_points = [
         {
             title: "基础串讲",

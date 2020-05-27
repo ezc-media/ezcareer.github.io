@@ -6,8 +6,8 @@ $(document).ready(function(){
     const course_name_des = "在大数据时代，数据分析能力尤为重要。Tableau其界面美观、易于操 作，已成为数据分析必备技能之一。不仅仅是集合了商业智能BI和数据可 视化于一身，更是被广泛应用于各个行业。";
     const price_origin = "299";
     const price_discount = "199";
-    const course_open_date = "5月中";
-    const course_link = "https://ezcareer.shop/collections/2020/products/2020-3-tableau-bootcamp";
+    const course_open_date = "6月14日";
+    const course_link = "https://ezcareer.shop/collections/2020/products/2020-4-tableau-bootcamp";
     const course_points = [
         {
             title: "",

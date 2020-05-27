@@ -6,8 +6,8 @@ $(document).ready(function(){
     const course_name_des = "Python是当今应用最广泛的编程语言之一，以其效率和代码可读性著称。作为一个科学数据的编程语言，Python介于R和java之间，前者主要集中在数据分析和可视化，而后者主要应用于大型应用。";
     const price_origin = "549";
     const price_discount = "449";
-    const course_open_date = "五月";
-    const course_link = "https://ezcareer.shop/products/2020-3-python";
+    const course_open_date = "七月";
+    const course_link = "https://ezcareer.shop/products/2020-4-python";
     const course_points = [
         {
             title: "",
