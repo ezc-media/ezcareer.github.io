@@ -11,82 +11,86 @@
       if (window.location.href.includes("/en/")) {
         return [
           {
-            title: "Home",
+            main_title: "Home",
             link: "index.html",
             items: []
           },
           {
-            title: "Certif. Course",
+            main_title: "Certif. Course",
             link: "#",
             items: cer_course
           },
           {
-            title: "Skill Course",
+            main_title: "Skill Course",
             link: "#",
             items: skl_course
           },
           {
-            title: "Registration",
+            main_title: "Registration",
             link: "#",
             items: regi_course
           },
           {
-            title: "VIP Program",
+            main_title: "VIP Program",
             link: "vip.html",
             items: []
           },
           {
-            title: "Job Board",
-            link: "http://jobs.ezcareer.ca/",
-            items: []
-          },
-          {
-            title: "Contact",
+            main_title: "Career",
             link: "#",
             items: [
-              {title: "Join Us", link: "career.html"},
-              {title: "Contact Us", link: "contacts.html"}
+              {main_title: "Job Board", sub_title: "", link: "http://jobs.ezcareer.ca/"},
+              {main_title: "Join Us", sub_title: "", link: "career.html#join-us"},
+              {main_title: "Referrals", sub_title: "", link: "career.html#referrals"},
+            ]
+          },
+          {
+            main_title: "Contact Us",
+            link: "contacts.html",
+            items: [
             ]
           }
         ]
       } else {
         return [
           {
-            title: "首页",
+            main_title: "首页",
             link: "index.html",
             items: []
           },
           {
-            title: "证书课程",
+            main_title: "证书课程",
             link: "#",
             items: cer_course
           },
           {
-            title: "技能课程",
+            main_title: "技能课程",
             link: "#",
             items: skl_course
           },
           {
-            title: "报名课程",
+            main_title: "报名课程",
             link: "#",
             items: regi_course
           },
           {
-            title: "1对1求职服务",
+            main_title: "1对1求职服务",
             link: "vip.html",
             items: []
           },
           {
-            title: "岗位直通车",
-            link: "http://jobs.ezcareer.ca/",
-            items: []
-          },
-          {
-            title: "联系我们",
+            main_title: "Career",
             link: "#",
             items: [
-              {title: "加入我们", link: "career.html"},
-              {title: "联系我们", link: "contacts.html"}
+              {main_title: "岗位直通车", sub_title: "", link: "http://jobs.ezcareer.ca/"},
+              {main_title: "加入我们", sub_title: "", link: "career.html#join-us"},
+              {main_title: "合作岗位内推", sub_title: "", link: "career.html#referrals"},
+            ]
+          },
+          {
+            main_title: "联系我们",
+            link: "contacts.html",
+            items: [
             ]
           }
         ]
@@ -149,7 +153,7 @@
           tempHTML += `
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              `+block.title+`
+              `+block.main_title+`
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           `
@@ -158,7 +162,7 @@
               tempHTML += 
               `
               <a class="dropdown-item" href="`+item.link+`">
-              <span>`+item.title+`</span>
+              <span>`+item.main_title+`</span>
               </a>
               `
             }
@@ -181,7 +185,7 @@
           tempHTML += `
           <li class="nav-item">
             <a class="nav-link" href="`+block.link+`" role="button">
-              `+block.title+`
+              `+block.main_title+`
             </a>
           </li>
           `
