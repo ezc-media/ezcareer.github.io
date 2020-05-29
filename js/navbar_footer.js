@@ -121,6 +121,8 @@
         
       }
 
+
+
       return `
       <a class="nav-link" href="`+button_href+`" role="button">
         `+button_text+`
@@ -158,23 +160,47 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           `
           if (block.items.length === 2) {
+
             for (item of block.items) {
-              tempHTML += 
-              `
-              <a class="dropdown-item" href="`+item.link+`">
-              <span>`+item.main_title+`</span>
-              </a>
-              `
+              if (item.main_title === "岗位直通车" || item.main_title === "Job Board") {
+                tempHTML += 
+                `
+                <a class="dropdown-item" href="`+item.link+`" target="_blank">
+                <span>`+item.main_title+`</span>
+                </a>
+                `
+              } else {
+                tempHTML += 
+                `
+                <a class="dropdown-item" href="`+item.link+`">
+                <span>`+item.main_title+`</span>
+                </a>
+                `
+              }
+
             }
+
           } else {
             for (item of block.items) {
-              tempHTML += 
-              `
-              <a class="dropdown-item" href="`+item.link+`">
-              <span>`+item.main_title+`</span>
-              <p>`+item.sub_title+`</p>
-              </a>
-              `
+              
+              if (item.main_title === "岗位直通车" || item.main_title === "Job Board") {
+                tempHTML += 
+                `
+                <a class="dropdown-item" href="`+item.link+`" target="_blank">
+                <span>`+item.main_title+`</span>
+                <p>`+item.sub_title+`</p>
+                </a>
+                `
+              } else {
+                tempHTML += 
+                `
+                <a class="dropdown-item" href="`+item.link+`">
+                <span>`+item.main_title+`</span>
+                <p>`+item.sub_title+`</p>
+                </a>
+                `
+              }
+
             }
   
             tempHTML += `</li>`
