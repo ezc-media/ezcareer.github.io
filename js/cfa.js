@@ -6,7 +6,7 @@ $(document).ready(function(){
     const course_name = `CFA一级百时班<i style="color: #33aacc ">Plus</i>`;
     const course_name_des = "CFA资深讲师，前北京新东方名师带你一次通过CFA证书考试";
     const price_origin = "2200";
-    const price_discount = "1700";
+    const price_discount = "1800";
     const course_open_date = "8月";
     const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-cfa-level-1-plus-dt-1";
     const about_course = "全程百时班Plus包含基础串讲、强化复习与千题冲刺三大板块，由国内顶级CFA资深讲师“周华鑫”助力教研，系统梳理CFA1~2级知识点，覆盖各科目的考点重难点，结合独家的概念与公式手册、全真模拟考试、千题训练与押题，带你用别人一半的时间通关CFA 1~2级。    ";
