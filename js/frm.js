@@ -5,7 +5,7 @@ $(document).ready(function(){
     const course_name = "FRM保过班";
     const course_name_des = "FRM是金融风险管理最为权威、要求最严格、最受认可的资格认证证书。 在2018年秋招金融风险的终面，可以发现几乎人人都有FRM。";
     const price_origin = "1700";
-    const price_discount = "1500";
+    const price_discount = "1700";
     const course_open_date = "7月";
     const course_link = "https://ezcareer.shop/collections/2020-1/products/2020-2-frm-part-i-1";
     const about_course = "Easy Career新版FRM保过班通过每周1-2节线上线下同步课的安排将基础知识课串讲与重点强化复 习相结合，在我们资深的风险管控导师和网红男神导师带领下，为每一个考生保驾护航。";
