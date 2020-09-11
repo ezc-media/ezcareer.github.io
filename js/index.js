@@ -600,7 +600,7 @@ $(document).ready(function () {
                   <a href="http://careerfair.ezcareer.ca/" class="btn btn-white btn-rounded px-5">` +
       cover_dt.ignite_gotobutton +
       `</a>
-                        <a href="http://easycareerfair.com/" class="btn btn-white btn-rounded px-5">` +
+                        <a href="https://easycareerfair.eventbrite.ca" class="btn btn-white btn-rounded px-5">` +
       cover_dt.ignite_regibutton +
       `</a>
                 </div>
