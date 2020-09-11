@@ -309,7 +309,8 @@ $(document).ready(function () {
       return {
         ignite_bigtitle: "Virtual Career Fair",
         ignite_smalltitle: "Online career event",
-        ignite_gotobutton: "Learn More",
+        ignite_gotobutton: "Exhibitor Registration",
+        ignite_regibutton: "Job Seeker Registration",
         ignite_box1: "No physical restriction for all",
         ignite_box2: "Free for All",
         ignite_box3: "Work with top companies in various industries",
@@ -333,7 +334,8 @@ $(document).ready(function () {
       return {
         ignite_bigtitle: "Virtual Career Fair",
         ignite_smalltitle: "线上职场活动",
-        ignite_gotobutton: "了解更多",
+        ignite_gotobutton: "参展方注册",
+        ignite_regibutton: "求职者报名",
         ignite_box1: "免接触式职场会",
         ignite_box2: "全程免费",
         ignite_box3: "携手各行业顶尖公司",
@@ -597,6 +599,9 @@ $(document).ready(function () {
 
                   <a href="http://careerfair.ezcareer.ca/" class="btn btn-white btn-rounded px-5">` +
       cover_dt.ignite_gotobutton +
+      `</a>
+                        <a href="http://easycareerfair.com/" class="btn btn-white btn-rounded px-5">` +
+      cover_dt.ignite_regibutton +
       `</a>
                 </div>
                 <div class="col-lg-4 align-self-end">
