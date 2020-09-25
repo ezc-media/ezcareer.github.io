@@ -307,10 +307,9 @@ $(document).ready(function () {
   const cover_data = () => {
     if (window.location.href.includes("/en/")) {
       return {
-        ignite_bigtitle: "Virtual Career Fair",
-        ignite_smalltitle: "Online career event",
-        ignite_gotobutton: "Exhibitor Registration",
-        ignite_regibutton: "Job Seeker Registration",
+        ignite_bigtitle: "Easy Career Vancouver",
+        ignite_smalltitle: "News",
+        ignite_gotobutton: "Contact Us",
         ignite_box1: "No physical restriction for all",
         ignite_box2: "Access to talents resume",
         ignite_box3: "Work with top companies in various industries",
@@ -332,12 +331,11 @@ $(document).ready(function () {
       };
     } else {
       return {
-        ignite_bigtitle: "Virtual Career Fair",
-        ignite_smalltitle: "线上职场活动",
-        ignite_gotobutton: "参展方注册",
-        ignite_regibutton: "求职者报名",
-        ignite_box1: "免接触式职场会",
-        ignite_box2: "携手各行业顶尖公司",
+        ignite_bigtitle: `Easy Career <br/> 正式进驻温哥华`,
+        ignite_smalltitle: "最新消息",
+        ignite_gotobutton: "联系我们",
+        ignite_box1: "专业团队",
+        ignite_box2: "引领温哥华求职风潮",
         ignite_box3: "简历直达HR",
         one_stop: "一站式留学生职业服务",
         contact_us: "联系我们",
@@ -583,72 +581,25 @@ $(document).ready(function () {
       <div class="gallery-container">
         <div class="swiper-wrapper">
         <div class="swiper-slide vh-100">
-            <div class="image image-overlay" style="background-image:url(` +
+        <div class="image image-overlay" style="background-image:url(` +
       assets_route +
-      `images/landing/vcf-1.jpg)"></div>
-            <div class="caption text-white" data-swiper-parallax="-100%">
-              <div class="container">
-              <div class="row justify-content-between vh-100">
-                <div class="col-lg-8 align-self-center text-white text-shadow" data-swiper-parallax="-100%">
-                  <span class="eyebrow text-white mb-1">` +
-      cover_dt.ignite_smalltitle +
-      `</span>
-                  <h1 class="display-2">` +
+      `images/landing/landing-vancouver.jpeg)">
+              </div>
+              <div class="caption text-white" data-swiper-parallax="-100%">
+                <div class="container">
+                  <div class="row justify-content-center align-items-center vh-90">
+                    <div class="col-md-10  col-lg-8 text-center">
+                      <span class="eyebrow mb-2">最新消息</span>
+                      <h1 class="display-2">` +
       cover_dt.ignite_bigtitle +
       `</h1>
-
-                  <a href="http://careerfair.ezcareer.ca/" class="btn btn-white btn-rounded px-5">` +
+                      <a href="contacts.html#vancouver" class="btn btn-white btn-rounded px-5" target="_blank">` +
       cover_dt.ignite_gotobutton +
       `</a>
-                        <a href="https://easycareerfair.eventbrite.ca" class="btn btn-white btn-rounded px-5">` +
-      cover_dt.ignite_regibutton +
-      `</a>
-                </div>
-                <div class="col-lg-4 align-self-end">
-                  <div class="row gutter-1">
-
-                      <div class="col-6 text-white">
-                      <div class="equal">
-                        <div class="bordered">
-                           <div class="equal-header">
-                            <h4>
-                                ` +
-      cover_dt.ignite_box1 +
-      `</h4>
-                            
-                          </div>
-                        </div>
-                      </div>
                     </div>
-
-                    <div class="col-6 text-white">
-                      <div class="equal">
-                        <div class="bordered">
-                          <div class="equal-header">
-                            <h4>` +
-      cover_dt.ignite_box2 +
-      `</h4>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 text-white">
-                      <div class="equal">
-                        <div class="bordered">
-                          <div class="equal-header">
-                            <h6>` +
-      cover_dt.ignite_box3 +
-      `</h6>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
                   </div>
                 </div>
               </div>
-            </div>
-            </div>
           </div>
         
           <div class="swiper-slide vh-100">
